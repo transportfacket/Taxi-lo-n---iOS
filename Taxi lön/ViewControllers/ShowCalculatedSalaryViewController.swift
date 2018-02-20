@@ -2,11 +2,12 @@
 //  ShowCalculatedSalaryViewController.swift
 //  Taxi lön
 //
-//  Created by Patrik Persson on 2018-02-19.
+//  Created by Patrik Persson avd 12 on 2018-02-19.
 //  Copyright © 2018 Transportarbetareförbundet. All rights reserved.
 //
 
 import UIKit
+
 
 class ShowCalculatedSalaryViewController: UIViewController {
     
@@ -15,11 +16,30 @@ class ShowCalculatedSalaryViewController: UIViewController {
     @IBOutlet weak var calculatedSalary: UILabel!
     
     @IBOutlet weak var calculatedSalaryWithVaccationPay: UILabel!
+    
+    @IBOutlet weak var hourlyWageLabel: UILabel!
+  
+    
+    
+
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        let intSalary = Int(passedCalculatedSalary)
+        let vaccationPay = passedCalculatedSalary * 1.13
+        let intVaccation = Int(vaccationPay)
+        let readableSalary = intSalary.formattedWithSeparator
+        let readableSalaryWithVaccationPay = intVaccation.formattedWithSeparator
         
-        calculatedSalary.text = "\(round(passedCalculatedSalary)) kr"
-        calculatedSalaryWithVaccationPay.text = "\(round(passedCalculatedSalary * 1.13)) kr"
+        let intHours = Int(passedWorkedHours)
+        
+        
+        let hourlyWage = intSalary / intHours
+        let readableHourlyWage = hourlyWage.formattedWithSeparator
+        calculatedSalary.text = "\(readableSalary) kr"
+        calculatedSalaryWithVaccationPay.text = "\(readableSalaryWithVaccationPay) kr"
+        hourlyWageLabel.text = "\(readableHourlyWage) kr/h"
 
         // Do any additional setup after loading the view.
     }
@@ -36,6 +56,10 @@ class ShowCalculatedSalaryViewController: UIViewController {
         
     }
     
+    
+    
+
+    
     /*
     // MARK: - Navigation
 
@@ -46,4 +70,11 @@ class ShowCalculatedSalaryViewController: UIViewController {
     }
     */
 
+    
+    
 }
+
+
+
+
+

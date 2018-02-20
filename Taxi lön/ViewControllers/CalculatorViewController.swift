@@ -8,7 +8,7 @@
 
 import UIKit
 
-class CalculatorViewController: UIViewController {
+class CalculatorViewController: UIViewController, UITextFieldDelegate {
    
     
     enum GuaranteeSalary: Double {
@@ -31,15 +31,30 @@ class CalculatorViewController: UIViewController {
     
     @IBOutlet weak var workedHourTextField: UITextField!
     
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        self.locationTextField.delegate = self
+        self.workedHourTextField.delegate = self
         // Do any additional setup after loading the view.
     }
     
     
-
-   
+    // Hides keyboard when user touches outside of keyboard and when pressing return
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
+    }
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        locationTextField.resignFirstResponder()
+        workedHourTextField.resignFirstResponder()
+        
+        return (true)
+    }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -127,10 +142,25 @@ class CalculatorViewController: UIViewController {
     
     @IBAction func calculateButton(_ sender: Any) {
         let currentSliderValue = Int(procentageOfFulltimeSlider.value)
+        
+        
+        if hasCollectiveAgreement == true{
+            passOnCalculatedSalary =  calculateSalaryBy(location:  locationFrom(textField: locationTextField.text), hours: hoursFrom(textField: workedHourTextField.text), procentage: currentSliderValue)
+            if (workedHourTextField.text?.isEmpty)! {
+                passOnWorkedHours = 166.4
+            }else {
+               passOnWorkedHours = hoursFrom(textField: workedHourTextField.text)
+            }
+            
+            performSegue(withIdentifier: "showResult", sender: self)
+            
+        }else {
+            showAlertWith(title: "Kan inte räkna något", message: "E")
+            
+            
+        }
+        
        
-        passOnCalculatedSalary =  calculateSalaryBy(location:  locationFrom(textField: locationTextField.text), hours: hoursFrom(textField: workedHourTextField.text), procentage: currentSliderValue)
-        passOnWorkedHours = hoursFrom(textField: workedHourTextField.text)
-        performSegue(withIdentifier: "showCalculatedSalary", sender: self)
     }
     
     
@@ -215,10 +245,10 @@ class CalculatorViewController: UIViewController {
     
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let showCalculatedSalaryController = segue.destination as! ShowCalculatedSalaryViewController
+        let showResult = segue.destination as! ShowCalculatedSalaryViewController
         
-        showCalculatedSalaryController.passedCalculatedSalary = passOnCalculatedSalary
-        showCalculatedSalaryController.passedWorkedHours = passOnWorkedHours
+        showResult.passedCalculatedSalary = passOnCalculatedSalary
+        showResult.passedWorkedHours = passOnWorkedHours
         
     }
     

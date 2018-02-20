@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
-    <device id="retina5_9" orientation="portrait">
+    <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -17,23 +15,20 @@
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="utg-Hl-vvN">
-                                <rect key="frame" x="88" y="549.66666666666663" width="199" height="198.33333333333337"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="utg-Hl-vvN" secondAttribute="height" multiplier="199:341" constant="83.284457478005862" id="RUt-21-SHX"/>
-                                </constraints>
+                                <rect key="frame" x="88" y="438" width="199" height="199"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LÖN" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="100" translatesAutoresizingMaskIntoConstraints="NO" id="nse-JT-ZTj">
-                                <rect key="frame" x="71.666666666666671" y="327.66666666666669" width="231.66666666666663" height="144"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LÖN" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="77" translatesAutoresizingMaskIntoConstraints="NO" id="nse-JT-ZTj">
+                                <rect key="frame" x="72" y="262" width="232" height="144"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="120"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TAXI" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="110" translatesAutoresizingMaskIntoConstraints="NO" id="b0W-mQ-ioh">
-                                <rect key="frame" x="58" y="193.66666666666663" width="259" height="158"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TAXI" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="91" translatesAutoresizingMaskIntoConstraints="NO" id="b0W-mQ-ioh">
+                                <rect key="frame" x="58" y="128" width="259" height="158"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="132"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -41,17 +36,14 @@
                         </subviews>
                         <color key="backgroundColor" red="0.98039215686274506" green="0.81960784313725488" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="nse-JT-ZTj" firstAttribute="top" secondItem="b0W-mQ-ioh" secondAttribute="bottom" constant="-24" id="1TD-xM-DFM"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="utg-Hl-vvN" secondAttribute="bottom" constant="30" id="3wC-A1-CL1"/>
-                            <constraint firstItem="nse-JT-ZTj" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="utg-Hl-vvN" secondAttribute="trailing" id="HwM-AL-oBa"/>
-                            <constraint firstItem="nse-JT-ZTj" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="XSv-0z-oBE"/>
-                            <constraint firstItem="b0W-mQ-ioh" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="ecp-aQ-m6P"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="b0W-mQ-ioh" secondAttribute="trailing" id="eot-DE-bMg"/>
-                            <constraint firstItem="nse-JT-ZTj" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="16" id="i5R-pr-8wp"/>
-                            <constraint firstItem="utg-Hl-vvN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="88" id="iEC-7s-w4o"/>
-                            <constraint firstItem="utg-Hl-vvN" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="iG0-4y-5fV"/>
-                            <constraint firstItem="b0W-mQ-ioh" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="jqQ-tJ-oOa"/>
-                            <constraint firstItem="utg-Hl-vvN" firstAttribute="top" secondItem="nse-JT-ZTj" secondAttribute="bottom" constant="78" id="krI-o9-K8c"/>
+                            <constraint firstItem="utg-Hl-vvN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="88" id="BcJ-iI-CNy"/>
+                            <constraint firstItem="utg-Hl-vvN" firstAttribute="top" secondItem="nse-JT-ZTj" secondAttribute="bottom" constant="32" id="Hrc-Nn-sje"/>
+                            <constraint firstItem="nse-JT-ZTj" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Krx-oh-FIO"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="utg-Hl-vvN" secondAttribute="bottom" constant="30" id="Lgb-E9-hws"/>
+                            <constraint firstItem="b0W-mQ-ioh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="108" id="UHw-yw-oyo"/>
+                            <constraint firstItem="nse-JT-ZTj" firstAttribute="centerX" secondItem="utg-Hl-vvN" secondAttribute="centerX" id="UnZ-pd-Tvi"/>
+                            <constraint firstItem="b0W-mQ-ioh" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="aQH-pA-ZYJ"/>
+                            <constraint firstItem="b0W-mQ-ioh" firstAttribute="centerX" secondItem="nse-JT-ZTj" secondAttribute="centerX" id="pJP-GI-RDM"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -67,6 +59,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="logo" width="341" height="341"/>
+        <image name="logo" width="256" height="256"/>
     </resources>
 </document>

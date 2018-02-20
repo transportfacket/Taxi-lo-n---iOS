@@ -10,6 +10,12 @@
 		9016BCD42039E4D10049E271 /* DLRadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9016BCD32039E4D10049E271 /* DLRadioButton.m */; };
 		901FB21F2039D3A500E2B4B9 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901FB21E2039D3A500E2B4B9 /* CalculatorViewController.swift */; };
 		902C0A85203B724700B5DE6B /* ShowCalculatedSalaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902C0A84203B724700B5DE6B /* ShowCalculatedSalaryViewController.swift */; };
+		9059B6BC203C93CE0079EADC /* Formatter+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9059B6BB203C93CE0079EADC /* Formatter+Extensions.swift */; };
+		9059B6BE203C93FC0079EADC /* Integer+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9059B6BD203C93FC0079EADC /* Integer+Extensions.swift */; };
+		9059B6C2203C97F20079EADC /* TextfieldLength+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9059B6C1203C97F20079EADC /* TextfieldLength+Extensions.swift */; };
+		9059B6C4203CA31E0079EADC /* ModifiedNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9059B6C3203CA31E0079EADC /* ModifiedNavigationBar.swift */; };
+		90D5F14F203C5B4000186F07 /* BounceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D5F14E203C5B4000186F07 /* BounceButton.swift */; };
+		90D5F151203C5E5700186F07 /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D5F150203C5E5700186F07 /* DesignableButton.swift */; };
 		90F57B962029D0C200BCEB75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F57B952029D0C200BCEB75 /* AppDelegate.swift */; };
 		90F57B982029D0C200BCEB75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F57B972029D0C200BCEB75 /* ViewController.swift */; };
 		90F57B9B2029D0C200BCEB75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90F57B992029D0C200BCEB75 /* Main.storyboard */; };
@@ -27,6 +33,12 @@
 		902C0A84203B724700B5DE6B /* ShowCalculatedSalaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowCalculatedSalaryViewController.swift; sourceTree = "<group>"; };
 		902C0A87203C1E2D00B5DE6B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		902C0A89203C1E2F00B5DE6B /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Main.strings; sourceTree = "<group>"; };
+		9059B6BB203C93CE0079EADC /* Formatter+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Formatter+Extensions.swift"; sourceTree = "<group>"; };
+		9059B6BD203C93FC0079EADC /* Integer+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Integer+Extensions.swift"; sourceTree = "<group>"; };
+		9059B6C1203C97F20079EADC /* TextfieldLength+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TextfieldLength+Extensions.swift"; sourceTree = "<group>"; };
+		9059B6C3203CA31E0079EADC /* ModifiedNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifiedNavigationBar.swift; sourceTree = "<group>"; };
+		90D5F14E203C5B4000186F07 /* BounceButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BounceButton.swift; sourceTree = "<group>"; };
+		90D5F150203C5E5700186F07 /* DesignableButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = "<group>"; };
 		90F57B922029D0C200BCEB75 /* Taxi lön.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Taxi lön.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90F57B952029D0C200BCEB75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		90F57B972029D0C200BCEB75 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +59,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9059B6BF203C95F10079EADC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9059B6BB203C93CE0079EADC /* Formatter+Extensions.swift */,
+				9059B6BD203C93FC0079EADC /* Integer+Extensions.swift */,
+				9059B6C1203C97F20079EADC /* TextfieldLength+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9059B6C0203C970E0079EADC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				90F57B972029D0C200BCEB75 /* ViewController.swift */,
+				901FB21E2039D3A500E2B4B9 /* CalculatorViewController.swift */,
+				902C0A84203B724700B5DE6B /* ShowCalculatedSalaryViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		90F57B892029D0C200BCEB75 = {
 			isa = PBXGroup;
 			children = (
@@ -66,10 +98,10 @@
 		90F57B942029D0C200BCEB75 /* Taxi lön */ = {
 			isa = PBXGroup;
 			children = (
+				9059B6C0203C970E0079EADC /* ViewControllers */,
+				9059B6BF203C95F10079EADC /* Extensions */,
+				90D5F14E203C5B4000186F07 /* BounceButton.swift */,
 				90F57B952029D0C200BCEB75 /* AppDelegate.swift */,
-				90F57B972029D0C200BCEB75 /* ViewController.swift */,
-				901FB21E2039D3A500E2B4B9 /* CalculatorViewController.swift */,
-				902C0A84203B724700B5DE6B /* ShowCalculatedSalaryViewController.swift */,
 				9016BCD22039E4D10049E271 /* DLRadioButton.h */,
 				9016BCD32039E4D10049E271 /* DLRadioButton.m */,
 				90F57B992029D0C200BCEB75 /* Main.storyboard */,
@@ -77,6 +109,8 @@
 				90F57B9E2029D0C200BCEB75 /* LaunchScreen.storyboard */,
 				90F57BA12029D0C200BCEB75 /* Info.plist */,
 				9016BCD12039E4D00049E271 /* Taxi lön-Bridging-Header.h */,
+				90D5F150203C5E5700186F07 /* DesignableButton.swift */,
+				9059B6C3203CA31E0079EADC /* ModifiedNavigationBar.swift */,
 			);
 			path = "Taxi lön";
 			sourceTree = "<group>";
@@ -157,9 +191,15 @@
 			files = (
 				902C0A85203B724700B5DE6B /* ShowCalculatedSalaryViewController.swift in Sources */,
 				90F57B982029D0C200BCEB75 /* ViewController.swift in Sources */,
+				9059B6C2203C97F20079EADC /* TextfieldLength+Extensions.swift in Sources */,
+				9059B6C4203CA31E0079EADC /* ModifiedNavigationBar.swift in Sources */,
+				90D5F151203C5E5700186F07 /* DesignableButton.swift in Sources */,
 				9016BCD42039E4D10049E271 /* DLRadioButton.m in Sources */,
+				9059B6BC203C93CE0079EADC /* Formatter+Extensions.swift in Sources */,
 				901FB21F2039D3A500E2B4B9 /* CalculatorViewController.swift in Sources */,
 				90F57B962029D0C200BCEB75 /* AppDelegate.swift in Sources */,
+				9059B6BE203C93FC0079EADC /* Integer+Extensions.swift in Sources */,
+				90D5F14F203C5B4000186F07 /* BounceButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Taxi lön
 //
-//  Created by Transport on 2018-02-06.
+//  Created by Patrik Persson avd 12 on 2018-02-06.
 //  Copyright © 2018 Transportarbetareförbundet. All rights reserved.
 //
 
