@@ -2,7 +2,7 @@
 //  ShowCalculatedSalaryViewController.swift
 //  Taxi lön
 //
-//  Created by Transport on 2018-02-19.
+//  Created by Patrik Persson on 2018-02-19.
 //  Copyright © 2018 Transportarbetareförbundet. All rights reserved.
 //
 
