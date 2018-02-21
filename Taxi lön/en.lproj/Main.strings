@@ -2,6 +2,9 @@
 /* Class = "UILabel"; text = "Hur många timmar har du arbetat?"; ObjectID = "1k4-7X-4tc"; */
 "1k4-7X-4tc.text" = "Hur många timmar har du arbetat?";
 
+/* Class = "UILabel"; text = "150 kr"; ObjectID = "4s7-0l-Vc3"; */
+"4s7-0l-Vc3.text" = "150 kr";
+
 /* Class = "UILabel"; text = "Fråga din åkare eller kontrollera det med din lokala Transportavdelning. Ring 010-480 30 00 och tala om var du arbetar. Vi behöver då din arbetsgivares organisationsnummer, det står på de kvitton som kunden får."; ObjectID = "5BQ-g5-wEf"; */
 "5BQ-g5-wEf.text" = "Fråga din åkare eller kontrollera det med din lokala Transportavdelning. Ring 010-480 30 00 och tala om var du arbetar. Vi behöver då din arbetsgivares organisationsnummer, det står på de kvitton som kunden får.";
 
@@ -10,6 +13,9 @@
 
 /* Class = "UILabel"; text = "Du omfattas av kollektivavtal om din åkare är medlem i Biltrafikens Arbetsgivareförbund eller har tecknat avtal direkt med Transport.\v\n\n"; ObjectID = "8Eu-tF-17A"; */
 "8Eu-tF-17A.text" = "Du omfattas av kollektivavtal om din åkare är medlem i Biltrafikens Arbetsgivareförbund eller har tecknat avtal direkt med Transport.\v\n\n";
+
+/* Class = "UIButton"; normalTitle = "Ja"; ObjectID = "8o3-1H-ujw"; */
+"8o3-1H-ujw.normalTitle" = "Ja";
 
 /* Class = "UIViewController"; title = "Meny"; ObjectID = "BYZ-38-t0r"; */
 "BYZ-38-t0r.title" = "Meny";
@@ -47,6 +53,12 @@
 /* Class = "UIViewController"; title = "Garantilöneräknare"; ObjectID = "ZXs-J4-6zZ"; */
 "ZXs-J4-6zZ.title" = "Garantilöneräknare";
 
+/* Class = "UILabel"; text = "Genomsnittlig timlön:"; ObjectID = "Zop-Rl-IGt"; */
+"Zop-Rl-IGt.text" = "Genomsnittlig timlön:";
+
+/* Class = "UILabel"; text = "Arbetar du alla veckans dagar?"; ObjectID = "aBK-yW-AW3"; */
+"aBK-yW-AW3.text" = "Arbetar du alla veckans dagar?";
+
 /* Class = "UILabel"; text = "26 000kr"; ObjectID = "aKg-bC-p4V"; */
 "aKg-bC-p4V.text" = "26 000kr";
 
@@ -68,6 +80,9 @@
 /* Class = "UIButton"; normalTitle = "Ja"; ObjectID = "h8l-Zk-wag"; */
 "h8l-Zk-wag.normalTitle" = "Ja";
 
+/* Class = "UILabel"; text = "* Semesterersättning:"; ObjectID = "hEr-x5-hey"; */
+"hEr-x5-hey.text" = "* Semesterersättning:";
+
 /* Class = "UILabel"; text = "Vad betyder arbetstiden 166,4 timmar per månad?"; ObjectID = "hrQ-hJ-Ou8"; */
 "hrQ-hJ-Ou8.text" = "Vad betyder arbetstiden 166,4 timmar per månad?";
 
@@ -77,11 +92,20 @@
 /* Class = "UILabel"; text = "100%"; ObjectID = "jFs-dl-mJw"; */
 "jFs-dl-mJw.text" = "100%";
 
-/* Class = "UILabel"; text = "* Total lön inklusive semesterersättning:"; ObjectID = "l2x-rT-C4O"; */
-"l2x-rT-C4O.text" = "* Total lön inklusive semesterersättning:";
+/* Class = "UILabel"; text = "* Månadslön + semesterersättning"; ObjectID = "l2x-rT-C4O"; */
+"l2x-rT-C4O.text" = "* Månadslön + semesterersättning";
+
+/* Class = "UILabel"; text = "150 kr"; ObjectID = "mEw-Sv-zYi"; */
+"mEw-Sv-zYi.text" = "150 kr";
 
 /* Class = "UIButton"; normalTitle = "Månadslön"; ObjectID = "nRw-uP-8pJ"; */
 "nRw-uP-8pJ.normalTitle" = "Månadslön";
+
+/* Class = "UILabel"; text = "* I det fall semesterersättning utbetalas vid varje lönetillfälle skall den minst vara den angivna summan. I annat fall skall ersättningen samlas ihopa och utbetalas i samband med att man har semester."; ObjectID = "ocU-Od-LY4"; */
+"ocU-Od-LY4.text" = "* I det fall semesterersättning utbetalas vid varje lönetillfälle skall den minst vara den angivna summan. I annat fall skall ersättningen samlas ihopa och utbetalas i samband med att man har semester.";
+
+/* Class = "UIButton"; normalTitle = "Nej"; ObjectID = "pih-CQ-F5h"; */
+"pih-CQ-F5h.normalTitle" = "Nej";
 
 /* Class = "UIButton"; normalTitle = "Stäng"; ObjectID = "sSi-uf-BNf"; */
 "sSi-uf-BNf.normalTitle" = "Stäng";

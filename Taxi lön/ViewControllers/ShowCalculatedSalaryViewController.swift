@@ -19,6 +19,7 @@ class ShowCalculatedSalaryViewController: UIViewController {
     
     @IBOutlet weak var hourlyWageLabel: UILabel!
   
+    @IBOutlet weak var vaccationPayLabel: UILabel!
     
     
 
@@ -29,9 +30,12 @@ class ShowCalculatedSalaryViewController: UIViewController {
         let intSalary = Int(passedCalculatedSalary)
         let vaccationPay = passedCalculatedSalary * 1.13
         let intVaccation = Int(vaccationPay)
+        
+        let vaccationPayWithoutSalary = passedCalculatedSalary * 0.13
+        let intVaccationWithout = Int(vaccationPayWithoutSalary)
         let readableSalary = intSalary.formattedWithSeparator
         let readableSalaryWithVaccationPay = intVaccation.formattedWithSeparator
-        
+        let readableVaccationPay = intVaccationWithout.formattedWithSeparator
         let intHours = Int(passedWorkedHours)
         
         
@@ -40,6 +44,8 @@ class ShowCalculatedSalaryViewController: UIViewController {
         calculatedSalary.text = "\(readableSalary) kr"
         calculatedSalaryWithVaccationPay.text = "\(readableSalaryWithVaccationPay) kr"
         hourlyWageLabel.text = "\(readableHourlyWage) kr/h"
+        vaccationPayLabel.text = "\(readableVaccationPay) kr"
+        
 
         // Do any additional setup after loading the view.
     }

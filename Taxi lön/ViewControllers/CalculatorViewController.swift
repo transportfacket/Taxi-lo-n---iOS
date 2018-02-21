@@ -15,13 +15,21 @@ class CalculatorViewController: UIViewController, UITextFieldDelegate {
         case stockholmSalary = 19572.0
         case restOfSwedenSalary = 19211.0
         case guaranteeHours = 166.4
+        case guaranteeHoursWeekdays = 174.0
     }
     
     var passOnCalculatedSalary: Double = 0.0
     var passOnWorkedHours: Double = 0.0
     var hasCollectiveAgreement: Bool = true
+    var calculateFromGuaranteeHours: Double = 0.0
+    var workingAllDaysOfTheWeek = true
+
     
     @IBOutlet weak var radioButtons: DLRadioButton!
+    
+    
+  
+    
     
     @IBOutlet weak var calculateButtonOutlet: UIButton!
     
@@ -31,6 +39,7 @@ class CalculatorViewController: UIViewController, UITextFieldDelegate {
     
     @IBOutlet weak var workedHourTextField: UITextField!
     
+    @IBOutlet weak var radioButtonWeek: DLRadioButton!
     
     
     
@@ -123,6 +132,9 @@ class CalculatorViewController: UIViewController, UITextFieldDelegate {
     @IBAction func infoPercentageOfFulltime() {
         showAlertWith(title: "Arbetstidsmått", message: "Du hittar detta på ditt anställningsbevis. Arbetstidsmått är hur många % av heltid som du ska arbeta")
     }
+    @IBAction func infoWorkingWeekDays() {
+        showAlertWith(title: "Arbetar du alla veckans dagar?", message: "Arbetar du alla veckans dagar eller bara måndag till fredag?")
+    }
     
     //MARK: - Radiobuttons actions & calculate button action
     @IBAction func radioButtonAction(_ sender: DLRadioButton) {
@@ -137,17 +149,36 @@ class CalculatorViewController: UIViewController, UITextFieldDelegate {
             
         }
     }
+   
+    
+    @IBAction func radioButtonWeekAction(_ sender: DLRadioButton) {
+        if sender.tag == 3{
+            workingAllDaysOfTheWeek = true
+            
+        }else{
+            
+            workingAllDaysOfTheWeek = false
+
+        }
+    }
+    
     
   
     
     @IBAction func calculateButton(_ sender: Any) {
         let currentSliderValue = Int(procentageOfFulltimeSlider.value)
         
+        if workingAllDaysOfTheWeek == true{
+            calculateFromGuaranteeHours = GuaranteeSalary.guaranteeHours.rawValue
+        }else {
+            calculateFromGuaranteeHours = GuaranteeSalary.guaranteeHoursWeekdays.rawValue
+        }
+
         
         if hasCollectiveAgreement == true{
-            passOnCalculatedSalary =  calculateSalaryBy(location:  locationFrom(textField: locationTextField.text), hours: hoursFrom(textField: workedHourTextField.text), procentage: currentSliderValue)
-            if (workedHourTextField.text?.isEmpty)! {
-                passOnWorkedHours = 166.4
+            passOnCalculatedSalary =  calculateSalaryBy(location:  locationFrom(textField: locationTextField.text), hours: hoursFrom(textField: workedHourTextField.text), procentage: currentSliderValue, guaranteeHours: calculateFromGuaranteeHours)
+            if (workedHourTextField.text?.isEmpty)!  {
+                passOnWorkedHours = calculateFromGuaranteeHours
             }else {
                passOnWorkedHours = hoursFrom(textField: workedHourTextField.text)
             }
@@ -156,8 +187,6 @@ class CalculatorViewController: UIViewController, UITextFieldDelegate {
             
         }else {
             showAlertWith(title: "Kan inte räkna något", message: "E")
-            
-            
         }
         
        
@@ -167,15 +196,20 @@ class CalculatorViewController: UIViewController, UITextFieldDelegate {
   
     
     
-    func calculateSalaryBy(location: Double, hours: Double, procentage: Int) -> Double{
+    func calculateSalaryBy(location: Double, hours: Double, procentage: Int, guaranteeHours: Double) -> Double{
         var workedHours: Double
         let returnSalary: Double
-        if hours <= GuaranteeSalary.guaranteeHours.rawValue{
-            workedHours = GuaranteeSalary.guaranteeHours.rawValue / 100 * Double(procentage)
-            returnSalary = location / GuaranteeSalary.guaranteeHours.rawValue * workedHours
+        let procentageOfGuranteeHours = (guaranteeHours / 100) * Double(procentage)
+        
+        
+        
+        if hours <= procentageOfGuranteeHours {
+            returnSalary = location / 100 * Double(procentage)
+            
+        
         }else {
             workedHours = hours
-            returnSalary = location / GuaranteeSalary.guaranteeHours.rawValue * workedHours
+            returnSalary = location / guaranteeHours * workedHours
         }
             return returnSalary
         }
@@ -222,14 +256,7 @@ class CalculatorViewController: UIViewController, UITextFieldDelegate {
         
         return workedHours
     }
-    
-    
-    
-    
-    
-  
-    
-    
+
     
     //MARK: - Inputfields
     
@@ -238,11 +265,7 @@ class CalculatorViewController: UIViewController, UITextFieldDelegate {
     @IBAction func procentageOfFulltimeSlider(_ sender: UISlider) {
         let currentValue = Int(sender.value)
         procentageOfFulltimeLabel.text = "\(currentValue)%"
-        
     }
-    
-   
-    
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let showResult = segue.destination as! ShowCalculatedSalaryViewController

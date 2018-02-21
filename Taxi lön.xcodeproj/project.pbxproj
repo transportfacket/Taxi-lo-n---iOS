@@ -16,6 +16,7 @@
 		9059B6C4203CA31E0079EADC /* ModifiedNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9059B6C3203CA31E0079EADC /* ModifiedNavigationBar.swift */; };
 		90D5F14F203C5B4000186F07 /* BounceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D5F14E203C5B4000186F07 /* BounceButton.swift */; };
 		90D5F151203C5E5700186F07 /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D5F150203C5E5700186F07 /* DesignableButton.swift */; };
+		90DFEB6C203D9B840008C9DD /* EdgeInsetLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DFEB6B203D9B830008C9DD /* EdgeInsetLabel.swift */; };
 		90F57B962029D0C200BCEB75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F57B952029D0C200BCEB75 /* AppDelegate.swift */; };
 		90F57B982029D0C200BCEB75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F57B972029D0C200BCEB75 /* ViewController.swift */; };
 		90F57B9B2029D0C200BCEB75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90F57B992029D0C200BCEB75 /* Main.storyboard */; };
@@ -31,14 +32,15 @@
 		901FB2212039D47B00E2B4B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		901FB2232039D47B00E2B4B9 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		902C0A84203B724700B5DE6B /* ShowCalculatedSalaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowCalculatedSalaryViewController.swift; sourceTree = "<group>"; };
-		902C0A87203C1E2D00B5DE6B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
-		902C0A89203C1E2F00B5DE6B /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Main.strings; sourceTree = "<group>"; };
 		9059B6BB203C93CE0079EADC /* Formatter+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Formatter+Extensions.swift"; sourceTree = "<group>"; };
 		9059B6BD203C93FC0079EADC /* Integer+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Integer+Extensions.swift"; sourceTree = "<group>"; };
 		9059B6C1203C97F20079EADC /* TextfieldLength+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TextfieldLength+Extensions.swift"; sourceTree = "<group>"; };
 		9059B6C3203CA31E0079EADC /* ModifiedNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifiedNavigationBar.swift; sourceTree = "<group>"; };
 		90D5F14E203C5B4000186F07 /* BounceButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BounceButton.swift; sourceTree = "<group>"; };
 		90D5F150203C5E5700186F07 /* DesignableButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = "<group>"; };
+		90DFEB6B203D9B830008C9DD /* EdgeInsetLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdgeInsetLabel.swift; sourceTree = "<group>"; };
+		90DFEB6E203DA3940008C9DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		90DFEB70203DA3970008C9DD /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Main.strings; sourceTree = "<group>"; };
 		90F57B922029D0C200BCEB75 /* Taxi lön.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Taxi lön.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90F57B952029D0C200BCEB75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		90F57B972029D0C200BCEB75 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 				9016BCD12039E4D00049E271 /* Taxi lön-Bridging-Header.h */,
 				90D5F150203C5E5700186F07 /* DesignableButton.swift */,
 				9059B6C3203CA31E0079EADC /* ModifiedNavigationBar.swift */,
+				90DFEB6B203D9B830008C9DD /* EdgeInsetLabel.swift */,
 			);
 			path = "Taxi lön";
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 				902C0A85203B724700B5DE6B /* ShowCalculatedSalaryViewController.swift in Sources */,
 				90F57B982029D0C200BCEB75 /* ViewController.swift in Sources */,
 				9059B6C2203C97F20079EADC /* TextfieldLength+Extensions.swift in Sources */,
+				90DFEB6C203D9B840008C9DD /* EdgeInsetLabel.swift in Sources */,
 				9059B6C4203CA31E0079EADC /* ModifiedNavigationBar.swift in Sources */,
 				90D5F151203C5E5700186F07 /* DesignableButton.swift in Sources */,
 				9016BCD42039E4D10049E271 /* DLRadioButton.m in Sources */,
@@ -210,8 +214,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				90F57B9A2029D0C200BCEB75 /* Base */,
-				902C0A87203C1E2D00B5DE6B /* en */,
-				902C0A89203C1E2F00B5DE6B /* sv */,
+				90DFEB6E203DA3940008C9DD /* en */,
+				90DFEB70203DA3970008C9DD /* sv */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
