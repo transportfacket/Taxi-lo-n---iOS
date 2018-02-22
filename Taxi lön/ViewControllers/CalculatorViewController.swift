@@ -23,6 +23,9 @@ class CalculatorViewController: UIViewController, UITextFieldDelegate {
     var hasCollectiveAgreement: Bool = true
     var calculateFromGuaranteeHours: Double = 0.0
     var workingAllDaysOfTheWeek = true
+    
+    let redColor = UIColor.red
+    let lightGreyColor = UIColor.lightGray
 
     
     @IBOutlet weak var radioButtons: DLRadioButton!
@@ -48,6 +51,8 @@ class CalculatorViewController: UIViewController, UITextFieldDelegate {
         super.viewDidLoad()
         self.locationTextField.delegate = self
         self.workedHourTextField.delegate = self
+        
+      
         // Do any additional setup after loading the view.
     }
     
@@ -166,6 +171,33 @@ class CalculatorViewController: UIViewController, UITextFieldDelegate {
   
     
     @IBAction func calculateButton(_ sender: Any) {
+     
+        
+        if (workedHourTextField.text?.isEmpty)! && (locationTextField.text?.isEmpty)!{
+           changeTextField(textField: locationTextField, borderWidth: 1, borderColor: redColor)
+           changeTextField(textField: workedHourTextField, borderWidth: 1, borderColor: redColor)
+            showAlertWith(title: "Tyvärr", message: "Det saknas både ort och arbetade timmar")
+           
+        } else if (locationTextField.text?.isEmpty)! {
+           changeTextField(textField: locationTextField, borderWidth: 1, borderColor: redColor)
+            
+            showAlertWith(title: "Ort saknas", message: "Du måste skriva in var du kör för att få rätt uträknad lön")
+        } else if (workedHourTextField.text?.isEmpty)! {
+           changeTextField(textField: workedHourTextField, borderWidth: 1, borderColor: redColor)
+            
+        showAlertWith(title: "Inga arbetade timmar", message: "Du behöver skriva in hur många timmar du arbetat på den månad som du vill räkna ut din garantilön")
+        }else {
+            getValuesAndSegue()
+            
+        }
+        
+        
+        
+       
+    }
+   
+    
+    func getValuesAndSegue() {
         let currentSliderValue = Int(procentageOfFulltimeSlider.value)
         
         if workingAllDaysOfTheWeek == true{
@@ -173,14 +205,14 @@ class CalculatorViewController: UIViewController, UITextFieldDelegate {
         }else {
             calculateFromGuaranteeHours = GuaranteeSalary.guaranteeHoursWeekdays.rawValue
         }
-
+        
         
         if hasCollectiveAgreement == true{
             passOnCalculatedSalary =  calculateSalaryBy(location:  locationFrom(textField: locationTextField.text), hours: hoursFrom(textField: workedHourTextField.text), procentage: currentSliderValue, guaranteeHours: calculateFromGuaranteeHours)
             if (workedHourTextField.text?.isEmpty)!  {
                 passOnWorkedHours = calculateFromGuaranteeHours
             }else {
-               passOnWorkedHours = hoursFrom(textField: workedHourTextField.text)
+                passOnWorkedHours = hoursFrom(textField: workedHourTextField.text)
             }
             
             performSegue(withIdentifier: "showResult", sender: self)
@@ -189,10 +221,7 @@ class CalculatorViewController: UIViewController, UITextFieldDelegate {
             showAlertWith(title: "Kan inte räkna något", message: "E")
         }
         
-       
     }
-    
-    
   
     
     
@@ -276,10 +305,20 @@ class CalculatorViewController: UIViewController, UITextFieldDelegate {
     }
     
     
+    func changeTextField(textField: UITextField, borderWidth: CGFloat, borderColor: UIColor){
+        textField.layer.borderWidth = borderWidth
+        textField.layer.borderColor = borderColor.cgColor
+        
+    }
     
-    
-    
-    
+    @IBAction func locationChanged(_ sender: Any) {
+        
+          changeTextField(textField: locationTextField, borderWidth: 0, borderColor: lightGreyColor)
+    }
+  
+    @IBAction func workedHoursChanged(_ sender: Any) {
+        changeTextField(textField: workedHourTextField, borderWidth: 0, borderColor: lightGreyColor)
+    }
     
     /*
     // MARK: - Navigation

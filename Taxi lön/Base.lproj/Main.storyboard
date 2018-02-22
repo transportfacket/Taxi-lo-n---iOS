@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="2fT-Nt-Nr4">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -17,14 +17,14 @@
             <objects>
                 <viewController title="Meny" id="BYZ-38-t0r" customClass="ViewController" customModule="Taxi_lo_n" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="dW5-Hu-tm1">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                             </imageView>
                             <button opaque="NO" clipsSubviews="YES" alpha="0.90000000000000002" contentMode="scaleToFill" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CyJ-Lj-w8Y" customClass="BounceButton" customModule="Taxi_lo_n" customModuleProvider="target">
-                                <rect key="frame" x="16" y="176" width="343" height="70"/>
+                                <rect key="frame" x="16" y="248.66666666666663" width="343" height="70"/>
                                 <color key="backgroundColor" red="0.98039215690000003" green="0.81960784310000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
                                 <constraints>
@@ -44,7 +44,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" alpha="0.90000000000000002" contentMode="scaleToFill" verticalHuggingPriority="251" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nRw-uP-8pJ" customClass="BounceButton" customModule="Taxi_lo_n" customModuleProvider="target">
-                                <rect key="frame" x="16" y="306" width="343" height="70"/>
+                                <rect key="frame" x="16" y="378.66666666666669" width="343" height="70"/>
                                 <color key="backgroundColor" red="0.98039215690000003" green="0.81960784310000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
                                 <constraints>
@@ -63,7 +63,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" alpha="0.90000000000000002" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wtE-IE-Amc" customClass="BounceButton" customModule="Taxi_lo_n" customModuleProvider="target">
-                                <rect key="frame" x="16" y="436" width="343" height="70"/>
+                                <rect key="frame" x="16" y="508.66666666666674" width="343" height="70"/>
                                 <color key="backgroundColor" red="0.98039215690000003" green="0.81960784310000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
                                 <constraints>
@@ -83,25 +83,25 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coins" translatesAutoresizingMaskIntoConstraints="NO" id="t0b-bH-C02">
-                                <rect key="frame" x="300" y="186" width="50" height="50"/>
+                                <rect key="frame" x="300" y="258.66666666666669" width="50" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="t0b-bH-C02" secondAttribute="height" multiplier="1:1" id="baT-af-XPQ"/>
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="calendar" translatesAutoresizingMaskIntoConstraints="NO" id="bNP-ZQ-HJn">
-                                <rect key="frame" x="300" y="316" width="50" height="50"/>
+                                <rect key="frame" x="300" y="388.66666666666669" width="50" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="bNP-ZQ-HJn" secondAttribute="height" multiplier="1:1" id="kXg-IB-IVz"/>
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="info" translatesAutoresizingMaskIntoConstraints="NO" id="eki-za-K9w">
-                                <rect key="frame" x="300" y="446" width="50" height="50"/>
+                                <rect key="frame" x="300" y="518.66666666666663" width="50" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="eki-za-K9w" secondAttribute="height" multiplier="1:1" id="Rcg-NW-Rgu"/>
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="559-xD-U7w">
-                                <rect key="frame" x="8" y="579" width="80" height="80"/>
+                                <rect key="frame" x="8" y="690" width="80" height="80"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="80" id="mlr-1Y-gpJ"/>
                                     <constraint firstAttribute="height" constant="80" id="xeE-QP-pTy"/>
@@ -151,11 +151,11 @@
             <objects>
                 <viewController title="Garantilöneräknare" id="ZXs-J4-6zZ" customClass="CalculatorViewController" customModule="Taxi_lo_n" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hsf-sC-JzN">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="ex. 174" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="htr-Fw-Qbe">
-                                <rect key="frame" x="16" y="283" width="313" height="30"/>
+                                <rect key="frame" x="16" y="307" width="313" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad" returnKeyType="done"/>
@@ -164,9 +164,14 @@
                                         <integer key="value" value="3"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="enteringValueWorkedHoursTextField:" destination="ZXs-J4-6zZ" eventType="valueChanged" id="zfm-BP-YYN"/>
+                                    <action selector="touchWorkedHoursTextField:" destination="ZXs-J4-6zZ" eventType="touchUpInside" id="2ur-dm-jZF"/>
+                                    <action selector="workedHoursChanged:" destination="ZXs-J4-6zZ" eventType="editingChanged" id="UoV-Dh-UJ3"/>
+                                </connections>
                             </textField>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h8l-Zk-wag" customClass="DLRadioButton">
-                                <rect key="frame" x="16" y="113" width="123" height="42"/>
+                                <rect key="frame" x="16" y="137" width="123" height="42"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="123" id="Q3Q-iD-H5P"/>
                                 </constraints>
@@ -193,7 +198,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LdT-47-PvJ" customClass="DLRadioButton">
-                                <rect key="frame" x="139" y="113" width="216" height="34"/>
+                                <rect key="frame" x="139" y="137" width="216" height="34"/>
                                 <state key="normal" title="Nej">
                                     <color key="titleColor" red="0.078431372550000003" green="0.078431372550000003" blue="0.078431372550000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -216,92 +221,83 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Finns det kollektivavtal på företaget?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RIQ-rg-Ni7">
-                                <rect key="frame" x="16" y="84" width="361" height="21"/>
+                                <rect key="frame" x="16" y="108" width="361" height="21"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="ex. Malmö" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ONd-NK-Cl5">
-                                <rect key="frame" x="16" y="204" width="313" height="30"/>
+                                <rect key="frame" x="16" y="228" width="313" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocorrectionType="yes" spellCheckingType="yes" returnKeyType="next" textContentType="address-level2"/>
+                                <connections>
+                                    <action selector="enteringValueLocationTextField:" destination="ZXs-J4-6zZ" eventType="valueChanged" id="jgI-Zw-oJl"/>
+                                    <action selector="locationChanged:" destination="ZXs-J4-6zZ" eventType="editingChanged" id="m76-LQ-B4a"/>
+                                    <action selector="touchLocationTextField:" destination="ZXs-J4-6zZ" eventType="touchUpInside" id="wOq-fI-eHL"/>
+                                </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Var i landet kör du? Stad eller ort:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HyE-8J-qCA">
-                                <rect key="frame" x="16" y="175" width="361" height="21"/>
+                                <rect key="frame" x="16" y="199" width="361" height="21"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wJ5-lT-NWW">
-                                <rect key="frame" x="336" y="208" width="23" height="22"/>
+                                <rect key="frame" x="336" y="232" width="23" height="22"/>
                                 <color key="tintColor" red="0.078431372549019607" green="0.078431372549019607" blue="0.078431372549019607" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
                                     <action selector="infoLocationButton" destination="ZXs-J4-6zZ" eventType="touchUpInside" id="hr4-Yj-fl1"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hur många timmar har du arbetat?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1k4-7X-4tc">
-                                <rect key="frame" x="16" y="254" width="361" height="21"/>
+                                <rect key="frame" x="16" y="278" width="361" height="21"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cRH-wR-FNO">
-                                <rect key="frame" x="337" y="287" width="22" height="22"/>
+                                <rect key="frame" x="337" y="311" width="22" height="22"/>
                                 <color key="tintColor" red="0.078431372549019607" green="0.078431372549019607" blue="0.078431372549019607" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
                                     <action selector="infoWorkedHoursButton" destination="ZXs-J4-6zZ" eventType="touchUpInside" id="NTa-9w-qbR"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Arbetstidsmått:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vaf-bM-0Ba">
-                                <rect key="frame" x="16" y="333" width="123" height="21"/>
+                                <rect key="frame" x="16" y="357" width="123" height="21"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Dv-A4-o6P">
-                                <rect key="frame" x="337" y="366" width="22" height="22"/>
+                                <rect key="frame" x="337" y="390" width="22" height="22"/>
                                 <color key="tintColor" red="0.078431372550000003" green="0.078431372550000003" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
                                     <action selector="infoPercentageOfFulltime" destination="ZXs-J4-6zZ" eventType="touchUpInside" id="K1g-Kj-2rP"/>
                                 </connections>
                             </button>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="100" minValue="0.0" maxValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="Vlt-sI-EvP">
-                                <rect key="frame" x="14" y="362" width="317" height="31"/>
+                                <rect key="frame" x="14" y="386" width="317" height="31"/>
                                 <color key="tintColor" red="0.98039215686274506" green="0.81960784313725488" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
                                     <action selector="procentageOfFulltimeSlider:" destination="ZXs-J4-6zZ" eventType="valueChanged" id="oe4-L9-O1h"/>
                                 </connections>
                             </slider>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Na-sv-ATG">
-                                <rect key="frame" x="336" y="119" width="23" height="22"/>
+                                <rect key="frame" x="336" y="143" width="23" height="22"/>
                                 <color key="tintColor" red="0.078431372550000003" green="0.078431372550000003" blue="0.078431372550000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
                                     <action selector="infoCollectiveAgreementButton" destination="ZXs-J4-6zZ" eventType="touchUpInside" id="jtt-MA-SPz"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="apr-9V-Ren">
-                                <rect key="frame" x="0.0" y="617" width="379" height="50"/>
-                                <color key="backgroundColor" red="0.98039215686274506" green="0.81960784313725488" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="PPq-2k-XyM"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <state key="normal" title="Räkna ut">
-                                    <color key="titleColor" red="0.078431372550000003" green="0.078431372550000003" blue="0.078431372550000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="calculateButton:" destination="ZXs-J4-6zZ" eventType="touchUpInside" id="zmb-C2-tA4"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100%" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jFs-dl-mJw">
-                                <rect key="frame" x="155" y="333" width="204" height="21"/>
+                                <rect key="frame" x="155" y="357" width="204" height="21"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" tag="3" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8o3-1H-ujw" customClass="DLRadioButton">
-                                <rect key="frame" x="16" y="442" width="123" height="42"/>
+                                <rect key="frame" x="16" y="466" width="123" height="42"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="42" id="NAC-we-raf"/>
                                     <constraint firstAttribute="width" constant="123" id="stq-dh-RyN"/>
@@ -328,7 +324,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pih-CQ-F5h" customClass="DLRadioButton">
-                                <rect key="frame" x="139" y="442" width="216" height="34"/>
+                                <rect key="frame" x="139" y="466" width="216" height="34"/>
                                 <state key="normal" title="Nej">
                                     <color key="titleColor" red="0.078431372550000003" green="0.078431372550000003" blue="0.078431372550000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -352,16 +348,33 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Arbetar du alla veckans dagar?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aBK-yW-AW3">
-                                <rect key="frame" x="16" y="413" width="361" height="21"/>
+                                <rect key="frame" x="16" y="437" width="361" height="21"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UP2-8n-GNj">
-                                <rect key="frame" x="336" y="448" width="23" height="22"/>
+                                <rect key="frame" x="336" y="472" width="23" height="22"/>
                                 <color key="tintColor" red="0.078431372550000003" green="0.078431372550000003" blue="0.078431372550000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
                                     <action selector="infoWorkingWeekDays" destination="ZXs-J4-6zZ" eventType="touchUpInside" id="blD-nV-32c"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="apr-9V-Ren" customClass="BounceButton" customModule="Taxi_lo_n" customModuleProvider="target">
+                                <rect key="frame" x="16" y="742" width="343" height="50"/>
+                                <color key="backgroundColor" red="0.98039215686274506" green="0.81960784313725488" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="PPq-2k-XyM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Räkna ut">
+                                    <color key="titleColor" red="0.078431372550000003" green="0.078431372550000003" blue="0.078431372550000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="calculateButton:" destination="ZXs-J4-6zZ" eventType="touchUpInside" id="zmb-C2-tA4"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -372,7 +385,6 @@
                             <constraint firstItem="pih-CQ-F5h" firstAttribute="trailing" secondItem="LdT-47-PvJ" secondAttribute="trailing" id="4aG-ah-nCY"/>
                             <constraint firstItem="aBK-yW-AW3" firstAttribute="leading" secondItem="8o3-1H-ujw" secondAttribute="leading" id="5WL-nM-aJW"/>
                             <constraint firstItem="Vlt-sI-EvP" firstAttribute="top" secondItem="Vaf-bM-0Ba" secondAttribute="bottom" constant="8" symbolic="YES" id="6Mm-uk-aYC"/>
-                            <constraint firstItem="apr-9V-Ren" firstAttribute="bottom" secondItem="enF-qe-dnK" secondAttribute="bottom" id="6Wz-wp-1Tn"/>
                             <constraint firstItem="1k4-7X-4tc" firstAttribute="top" secondItem="ONd-NK-Cl5" secondAttribute="bottom" constant="20" id="6ar-uD-m8R"/>
                             <constraint firstItem="6Na-sv-ATG" firstAttribute="trailing" secondItem="hsf-sC-JzN" secondAttribute="trailingMargin" id="6fF-b8-Ivp"/>
                             <constraint firstItem="wJ5-lT-NWW" firstAttribute="centerX" secondItem="cRH-wR-FNO" secondAttribute="centerX" id="6wA-wK-Xfv"/>
@@ -380,11 +392,11 @@
                             <constraint firstItem="RIQ-rg-Ni7" firstAttribute="leading" secondItem="hsf-sC-JzN" secondAttribute="leadingMargin" id="BOu-C6-qyd"/>
                             <constraint firstItem="Vlt-sI-EvP" firstAttribute="centerY" secondItem="5Dv-A4-o6P" secondAttribute="centerY" id="Djf-CU-H6j"/>
                             <constraint firstItem="pih-CQ-F5h" firstAttribute="centerY" secondItem="UP2-8n-GNj" secondAttribute="centerY" id="FHm-lC-iIK"/>
+                            <constraint firstItem="apr-9V-Ren" firstAttribute="leading" secondItem="8o3-1H-ujw" secondAttribute="leading" id="KdN-TS-JHB"/>
                             <constraint firstItem="Vaf-bM-0Ba" firstAttribute="top" secondItem="htr-Fw-Qbe" secondAttribute="bottom" constant="20" id="N2g-Ea-mUW"/>
                             <constraint firstItem="HyE-8J-qCA" firstAttribute="top" secondItem="LdT-47-PvJ" secondAttribute="bottom" constant="28" id="NOe-Nt-28y"/>
                             <constraint firstItem="ONd-NK-Cl5" firstAttribute="top" secondItem="HyE-8J-qCA" secondAttribute="bottom" constant="8" symbolic="YES" id="SDf-3q-Avf"/>
                             <constraint firstItem="RIQ-rg-Ni7" firstAttribute="leading" secondItem="h8l-Zk-wag" secondAttribute="leading" id="SGS-4G-5o3"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="apr-9V-Ren" secondAttribute="trailing" constant="-20" id="Srk-Jx-1bv"/>
                             <constraint firstItem="cRH-wR-FNO" firstAttribute="trailing" secondItem="jFs-dl-mJw" secondAttribute="trailing" id="T1t-TB-HWl"/>
                             <constraint firstItem="h8l-Zk-wag" firstAttribute="top" secondItem="RIQ-rg-Ni7" secondAttribute="bottom" constant="8" symbolic="YES" id="TFr-hz-Gax"/>
                             <constraint firstItem="RIQ-rg-Ni7" firstAttribute="top" secondItem="enF-qe-dnK" secondAttribute="top" constant="20" id="UYc-3f-Ksn"/>
@@ -394,6 +406,7 @@
                             <constraint firstItem="HyE-8J-qCA" firstAttribute="leading" secondItem="ONd-NK-Cl5" secondAttribute="leading" id="Xaz-jY-qd3"/>
                             <constraint firstItem="LdT-47-PvJ" firstAttribute="leading" secondItem="h8l-Zk-wag" secondAttribute="trailing" id="Yp4-HO-f57"/>
                             <constraint firstItem="h8l-Zk-wag" firstAttribute="trailing" secondItem="Vaf-bM-0Ba" secondAttribute="trailing" id="Z07-AC-6rN"/>
+                            <constraint firstAttribute="bottom" secondItem="apr-9V-Ren" secondAttribute="bottom" constant="20" symbolic="YES" id="a4s-eh-Sdm"/>
                             <constraint firstItem="ONd-NK-Cl5" firstAttribute="trailing" secondItem="htr-Fw-Qbe" secondAttribute="trailing" id="al4-3Y-dJb"/>
                             <constraint firstItem="htr-Fw-Qbe" firstAttribute="top" secondItem="1k4-7X-4tc" secondAttribute="bottom" constant="8" symbolic="YES" id="bB0-4m-t8A"/>
                             <constraint firstItem="enF-qe-dnK" firstAttribute="trailing" secondItem="LdT-47-PvJ" secondAttribute="trailing" constant="20" id="bce-S9-Hcz"/>
@@ -417,7 +430,7 @@
                             <constraint firstItem="HyE-8J-qCA" firstAttribute="trailing" secondItem="1k4-7X-4tc" secondAttribute="trailing" id="odc-3a-onv"/>
                             <constraint firstItem="1k4-7X-4tc" firstAttribute="leading" secondItem="htr-Fw-Qbe" secondAttribute="leading" id="qBl-SJ-TTz"/>
                             <constraint firstItem="RIQ-rg-Ni7" firstAttribute="trailing" secondItem="HyE-8J-qCA" secondAttribute="trailing" id="rdo-L5-7Xb"/>
-                            <constraint firstItem="apr-9V-Ren" firstAttribute="leading" secondItem="hsf-sC-JzN" secondAttribute="leading" id="wTM-8a-yPU"/>
+                            <constraint firstItem="apr-9V-Ren" firstAttribute="trailing" secondItem="jFs-dl-mJw" secondAttribute="trailing" id="w8b-19-gsH"/>
                             <constraint firstItem="jFs-dl-mJw" firstAttribute="leading" secondItem="Vaf-bM-0Ba" secondAttribute="trailing" constant="16" id="xTh-id-wJa"/>
                             <constraint firstItem="aBK-yW-AW3" firstAttribute="top" secondItem="Vlt-sI-EvP" secondAttribute="bottom" constant="21" id="xvL-1t-5d6"/>
                         </constraints>
@@ -436,149 +449,349 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0dU-wQ-3ZO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1284.375" y="-542.95774647887322"/>
+            <point key="canvasLocation" x="1284" y="-543.77811094452773"/>
         </scene>
         <!--Vanliga frågor-->
         <scene sceneID="vc7-8D-Z7g">
             <objects>
                 <viewController title="Vanliga frågor" id="J44-2E-4sa" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sFD-nT-SEk">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="2000"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1593"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DrC-Br-Hwe">
-                                <rect key="frame" x="0.0" y="64" width="375" height="1936"/>
+                                <rect key="frame" x="0.0" y="88" width="375" height="1471"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cyI-6z-pUR">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1936"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1530"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vem omfattas av garantilön?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="baJ-kY-YAW">
-                                                <rect key="frame" x="8" y="28" width="359" height="21"/>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="U3q-zx-pct">
+                                                <rect key="frame" x="8" y="8" width="359" height="120"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1dB-HZ-hQh">
+                                                        <rect key="frame" x="8" y="8" width="343" height="24"/>
+                                                        <attributedString key="attributedText">
+                                                            <fragment content="Vem omfattas av garantilön?">
+                                                                <attributes>
+                                                                    <font key="NSFont" size="17" name="Avenir-Heavy"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                        </attributedString>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Laq-UO-3ME">
+                                                        <rect key="frame" x="8" y="40" width="343" height="76"/>
+                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="76" id="ofU-h1-e4g"/>
+                                                        </constraints>
+                                                        <attributedString key="attributedText">
+                                                            <fragment content="Du som arbetar på ett åkeri med kollektivavtal och kör på procentlön har rätt till garantilön.">
+                                                                <attributes>
+                                                                    <font key="NSFont" size="16" name="Avenir-Medium"/>
+                                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                        </attributedString>
+                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                    </textView>
+                                                </subviews>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="359" id="bcM-z5-zTK"/>
-                                                    <constraint firstAttribute="height" constant="21" id="uLu-jP-F0t"/>
+                                                    <constraint firstItem="Laq-UO-3ME" firstAttribute="trailing" secondItem="1dB-HZ-hQh" secondAttribute="trailing" id="6bY-hJ-qhZ"/>
+                                                    <constraint firstItem="Laq-UO-3ME" firstAttribute="leading" secondItem="1dB-HZ-hQh" secondAttribute="leading" id="FyQ-pY-NSt"/>
+                                                    <constraint firstItem="Laq-UO-3ME" firstAttribute="top" secondItem="1dB-HZ-hQh" secondAttribute="bottom" constant="8" symbolic="YES" id="GGx-Vs-F8f"/>
+                                                    <constraint firstItem="Laq-UO-3ME" firstAttribute="leading" secondItem="U3q-zx-pct" secondAttribute="leading" constant="8" id="SoZ-Oa-usM"/>
+                                                    <constraint firstItem="Laq-UO-3ME" firstAttribute="top" secondItem="U3q-zx-pct" secondAttribute="top" constant="40" id="pdP-Sn-ebb"/>
+                                                    <constraint firstAttribute="bottom" secondItem="Laq-UO-3ME" secondAttribute="bottom" constant="4" id="wbi-zN-c0Q"/>
+                                                    <constraint firstAttribute="trailing" secondItem="Laq-UO-3ME" secondAttribute="trailing" constant="8" id="yhT-iW-5FM"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5BQ-g5-wEf">
-                                                <rect key="frame" x="8" y="239" width="359" height="105"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="105" id="Hga-2O-1JK"/>
-                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="359" id="xH6-Ul-y2A"/>
-                                                </constraints>
-                                                <string key="text">Fråga din åkare eller kontrollera det med din lokala Transportavdelning. Ring 010-480 30 00 och tala om var du arbetar. Vi behöver då din arbetsgivares organisationsnummer, det står på de kvitton som kunden får.</string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vad betyder arbetstiden 166,4 timmar per månad?" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hrQ-hJ-Ou8">
-                                                <rect key="frame" x="8" y="364" width="359" height="45"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="45" id="ueU-zY-rnO"/>
-                                                </constraints>
-                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Eu-tF-17A">
-                                                <rect key="frame" x="8" y="417" width="359" height="105"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="105" id="s4I-m4-WfD"/>
-                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="359" id="xXH-VJ-BLe"/>
-                                                </constraints>
-                                                <string key="text" base64-UTF8="YES">
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="whK-Ih-fc1">
+                                                <rect key="frame" x="8" y="136" width="359" height="277"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fcr-pA-Mfm">
+                                                        <rect key="frame" x="9" y="9.3333333333333393" width="341" height="46.666666666666657"/>
+                                                        <attributedString key="attributedText">
+                                                            <fragment content="Hur vet jag om jag omfattas av kollektivavtal?">
+                                                                <attributes>
+                                                                    <font key="NSFont" size="17" name="Avenir-Heavy"/>
+                                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                        </attributedString>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nsv-Ox-Eql">
+                                                        <rect key="frame" x="9" y="64" width="341" height="213"/>
+                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="213" id="jLF-ie-YNa"/>
+                                                        </constraints>
+                                                        <attributedString key="attributedText">
+                                                            <fragment>
+                                                                <string key="content" base64-UTF8="YES">
 RHUgb21mYXR0YXMgYXYga29sbGVrdGl2YXZ0YWwgb20gZGluIMOla2FyZSDDpHIgbWVkbGVtIGkgQmls
 dHJhZmlrZW5zIEFyYmV0c2dpdmFyZWbDtnJidW5kIGVsbGVyIGhhciB0ZWNrbmF0IGF2dGFsIGRpcmVr
-dCBtZWQgVHJhbnNwb3J0LgsKCg
+dCBtZWQgVHJhbnNwb3J0LgsgCkZyw6VnYSBkaW4gw6VrYXJlIGVsbGVyIGtvbnRyb2xsZXJhIGRldCBt
+ZWQgZGluIGxva2FsYSBUcmFuc3BvcnRhdmRlbG5pbmcuIFJpbmcgMDEwLTQ4MCAzMCAwMCBvY2ggdGFs
+YSBvbSB2YXIgZHUgYXJiZXRhci4gVmkgYmVow7Z2ZXIgZMOlIGRpbiBhcmJldHNnaXZhcmVzIG9yZ2Fu
+aXNhdGlvbnNudW1tZXIsIGRldCBzdMOlciBww6UgZGUga3ZpdHRvbiBzb20ga3VuZGVuIGbDpXIuA
 </string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hur vet jag om jag omfattas av kollektivavtal?" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dS1-tO-E1m">
-                                                <rect key="frame" x="8" y="118" width="359" height="43"/>
-                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JdK-l1-Kjw">
-                                                <rect key="frame" x="8" y="165" width="359" height="105"/>
+                                                                <attributes>
+                                                                    <font key="NSFont" size="16" name="Avenir-Medium"/>
+                                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                        </attributedString>
+                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                    </textView>
+                                                </subviews>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="359" id="rrE-Rl-ui1"/>
-                                                    <constraint firstAttribute="height" constant="105" id="zg9-fM-Aol"/>
+                                                    <constraint firstAttribute="bottom" secondItem="Nsv-Ox-Eql" secondAttribute="bottom" id="7xk-eM-6Tg"/>
+                                                    <constraint firstItem="Nsv-Ox-Eql" firstAttribute="top" secondItem="Fcr-pA-Mfm" secondAttribute="bottom" constant="8" symbolic="YES" id="N93-BX-dXi"/>
+                                                    <constraint firstItem="Nsv-Ox-Eql" firstAttribute="centerX" secondItem="whK-Ih-fc1" secondAttribute="centerX" id="Zpk-ep-eob"/>
+                                                    <constraint firstItem="Nsv-Ox-Eql" firstAttribute="centerX" secondItem="Fcr-pA-Mfm" secondAttribute="centerX" id="bR1-vT-X2K"/>
+                                                    <constraint firstItem="Nsv-Ox-Eql" firstAttribute="leading" secondItem="whK-Ih-fc1" secondAttribute="leading" constant="9" id="kGV-O2-kos"/>
+                                                    <constraint firstItem="Nsv-Ox-Eql" firstAttribute="leading" secondItem="Fcr-pA-Mfm" secondAttribute="leading" id="rmi-T8-aql"/>
                                                 </constraints>
-                                                <string key="text" base64-UTF8="YES">
-RHUgb21mYXR0YXMgYXYga29sbGVrdGl2YXZ0YWwgb20gZGluIMOla2FyZSDDpHIgbWVkbGVtIGkgQmls
-dHJhZmlrZW5zIEFyYmV0c2dpdmFyZWbDtnJidW5kIGVsbGVyIGhhciB0ZWNrbmF0IGF2dGFsIGRpcmVr
-dCBtZWQgVHJhbnNwb3J0LgsKCg
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DTE-aB-JVQ">
+                                                <rect key="frame" x="8" y="421" width="359" height="227"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GiU-ZS-ZU5">
+                                                        <rect key="frame" x="8" y="8" width="343" height="24"/>
+                                                        <attributedString key="attributedText">
+                                                            <fragment content="Hur räknas timlönen fram?">
+                                                                <attributes>
+                                                                    <font key="NSFont" size="17" name="Avenir-Heavy"/>
+                                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                        </attributedString>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ht0-2X-Zuq">
+                                                        <rect key="frame" x="8" y="40" width="343" height="187"/>
+                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="187" id="868-Pj-Jfd"/>
+                                                        </constraints>
+                                                        <attributedString key="attributedText">
+                                                            <fragment>
+                                                                <string key="content">Om du arbetar alla veckans dagar är 166,4 timmar/månad den uträknade arbetstid som du arbetar i genomsnitt under ett år som heltidsanställd. Parterna har enats om denna tid som en beräkningsgrund för att räkna fram bland annat timlön. Arbetar du endast vardagar (måndag – fredag, helgfri vecka) är beräkningsgrunden 174 timmar istället.</string>
+                                                                <attributes>
+                                                                    <color key="NSColor" red="0.12941" green="0.12941" blue="0.12941" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                    <font key="NSFont" size="16" name="Avenir-Medium"/>
+                                                                    <real key="NSKern" value="0.0"/>
+                                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                                        <tabStops/>
+                                                                    </paragraphStyle>
+                                                                    <color key="NSStrokeColor" red="0.12941" green="0.12941" blue="0.12941" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                        </attributedString>
+                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                    </textView>
+                                                </subviews>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstItem="ht0-2X-Zuq" firstAttribute="trailing" secondItem="GiU-ZS-ZU5" secondAttribute="trailing" id="ChZ-eZ-UbI"/>
+                                                    <constraint firstAttribute="bottom" secondItem="ht0-2X-Zuq" secondAttribute="bottom" id="PvC-Ju-Em5"/>
+                                                    <constraint firstItem="ht0-2X-Zuq" firstAttribute="top" secondItem="DTE-aB-JVQ" secondAttribute="top" constant="40" id="U9g-cp-ffM"/>
+                                                    <constraint firstItem="ht0-2X-Zuq" firstAttribute="top" secondItem="GiU-ZS-ZU5" secondAttribute="bottom" constant="8" symbolic="YES" id="XXV-D5-CHl"/>
+                                                    <constraint firstAttribute="trailing" secondItem="ht0-2X-Zuq" secondAttribute="trailing" constant="8" id="cs8-1S-syB"/>
+                                                    <constraint firstItem="ht0-2X-Zuq" firstAttribute="leading" secondItem="DTE-aB-JVQ" secondAttribute="leading" constant="8" id="iCX-Sh-zf6"/>
+                                                    <constraint firstItem="ht0-2X-Zuq" firstAttribute="leading" secondItem="GiU-ZS-ZU5" secondAttribute="leading" id="yqU-np-enj"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xs5-VC-I90">
+                                                <rect key="frame" x="8" y="656" width="359" height="294"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aZG-J7-1Nz">
+                                                        <rect key="frame" x="8" y="8" width="343" height="24"/>
+                                                        <attributedString key="attributedText">
+                                                            <fragment content="Vilka har rätt till månadslön?">
+                                                                <attributes>
+                                                                    <font key="NSFont" size="17" name="Avenir-Heavy"/>
+                                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                        </attributedString>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="coX-Md-37d">
+                                                        <rect key="frame" x="8" y="40" width="343" height="254"/>
+                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="254" id="fRT-zT-b15"/>
+                                                        </constraints>
+                                                        <attributedString key="attributedText">
+                                                            <fragment>
+                                                                <string key="content">Från och med den 1 december 2017 måste arbetsgivare betala månadslön till de anställda som enbart kör samhällsbetalda körningar som är upphandlade efter samma datum. Exempelvis färdtjänst, sjukresor och skolskjuts.
+
+Arbetsgivaren kan också välja att avlöna även de som kör blandade körningar (Samhällsbetald taxitrafik och övrig taxitrafik) med månadslön enligt kollektivavtalet.
 </string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6aE-f2-NOG">
-                                                <rect key="frame" x="8" y="488" width="359" height="105"/>
+                                                                <attributes>
+                                                                    <color key="NSColor" red="0.12941" green="0.12941" blue="0.12941" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                    <font key="NSFont" size="16" name="Avenir-Medium"/>
+                                                                    <real key="NSKern" value="0.0"/>
+                                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                                        <tabStops/>
+                                                                    </paragraphStyle>
+                                                                    <color key="NSStrokeColor" red="0.12941" green="0.12941" blue="0.12941" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                        </attributedString>
+                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                    </textView>
+                                                </subviews>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="105" id="F1N-TC-Ynm"/>
-                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="359" id="Kc8-jh-7jM"/>
+                                                    <constraint firstAttribute="trailing" secondItem="coX-Md-37d" secondAttribute="trailing" constant="8" id="0B0-jz-HbU"/>
+                                                    <constraint firstAttribute="bottom" secondItem="coX-Md-37d" secondAttribute="bottom" id="CSz-2P-uV7"/>
+                                                    <constraint firstItem="coX-Md-37d" firstAttribute="top" secondItem="aZG-J7-1Nz" secondAttribute="bottom" constant="8" symbolic="YES" id="Dne-rY-16g"/>
+                                                    <constraint firstItem="coX-Md-37d" firstAttribute="top" secondItem="Xs5-VC-I90" secondAttribute="top" constant="40" id="KjV-KO-BEa"/>
+                                                    <constraint firstItem="coX-Md-37d" firstAttribute="leading" secondItem="aZG-J7-1Nz" secondAttribute="leading" id="OQW-HI-eUH"/>
+                                                    <constraint firstItem="coX-Md-37d" firstAttribute="leading" secondItem="Xs5-VC-I90" secondAttribute="leading" constant="8" id="VmG-Ke-7vE"/>
+                                                    <constraint firstItem="coX-Md-37d" firstAttribute="trailing" secondItem="aZG-J7-1Nz" secondAttribute="trailing" id="pbh-qt-knf"/>
                                                 </constraints>
-                                                <string key="text">Fråga din åkare eller kontrollera det med din lokala Transportavdelning. Ring 010-480 30 00 och tala om var du arbetar. Vi behöver då din arbetsgivares organisationsnummer, det står på de kvitton som kunden får.</string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d6s-BE-VNC">
+                                                <rect key="frame" x="8" y="958" width="359" height="230"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mS4-kt-qmO">
+                                                        <rect key="frame" x="8" y="8" width="353" height="24"/>
+                                                        <attributedString key="attributedText">
+                                                            <fragment content="Om min lön inte stämmer, vad kan jag göra?">
+                                                                <attributes>
+                                                                    <font key="NSFont" size="17" name="Avenir-Heavy"/>
+                                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                        </attributedString>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nva-hK-zGb">
+                                                        <rect key="frame" x="8" y="40" width="353" height="190"/>
+                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="190" id="BJm-t0-nn0"/>
+                                                        </constraints>
+                                                        <attributedString key="attributedText">
+                                                            <fragment>
+                                                                <string key="content">Om du misstänker att din lön inte stämmer överens med gällande kollektivavtal kan du räkna ut din rätta lön i den här appen.
+
+Skulle det visa sig att din lön inte stämmer ska du påpeka detta för din arbetsgivare. Får du problem kan du som medlem kontakta din lokala avdelning inom Transport.
+</string>
+                                                                <attributes>
+                                                                    <color key="NSColor" red="0.12941" green="0.12941" blue="0.12941" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                    <font key="NSFont" size="16" name="Avenir-Medium"/>
+                                                                    <real key="NSKern" value="0.0"/>
+                                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                                        <tabStops/>
+                                                                    </paragraphStyle>
+                                                                    <color key="NSStrokeColor" red="0.12941" green="0.12941" blue="0.12941" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                        </attributedString>
+                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                    </textView>
+                                                </subviews>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstItem="nva-hK-zGb" firstAttribute="leading" secondItem="mS4-kt-qmO" secondAttribute="leading" id="1py-CK-Xq4"/>
+                                                    <constraint firstAttribute="bottom" secondItem="nva-hK-zGb" secondAttribute="bottom" id="3gc-z4-sJ3"/>
+                                                    <constraint firstItem="nva-hK-zGb" firstAttribute="trailing" secondItem="mS4-kt-qmO" secondAttribute="trailing" id="4w7-Hy-Rrn"/>
+                                                    <constraint firstItem="nva-hK-zGb" firstAttribute="top" secondItem="mS4-kt-qmO" secondAttribute="bottom" constant="8" symbolic="YES" id="LX7-sE-GUE"/>
+                                                    <constraint firstItem="nva-hK-zGb" firstAttribute="top" secondItem="d6s-BE-VNC" secondAttribute="top" constant="40" id="MAD-pr-BJd"/>
+                                                    <constraint firstAttribute="trailing" secondItem="nva-hK-zGb" secondAttribute="trailing" constant="-2" id="Ptu-Ne-j5e"/>
+                                                    <constraint firstItem="nva-hK-zGb" firstAttribute="leading" secondItem="d6s-BE-VNC" secondAttribute="leading" constant="8" id="wRx-6l-cbO"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1QQ-Tu-9sC">
+                                                <rect key="frame" x="8" y="1196" width="359" height="267"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d8X-VL-fVZ">
+                                                        <rect key="frame" x="8" y="8" width="256" height="24"/>
+                                                        <attributedString key="attributedText">
+                                                            <fragment content="Vilken tid räknas som arbetstid?">
+                                                                <attributes>
+                                                                    <font key="NSFont" size="17" name="Avenir-Heavy"/>
+                                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                        </attributedString>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QvN-kA-n7H">
+                                                        <rect key="frame" x="8" y="40" width="343" height="227"/>
+                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="227" id="tOL-bs-onj"/>
+                                                        </constraints>
+                                                        <attributedString key="attributedText">
+                                                            <fragment>
+                                                                <string key="content">All arbetstid räknas som arbetstid, det vill säga den tid som du står till arbetsgivarens förfogande. Rast är inte arbetstid, det är egen tid, och när man har rast står man inte heller till arbetsgivarens förfogande. 
+
+Det är därför viktigt att du loggar ur systemet när du har rast. Detta för att beräkningen av din arbetstid och din lön ska bli korrekt.
+</string>
+                                                                <attributes>
+                                                                    <color key="NSColor" red="0.12941" green="0.12941" blue="0.12941" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                    <font key="NSFont" size="16" name="Avenir-Medium"/>
+                                                                    <real key="NSKern" value="0.0"/>
+                                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                                        <tabStops/>
+                                                                    </paragraphStyle>
+                                                                    <color key="NSStrokeColor" red="0.12941" green="0.12941" blue="0.12941" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                        </attributedString>
+                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                    </textView>
+                                                </subviews>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstItem="QvN-kA-n7H" firstAttribute="top" secondItem="1QQ-Tu-9sC" secondAttribute="top" constant="40" id="JhM-oH-DYW"/>
+                                                    <constraint firstAttribute="bottom" secondItem="QvN-kA-n7H" secondAttribute="bottom" id="KWN-Ak-Cg4"/>
+                                                    <constraint firstItem="QvN-kA-n7H" firstAttribute="trailing" secondItem="d8X-VL-fVZ" secondAttribute="trailing" constant="87" id="Ve1-uh-ZBR"/>
+                                                    <constraint firstItem="QvN-kA-n7H" firstAttribute="leading" secondItem="1QQ-Tu-9sC" secondAttribute="leading" constant="8" id="bjA-Iu-0Ux"/>
+                                                    <constraint firstAttribute="trailing" secondItem="QvN-kA-n7H" secondAttribute="trailing" constant="8" id="eE9-5j-7aI"/>
+                                                    <constraint firstItem="QvN-kA-n7H" firstAttribute="leading" secondItem="d8X-VL-fVZ" secondAttribute="leading" id="tuw-eF-fbG"/>
+                                                    <constraint firstItem="QvN-kA-n7H" firstAttribute="top" secondItem="d8X-VL-fVZ" secondAttribute="bottom" constant="8" symbolic="YES" id="x88-gy-nlB"/>
+                                                </constraints>
+                                            </view>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lowerBorder" translatesAutoresizingMaskIntoConstraints="NO" id="FDB-p8-pMX">
-                                                <rect key="frame" x="0.0" y="1906" width="375" height="30"/>
+                                                <rect key="frame" x="0.0" y="1499" width="375" height="30"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="30" id="XLn-wZ-CsP"/>
                                                 </constraints>
                                             </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bip-3k-HTH">
-                                                <rect key="frame" x="8" y="57" width="359" height="60"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="60" id="EWC-I3-Eu8"/>
-                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="359" id="Hsj-57-jFa"/>
-                                                </constraints>
-                                                <string key="text">Du som arbetar på ett åkeri med kollektivavtal och kör på procentlön har rätt till garantilön.
-</string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstItem="FDB-p8-pMX" firstAttribute="leading" secondItem="cyI-6z-pUR" secondAttribute="leading" id="0UO-S7-3N8"/>
-                                            <constraint firstItem="JdK-l1-Kjw" firstAttribute="leading" secondItem="cyI-6z-pUR" secondAttribute="leading" constant="8" id="1a1-lw-ytg"/>
-                                            <constraint firstItem="5BQ-g5-wEf" firstAttribute="top" secondItem="JdK-l1-Kjw" secondAttribute="bottom" constant="-31" id="4Q8-FA-jR0"/>
-                                            <constraint firstItem="bip-3k-HTH" firstAttribute="top" secondItem="baJ-kY-YAW" secondAttribute="bottom" constant="8" id="5iP-VU-32T"/>
-                                            <constraint firstAttribute="trailing" secondItem="5BQ-g5-wEf" secondAttribute="trailing" constant="8" id="7gr-Uv-8HG"/>
+                                            <constraint firstItem="whK-Ih-fc1" firstAttribute="top" secondItem="U3q-zx-pct" secondAttribute="bottom" constant="8" symbolic="YES" id="3h3-St-9PX"/>
+                                            <constraint firstItem="U3q-zx-pct" firstAttribute="centerX" secondItem="FDB-p8-pMX" secondAttribute="centerX" id="4k6-cF-ahp"/>
+                                            <constraint firstItem="U3q-zx-pct" firstAttribute="top" secondItem="cyI-6z-pUR" secondAttribute="topMargin" id="6E6-BV-513"/>
+                                            <constraint firstItem="whK-Ih-fc1" firstAttribute="leading" secondItem="U3q-zx-pct" secondAttribute="leading" id="758-f8-7Zd"/>
                                             <constraint firstAttribute="trailing" secondItem="FDB-p8-pMX" secondAttribute="trailing" id="AMH-cH-K4j"/>
-                                            <constraint firstItem="baJ-kY-YAW" firstAttribute="leading" secondItem="cyI-6z-pUR" secondAttribute="leading" constant="8" id="Bto-oY-LOU"/>
-                                            <constraint firstAttribute="trailing" secondItem="dS1-tO-E1m" secondAttribute="trailing" constant="8" id="FOw-0s-04X"/>
-                                            <constraint firstItem="8Eu-tF-17A" firstAttribute="leading" secondItem="cyI-6z-pUR" secondAttribute="leading" constant="8" id="FbS-kU-u1o"/>
-                                            <constraint firstItem="dS1-tO-E1m" firstAttribute="leading" secondItem="cyI-6z-pUR" secondAttribute="leading" constant="8" id="JMV-6X-tlr"/>
-                                            <constraint firstAttribute="height" constant="1936" id="JmP-WU-kfo"/>
-                                            <constraint firstItem="baJ-kY-YAW" firstAttribute="top" secondItem="cyI-6z-pUR" secondAttribute="top" constant="28" id="LNb-Ta-Yes"/>
-                                            <constraint firstItem="dS1-tO-E1m" firstAttribute="top" secondItem="bip-3k-HTH" secondAttribute="bottom" constant="1" id="N6D-DM-3Mo"/>
-                                            <constraint firstAttribute="trailing" secondItem="8Eu-tF-17A" secondAttribute="trailing" constant="8" id="Oju-7e-BC7"/>
-                                            <constraint firstItem="6aE-f2-NOG" firstAttribute="top" secondItem="8Eu-tF-17A" secondAttribute="bottom" constant="-34" id="V74-cD-hHw"/>
-                                            <constraint firstAttribute="bottom" secondItem="FDB-p8-pMX" secondAttribute="bottom" id="Wk7-jl-CjB"/>
-                                            <constraint firstItem="5BQ-g5-wEf" firstAttribute="leading" secondItem="cyI-6z-pUR" secondAttribute="leading" constant="8" id="Y9r-ed-Pm7"/>
-                                            <constraint firstItem="8Eu-tF-17A" firstAttribute="top" secondItem="hrQ-hJ-Ou8" secondAttribute="bottom" constant="8" id="YRX-M0-0ap"/>
-                                            <constraint firstItem="hrQ-hJ-Ou8" firstAttribute="top" secondItem="5BQ-g5-wEf" secondAttribute="bottom" constant="20" id="fKc-k5-HYH"/>
-                                            <constraint firstItem="6aE-f2-NOG" firstAttribute="top" secondItem="8Eu-tF-17A" secondAttribute="bottom" constant="-34" id="fyh-Jd-71t"/>
-                                            <constraint firstItem="JdK-l1-Kjw" firstAttribute="top" secondItem="dS1-tO-E1m" secondAttribute="bottom" constant="4" id="gSF-kA-zHB"/>
-                                            <constraint firstItem="hrQ-hJ-Ou8" firstAttribute="leading" secondItem="8Eu-tF-17A" secondAttribute="leading" id="gUQ-9Y-csp"/>
-                                            <constraint firstAttribute="trailing" secondItem="baJ-kY-YAW" secondAttribute="trailing" constant="8" id="heN-nb-vNh"/>
-                                            <constraint firstItem="6aE-f2-NOG" firstAttribute="leading" secondItem="cyI-6z-pUR" secondAttribute="leading" constant="8" id="iCs-1h-cGV"/>
-                                            <constraint firstItem="hrQ-hJ-Ou8" firstAttribute="trailing" secondItem="8Eu-tF-17A" secondAttribute="trailing" id="kw4-zz-0ug"/>
-                                            <constraint firstAttribute="trailing" secondItem="bip-3k-HTH" secondAttribute="trailing" constant="8" id="kzU-L0-nm3"/>
-                                            <constraint firstAttribute="trailing" secondItem="6aE-f2-NOG" secondAttribute="trailing" constant="8" id="oAj-sY-3tX"/>
-                                            <constraint firstAttribute="trailing" secondItem="JdK-l1-Kjw" secondAttribute="trailing" constant="8" id="vJV-kh-o4T"/>
-                                            <constraint firstItem="bip-3k-HTH" firstAttribute="leading" secondItem="cyI-6z-pUR" secondAttribute="leading" constant="8" id="w7u-KA-HPF"/>
+                                            <constraint firstItem="d6s-BE-VNC" firstAttribute="leading" secondItem="Xs5-VC-I90" secondAttribute="leading" id="DOr-6O-Qep"/>
+                                            <constraint firstItem="DTE-aB-JVQ" firstAttribute="trailing" secondItem="whK-Ih-fc1" secondAttribute="trailing" id="EUU-Xf-j1l"/>
+                                            <constraint firstItem="Xs5-VC-I90" firstAttribute="leading" secondItem="DTE-aB-JVQ" secondAttribute="leading" id="ErJ-wk-KQM"/>
+                                            <constraint firstItem="whK-Ih-fc1" firstAttribute="trailing" secondItem="U3q-zx-pct" secondAttribute="trailing" id="J9q-IB-j2I"/>
+                                            <constraint firstAttribute="height" constant="1530" id="JmP-WU-kfo"/>
+                                            <constraint firstItem="DTE-aB-JVQ" firstAttribute="top" secondItem="whK-Ih-fc1" secondAttribute="bottom" constant="8" symbolic="YES" id="SaA-kj-lO3"/>
+                                            <constraint firstAttribute="bottom" secondItem="FDB-p8-pMX" secondAttribute="bottom" constant="1" id="Wk7-jl-CjB"/>
+                                            <constraint firstAttribute="bottom" secondItem="whK-Ih-fc1" secondAttribute="bottom" constant="1117" id="aM1-7W-cQf"/>
+                                            <constraint firstItem="1QQ-Tu-9sC" firstAttribute="leading" secondItem="d6s-BE-VNC" secondAttribute="leading" id="bKB-7L-Am6"/>
+                                            <constraint firstItem="1QQ-Tu-9sC" firstAttribute="top" secondItem="d6s-BE-VNC" secondAttribute="bottom" constant="8" symbolic="YES" id="cIU-de-Hxs"/>
+                                            <constraint firstItem="Xs5-VC-I90" firstAttribute="trailing" secondItem="DTE-aB-JVQ" secondAttribute="trailing" id="hWQ-qr-T8l"/>
+                                            <constraint firstItem="U3q-zx-pct" firstAttribute="leading" secondItem="cyI-6z-pUR" secondAttribute="leadingMargin" id="jFb-gj-JZe"/>
+                                            <constraint firstItem="d6s-BE-VNC" firstAttribute="top" secondItem="Xs5-VC-I90" secondAttribute="bottom" constant="8" symbolic="YES" id="okx-YV-zMQ"/>
+                                            <constraint firstItem="Xs5-VC-I90" firstAttribute="top" secondItem="DTE-aB-JVQ" secondAttribute="bottom" constant="8" symbolic="YES" id="sUJ-jb-pnV"/>
+                                            <constraint firstItem="DTE-aB-JVQ" firstAttribute="leading" secondItem="whK-Ih-fc1" secondAttribute="leading" id="ugS-T8-CyB"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -586,7 +799,7 @@ dCBtZWQgVHJhbnNwb3J0LgsKCg
                                     <constraint firstItem="cyI-6z-pUR" firstAttribute="top" secondItem="DrC-Br-Hwe" secondAttribute="top" id="5Vi-bP-2vp"/>
                                     <constraint firstAttribute="trailing" secondItem="cyI-6z-pUR" secondAttribute="trailing" id="ODF-FN-kip"/>
                                     <constraint firstItem="cyI-6z-pUR" firstAttribute="leading" secondItem="DrC-Br-Hwe" secondAttribute="leading" id="csb-cF-0nk"/>
-                                    <constraint firstAttribute="bottom" secondItem="cyI-6z-pUR" secondAttribute="bottom" id="zOF-1r-6M2"/>
+                                    <constraint firstAttribute="bottom" secondItem="cyI-6z-pUR" secondAttribute="bottom" constant="-1" id="zOF-1r-6M2"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
@@ -600,79 +813,91 @@ dCBtZWQgVHJhbnNwb3J0LgsKCg
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="B3k-Dd-ArS"/>
                     </view>
-                    <size key="freeformSize" width="375" height="2000"/>
+                    <size key="freeformSize" width="375" height="1593"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7K4-8U-aHp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1233" y="1639"/>
+            <point key="canvasLocation" x="1232.8" y="1638.9805097451276"/>
         </scene>
         <!--Show Calculated Salary View Controller-->
         <scene sceneID="xYb-eb-quq">
             <objects>
                 <viewController id="ukb-o9-Hae" customClass="ShowCalculatedSalaryViewController" customModule="Taxi_lo_n" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ma7-Np-iTv">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sSi-uf-BNf">
-                                <rect key="frame" x="0.0" y="617" width="375" height="50"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sSi-uf-BNf" customClass="BounceButton" customModule="Taxi_lo_n" customModuleProvider="target">
+                                <rect key="frame" x="15" y="742" width="344" height="50"/>
                                 <color key="backgroundColor" red="0.98039215686274506" green="0.81960784313725488" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="Fbz-fL-JIf"/>
+                                    <constraint firstAttribute="height" constant="50" id="cXJ-Wb-Bie"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <state key="normal" title="Stäng">
                                     <color key="titleColor" red="0.078431372550000003" green="0.078431372550000003" blue="0.078431372550000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10"/>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="closeButton:" destination="ukb-o9-Hae" eventType="touchUpInside" id="0Jo-8f-rpV"/>
                                     <action selector="goBack" destination="T1t-JL-otW" eventType="touchUpInside" id="HFP-eU-WO3"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="26 000kr" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="37" translatesAutoresizingMaskIntoConstraints="NO" id="PRW-I8-rnF">
-                                <rect key="frame" x="16" y="75" width="343" height="89"/>
+                                <rect key="frame" x="16" y="99" width="296" height="89"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="74"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Din månadslön ska minst vara:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="ZEA-3a-ebC">
-                                <rect key="frame" x="17" y="47" width="343" height="21"/>
+                                <rect key="frame" x="17" y="71" width="343" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="* Månadslön + semesterersättning" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="l2x-rT-C4O">
-                                <rect key="frame" x="17" y="185" width="343" height="21"/>
+                                <rect key="frame" x="17" y="209" width="343" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="26 000kr" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="37" translatesAutoresizingMaskIntoConstraints="NO" id="aKg-bC-p4V">
-                                <rect key="frame" x="17" y="213" width="343" height="89"/>
+                                <rect key="frame" x="17" y="237" width="343" height="89"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="74"/>
                                 <color key="textColor" red="0.58072251080000004" green="0.066734083" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Genomsnittlig timlön:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="Zop-Rl-IGt">
-                                <rect key="frame" x="16" y="310" width="149.5" height="18"/>
+                                <rect key="frame" x="16" y="334" width="150" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="bI7-3d-yiq"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="* Semesterersättning:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="hEr-x5-hey">
-                                <rect key="frame" x="16" y="347" width="149.5" height="18"/>
+                                <rect key="frame" x="16" y="371" width="150" height="18"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="150 kr" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="4s7-0l-Vc3">
-                                <rect key="frame" x="193" y="308" width="112" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="150 kr" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="4s7-0l-Vc3">
+                                <rect key="frame" x="193" y="332" width="166" height="21"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                 <color key="textColor" red="0.47612626903553301" green="0.47612626903553301" blue="0.47612626903553301" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="150 kr" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="mEw-Sv-zYi">
+                                <rect key="frame" x="193" y="368" width="166" height="21"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                <color key="textColor" red="0.43529412150000002" green="0.4431372583" blue="0.47450980539999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="ocU-Od-LY4" customClass="EdgeInsetLabel" customModule="Taxi_lo_n" customModuleProvider="target">
-                                <rect key="frame" x="16" y="507" width="343" height="94"/>
+                                <rect key="frame" x="16" y="420" width="343" height="93.666666666666629"/>
                                 <string key="text">* I det fall semesterersättning utbetalas vid varje lönetillfälle skall den minst vara den angivna summan. I annat fall skall ersättningen samlas ihopa och utbetalas i samband med att man har semester.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <nil key="textColor"/>
@@ -693,44 +918,36 @@ dCBtZWQgVHJhbnNwb3J0LgsKCg
                                     <userDefinedRuntimeAttribute type="string" keyPath="layer.borderWidth" value="1"/>
                                 </userDefinedRuntimeAttributes>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="150 kr" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="mEw-Sv-zYi">
-                                <rect key="frame" x="192.5" y="344" width="166.5" height="21"/>
-                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
-                                <color key="textColor" red="0.43529412150000002" green="0.4431372583" blue="0.47450980539999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="hEr-x5-hey" firstAttribute="top" secondItem="Zop-Rl-IGt" secondAttribute="bottom" constant="19" id="0rV-Sg-WnN"/>
-                            <constraint firstItem="ZEA-3a-ebC" firstAttribute="trailing" secondItem="l2x-rT-C4O" secondAttribute="trailing" id="35O-zv-dmP"/>
-                            <constraint firstItem="PRW-I8-rnF" firstAttribute="centerX" secondItem="sSi-uf-BNf" secondAttribute="centerX" id="5D3-4t-fLT"/>
-                            <constraint firstItem="sSi-uf-BNf" firstAttribute="bottom" secondItem="XPZ-2s-jNc" secondAttribute="bottom" id="5Fj-aK-VzI"/>
-                            <constraint firstItem="XPZ-2s-jNc" firstAttribute="trailing" secondItem="mEw-Sv-zYi" secondAttribute="trailing" constant="16" id="5ID-VG-NXY"/>
-                            <constraint firstItem="Zop-Rl-IGt" firstAttribute="leading" secondItem="ma7-Np-iTv" secondAttribute="leadingMargin" id="9aj-rm-OX5"/>
-                            <constraint firstItem="Zop-Rl-IGt" firstAttribute="top" secondItem="aKg-bC-p4V" secondAttribute="bottom" constant="8" symbolic="YES" id="AcE-fj-e0o"/>
-                            <constraint firstItem="PRW-I8-rnF" firstAttribute="leading" secondItem="Zop-Rl-IGt" secondAttribute="leading" id="Co0-1x-fZo"/>
-                            <constraint firstItem="l2x-rT-C4O" firstAttribute="leading" secondItem="aKg-bC-p4V" secondAttribute="leading" id="DZR-rS-dZP"/>
-                            <constraint firstItem="XPZ-2s-jNc" firstAttribute="trailing" secondItem="ocU-Od-LY4" secondAttribute="trailing" constant="16" id="Duh-uO-xOV"/>
-                            <constraint firstItem="ZEA-3a-ebC" firstAttribute="leading" secondItem="XPZ-2s-jNc" secondAttribute="leading" constant="17" id="GaZ-ym-Ki0"/>
-                            <constraint firstItem="ZEA-3a-ebC" firstAttribute="leading" secondItem="l2x-rT-C4O" secondAttribute="leading" id="HnN-Sc-YdY"/>
-                            <constraint firstItem="hEr-x5-hey" firstAttribute="leading" secondItem="Zop-Rl-IGt" secondAttribute="leading" id="JbZ-D7-PRD"/>
-                            <constraint firstItem="4s7-0l-Vc3" firstAttribute="baseline" secondItem="Zop-Rl-IGt" secondAttribute="baseline" id="M0m-mV-AOi"/>
-                            <constraint firstItem="hEr-x5-hey" firstAttribute="trailing" secondItem="Zop-Rl-IGt" secondAttribute="trailing" id="M1e-HD-z3N"/>
-                            <constraint firstItem="sSi-uf-BNf" firstAttribute="top" secondItem="ocU-Od-LY4" secondAttribute="bottom" constant="16" id="RxL-cN-YAa"/>
-                            <constraint firstItem="Zop-Rl-IGt" firstAttribute="top" secondItem="aKg-bC-p4V" secondAttribute="bottom" constant="8" id="V5a-YF-V4E"/>
-                            <constraint firstItem="hEr-x5-hey" firstAttribute="bottom" secondItem="mEw-Sv-zYi" secondAttribute="bottom" id="Wml-wM-Hom"/>
-                            <constraint firstItem="XPZ-2s-jNc" firstAttribute="trailing" secondItem="ZEA-3a-ebC" secondAttribute="trailing" constant="15" id="Xkz-R5-Yc8"/>
-                            <constraint firstItem="PRW-I8-rnF" firstAttribute="top" secondItem="ZEA-3a-ebC" secondAttribute="bottom" constant="7" id="ZoO-9l-cHy"/>
-                            <constraint firstItem="ZEA-3a-ebC" firstAttribute="top" secondItem="XPZ-2s-jNc" secondAttribute="top" constant="27" id="fsO-6G-AR8"/>
-                            <constraint firstItem="aKg-bC-p4V" firstAttribute="top" secondItem="l2x-rT-C4O" secondAttribute="bottom" constant="7" id="j2Z-vb-ew6"/>
-                            <constraint firstItem="ocU-Od-LY4" firstAttribute="leading" secondItem="XPZ-2s-jNc" secondAttribute="leading" constant="16" id="jnB-tp-1UG"/>
-                            <constraint firstAttribute="trailing" secondItem="sSi-uf-BNf" secondAttribute="trailing" id="mk8-5F-JfB"/>
-                            <constraint firstItem="4s7-0l-Vc3" firstAttribute="leading" secondItem="Zop-Rl-IGt" secondAttribute="trailing" constant="27.5" id="neg-O5-pbU"/>
-                            <constraint firstItem="sSi-uf-BNf" firstAttribute="leading" secondItem="ma7-Np-iTv" secondAttribute="leading" id="ryE-ah-Nbt"/>
-                            <constraint firstItem="l2x-rT-C4O" firstAttribute="trailing" secondItem="aKg-bC-p4V" secondAttribute="trailing" id="vQZ-68-jKK"/>
-                            <constraint firstItem="mEw-Sv-zYi" firstAttribute="leading" secondItem="hEr-x5-hey" secondAttribute="trailing" constant="27" id="wPV-i3-cB8"/>
-                            <constraint firstItem="l2x-rT-C4O" firstAttribute="top" secondItem="PRW-I8-rnF" secondAttribute="bottom" constant="21" id="zbM-vc-TV8"/>
+                            <constraint firstAttribute="bottom" secondItem="sSi-uf-BNf" secondAttribute="bottom" constant="20" symbolic="YES" id="1LA-Rf-7FB"/>
+                            <constraint firstItem="hEr-x5-hey" firstAttribute="leading" secondItem="ocU-Od-LY4" secondAttribute="leading" id="2a4-DC-kPp"/>
+                            <constraint firstItem="ocU-Od-LY4" firstAttribute="trailing" secondItem="sSi-uf-BNf" secondAttribute="trailing" id="4F5-3C-vjk"/>
+                            <constraint firstItem="aKg-bC-p4V" firstAttribute="top" secondItem="l2x-rT-C4O" secondAttribute="bottom" constant="7" id="4HJ-r3-scq"/>
+                            <constraint firstItem="4s7-0l-Vc3" firstAttribute="trailing" secondItem="mEw-Sv-zYi" secondAttribute="trailing" id="5Eu-Bg-BOC"/>
+                            <constraint firstItem="Zop-Rl-IGt" firstAttribute="leading" secondItem="hEr-x5-hey" secondAttribute="leading" id="5Pm-12-HMF"/>
+                            <constraint firstItem="ZEA-3a-ebC" firstAttribute="leading" secondItem="XPZ-2s-jNc" secondAttribute="leading" constant="17" id="7Xz-YG-yqG"/>
+                            <constraint firstItem="ocU-Od-LY4" firstAttribute="top" secondItem="hEr-x5-hey" secondAttribute="bottom" constant="31" id="9wM-BD-Zus"/>
+                            <constraint firstItem="PRW-I8-rnF" firstAttribute="leading" secondItem="ma7-Np-iTv" secondAttribute="leadingMargin" id="Cxf-fO-3cU"/>
+                            <constraint firstItem="ocU-Od-LY4" firstAttribute="centerX" secondItem="sSi-uf-BNf" secondAttribute="centerX" id="FFO-iz-HQ9"/>
+                            <constraint firstItem="4s7-0l-Vc3" firstAttribute="leading" secondItem="Zop-Rl-IGt" secondAttribute="trailing" constant="27" id="IB3-BJ-4Ab"/>
+                            <constraint firstItem="hEr-x5-hey" firstAttribute="bottom" secondItem="mEw-Sv-zYi" secondAttribute="bottom" id="KKG-6e-KdL"/>
+                            <constraint firstItem="mEw-Sv-zYi" firstAttribute="top" secondItem="4s7-0l-Vc3" secondAttribute="bottom" constant="15" id="KwQ-wu-Xiy"/>
+                            <constraint firstItem="ZEA-3a-ebC" firstAttribute="trailing" secondItem="l2x-rT-C4O" secondAttribute="trailing" id="NgQ-Qf-M9g"/>
+                            <constraint firstItem="ZEA-3a-ebC" firstAttribute="top" secondItem="XPZ-2s-jNc" secondAttribute="top" constant="27" id="Oz9-1Z-08E"/>
+                            <constraint firstItem="XPZ-2s-jNc" firstAttribute="trailing" secondItem="ZEA-3a-ebC" secondAttribute="trailing" constant="15" id="Tpu-NV-pti"/>
+                            <constraint firstItem="Zop-Rl-IGt" firstAttribute="baseline" secondItem="4s7-0l-Vc3" secondAttribute="baseline" id="Twc-9P-Hd1"/>
+                            <constraint firstItem="l2x-rT-C4O" firstAttribute="trailing" secondItem="aKg-bC-p4V" secondAttribute="trailing" id="UbR-7U-2Hz"/>
+                            <constraint firstItem="mEw-Sv-zYi" firstAttribute="trailing" secondItem="ocU-Od-LY4" secondAttribute="trailing" id="VeN-tn-XaU"/>
+                            <constraint firstItem="4s7-0l-Vc3" firstAttribute="leading" secondItem="mEw-Sv-zYi" secondAttribute="leading" id="ZKa-vg-c4M"/>
+                            <constraint firstItem="PRW-I8-rnF" firstAttribute="top" secondItem="ZEA-3a-ebC" secondAttribute="bottom" constant="7" id="d7G-8C-x8j"/>
+                            <constraint firstItem="Zop-Rl-IGt" firstAttribute="top" secondItem="aKg-bC-p4V" secondAttribute="bottom" constant="8" symbolic="YES" id="gjA-4t-nbG"/>
+                            <constraint firstItem="ZEA-3a-ebC" firstAttribute="leading" secondItem="l2x-rT-C4O" secondAttribute="leading" id="hoZ-YT-djV"/>
+                            <constraint firstItem="4s7-0l-Vc3" firstAttribute="trailing" secondItem="ma7-Np-iTv" secondAttribute="trailingMargin" id="nRr-Eh-rpl"/>
+                            <constraint firstItem="PRW-I8-rnF" firstAttribute="leading" secondItem="Zop-Rl-IGt" secondAttribute="leading" id="pTD-Z8-ZXN"/>
+                            <constraint firstItem="l2x-rT-C4O" firstAttribute="leading" secondItem="aKg-bC-p4V" secondAttribute="leading" id="wgH-bV-qmt"/>
+                            <constraint firstItem="l2x-rT-C4O" firstAttribute="top" secondItem="PRW-I8-rnF" secondAttribute="bottom" constant="21" id="zXf-A4-Myh"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="XPZ-2s-jNc"/>
                     </view>
@@ -743,22 +960,466 @@ dCBtZWQgVHJhbnNwb3J0LgsKCg
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="T1t-JL-otW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2146.875" y="-546.12676056338034"/>
+            <point key="canvasLocation" x="2145" y="-547.18309859154931"/>
         </scene>
         <!--Månadslön-->
         <scene sceneID="hM9-eJ-fcL">
             <objects>
                 <viewController title="Månadslön" id="bRz-fY-19U" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Fet-yu-ccf">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="800"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Uqm-Yy-HlE">
+                                <rect key="frame" x="0.0" y="88" width="375" height="678"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CiQ-Cc-mgc">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="736"/>
+                                        <subviews>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" adjustsFontForContentSizeCategory="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JHu-qv-trK">
+                                                <rect key="frame" x="16" y="8" width="343" height="259"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="259" id="jdB-3K-t7p"/>
+                                                </constraints>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="Från och med den 1 december 2017 ">
+                                                        <attributes>
+                                                            <font key="NSFont" size="16" name="Avenir-Medium"/>
+                                                            <font key="NSOriginalFont" size="11" name="Avenir-Book"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="måste">
+                                                        <attributes>
+                                                            <font key="NSFont" size="18" name="Avenir-HeavyOblique"/>
+                                                            <font key="NSOriginalFont" size="11" name="Avenir-Book"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment>
+                                                        <string key="content"> arbetsgivare betala månadslön till de anställda som enbart kör samhällsbetalda körningar som är upphandlade efter samma datum. Exempelvis färdtjänst, sjukresor och skolskjuts.
+ 
+</string>
+                                                        <attributes>
+                                                            <font key="NSFont" size="16" name="Avenir-Medium"/>
+                                                            <font key="NSOriginalFont" size="11" name="Avenir-Book"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="Arbetsgivaren ">
+                                                        <attributes>
+                                                            <font key="NSFont" size="16" name="Avenir-Medium"/>
+                                                            <font key="NSOriginalFont" size="11" name="Avenir-Book"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="kan">
+                                                        <attributes>
+                                                            <font key="NSFont" size="18" name="Avenir-HeavyOblique"/>
+                                                            <font key="NSOriginalFont" size="11" name="Avenir-Book"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment>
+                                                        <string key="content"> också välja att avlöna även de som kör blandade körningar (Samhällsbetald taxitrafik och övrig taxitrafik) med månadslön enligt kollektivavtalet.</string>
+                                                        <attributes>
+                                                            <font key="NSFont" size="16" name="Avenir-Medium"/>
+                                                            <font key="NSOriginalFont" size="11" name="Avenir-Book"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2rU-ql-jAg">
+                                                <rect key="frame" x="16" y="275" width="343" height="124"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GKv-B3-VRZ">
+                                                        <rect key="frame" x="5" y="0.0" width="333" height="24"/>
+                                                        <attributedString key="attributedText">
+                                                            <fragment content="Begynnelselön för förare">
+                                                                <attributes>
+                                                                    <font key="NSFont" size="17" name="Avenir-Heavy"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                        </attributedString>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fzb-rL-WVn">
+                                                        <rect key="frame" x="5" y="32" width="132" height="22"/>
+                                                        <attributedString key="attributedText">
+                                                            <fragment content="Månadslön, minst:">
+                                                                <attributes>
+                                                                    <font key="NSFont" size="16" name="Avenir-Medium"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                        </attributedString>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5BK-Yd-yyg">
+                                                        <rect key="frame" x="245" y="32" width="90" height="22"/>
+                                                        <attributedString key="attributedText">
+                                                            <fragment content="22 758,00 kr">
+                                                                <attributes>
+                                                                    <font key="NSFont" size="16" name="Avenir-Medium"/>
+                                                                    <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                        </attributedString>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LbV-Sf-z3F">
+                                                        <rect key="frame" x="267" y="62" width="68" height="22"/>
+                                                        <attributedString key="attributedText">
+                                                            <fragment content="130,79 kr">
+                                                                <attributes>
+                                                                    <font key="NSFont" size="16" name="Avenir-Medium"/>
+                                                                    <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                        </attributedString>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tbq-Mb-lEf">
+                                                        <rect key="frame" x="5" y="92" width="226" height="22"/>
+                                                        <attributedString key="attributedText">
+                                                            <fragment content="Timlön, 1/174 av månadslönen:">
+                                                                <attributes>
+                                                                    <font key="NSFont" size="16" name="Avenir-Medium"/>
+                                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                        </attributedString>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DHW-fX-NXq">
+                                                        <rect key="frame" x="5" y="62" width="239" height="22"/>
+                                                        <attributedString key="attributedText">
+                                                            <fragment content="Timlön, 1/166,4 av månadslönen:">
+                                                                <attributes>
+                                                                    <font key="NSFont" size="16" name="Avenir-Medium"/>
+                                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                        </attributedString>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jcp-3H-GBo">
+                                                        <rect key="frame" x="267" y="92" width="68" height="22"/>
+                                                        <attributedString key="attributedText">
+                                                            <fragment content="136,77 kr">
+                                                                <attributes>
+                                                                    <font key="NSFont" size="16" name="Avenir-Medium"/>
+                                                                    <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                        </attributedString>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <constraints>
+                                                    <constraint firstItem="GKv-B3-VRZ" firstAttribute="leading" secondItem="DHW-fX-NXq" secondAttribute="leading" id="3Jl-2J-lEg"/>
+                                                    <constraint firstItem="Tbq-Mb-lEf" firstAttribute="top" secondItem="DHW-fX-NXq" secondAttribute="bottom" constant="8" symbolic="YES" id="41k-RQ-ixU"/>
+                                                    <constraint firstItem="GKv-B3-VRZ" firstAttribute="leading" secondItem="2rU-ql-jAg" secondAttribute="leading" constant="5" id="GgW-dH-Ouf"/>
+                                                    <constraint firstItem="5BK-Yd-yyg" firstAttribute="top" secondItem="GKv-B3-VRZ" secondAttribute="bottom" constant="8" symbolic="YES" id="JKF-rR-eFI"/>
+                                                    <constraint firstItem="Fzb-rL-WVn" firstAttribute="top" secondItem="GKv-B3-VRZ" secondAttribute="bottom" constant="8" symbolic="YES" id="QNt-D0-ImI"/>
+                                                    <constraint firstAttribute="trailing" secondItem="GKv-B3-VRZ" secondAttribute="trailing" constant="5" id="Um9-W9-yTP"/>
+                                                    <constraint firstItem="LbV-Sf-z3F" firstAttribute="leading" secondItem="jcp-3H-GBo" secondAttribute="leading" id="XD7-wM-EG4"/>
+                                                    <constraint firstAttribute="bottom" secondItem="Tbq-Mb-lEf" secondAttribute="bottom" constant="10" id="XNk-Nf-gcX"/>
+                                                    <constraint firstItem="GKv-B3-VRZ" firstAttribute="leading" secondItem="Tbq-Mb-lEf" secondAttribute="leading" id="Xn3-Aq-lLa"/>
+                                                    <constraint firstItem="5BK-Yd-yyg" firstAttribute="trailing" secondItem="LbV-Sf-z3F" secondAttribute="trailing" id="as8-Br-Dth"/>
+                                                    <constraint firstItem="Tbq-Mb-lEf" firstAttribute="baseline" secondItem="jcp-3H-GBo" secondAttribute="baseline" id="f1D-vF-4cE"/>
+                                                    <constraint firstItem="5BK-Yd-yyg" firstAttribute="trailing" secondItem="2rU-ql-jAg" secondAttribute="trailingMargin" id="hbt-Be-1XH"/>
+                                                    <constraint firstItem="DHW-fX-NXq" firstAttribute="top" secondItem="Fzb-rL-WVn" secondAttribute="bottom" constant="8" symbolic="YES" id="kvr-2U-Ifa"/>
+                                                    <constraint firstItem="DHW-fX-NXq" firstAttribute="baseline" secondItem="LbV-Sf-z3F" secondAttribute="baseline" id="sIN-Za-unh"/>
+                                                    <constraint firstItem="GKv-B3-VRZ" firstAttribute="top" secondItem="2rU-ql-jAg" secondAttribute="top" id="y2U-ng-Wr1"/>
+                                                    <constraint firstItem="GKv-B3-VRZ" firstAttribute="leading" secondItem="Fzb-rL-WVn" secondAttribute="leading" id="ywQ-Vb-Std"/>
+                                                </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.borderWidth" value="1"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Gk-46-Nsi">
+                                                <rect key="frame" x="16" y="407" width="343" height="124"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S8l-Gz-lir">
+                                                        <rect key="frame" x="5" y="0.0" width="333" height="24"/>
+                                                        <attributedString key="attributedText">
+                                                            <fragment content="Lön för förare efter 2år i yrket">
+                                                                <attributes>
+                                                                    <font key="NSFont" size="17" name="Avenir-Heavy"/>
+                                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                        </attributedString>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WFr-3N-PA2">
+                                                        <rect key="frame" x="5" y="32" width="132" height="22"/>
+                                                        <attributedString key="attributedText">
+                                                            <fragment content="Månadslön, minst:">
+                                                                <attributes>
+                                                                    <font key="NSFont" size="16" name="Avenir-Medium"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                        </attributedString>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sIt-Xj-Bgu">
+                                                        <rect key="frame" x="245" y="32" width="90" height="22"/>
+                                                        <attributedString key="attributedText">
+                                                            <fragment content="23 239,00 kr">
+                                                                <attributes>
+                                                                    <font key="NSFont" size="16" name="Avenir-Medium"/>
+                                                                    <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                        </attributedString>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uSQ-vl-tQB">
+                                                        <rect key="frame" x="267" y="62" width="68" height="22"/>
+                                                        <attributedString key="attributedText">
+                                                            <fragment content="133,55 kr">
+                                                                <attributes>
+                                                                    <font key="NSFont" size="16" name="Avenir-Medium"/>
+                                                                    <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                        </attributedString>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D4j-wP-JEw">
+                                                        <rect key="frame" x="5" y="92" width="226" height="22"/>
+                                                        <attributedString key="attributedText">
+                                                            <fragment content="Timlön, 1/174 av månadslönen:">
+                                                                <attributes>
+                                                                    <font key="NSFont" size="16" name="Avenir-Medium"/>
+                                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                        </attributedString>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DIc-MQ-CGI">
+                                                        <rect key="frame" x="5" y="62" width="239" height="22"/>
+                                                        <attributedString key="attributedText">
+                                                            <fragment content="Timlön, 1/166,4 av månadslönen:">
+                                                                <attributes>
+                                                                    <font key="NSFont" size="16" name="Avenir-Medium"/>
+                                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                        </attributedString>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bkh-h3-gJK">
+                                                        <rect key="frame" x="267" y="92" width="68" height="22"/>
+                                                        <attributedString key="attributedText">
+                                                            <fragment content="139,66 kr">
+                                                                <attributes>
+                                                                    <font key="NSFont" size="16" name="Avenir-Medium"/>
+                                                                    <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                        </attributedString>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <constraints>
+                                                    <constraint firstItem="sIt-Xj-Bgu" firstAttribute="trailing" secondItem="uSQ-vl-tQB" secondAttribute="trailing" id="0kg-lq-8mc"/>
+                                                    <constraint firstItem="DIc-MQ-CGI" firstAttribute="top" secondItem="WFr-3N-PA2" secondAttribute="bottom" constant="8" symbolic="YES" id="1by-9o-ApO"/>
+                                                    <constraint firstAttribute="trailing" secondItem="S8l-Gz-lir" secondAttribute="trailing" constant="5" id="1sf-Ll-KIb"/>
+                                                    <constraint firstItem="sIt-Xj-Bgu" firstAttribute="trailing" secondItem="6Gk-46-Nsi" secondAttribute="trailingMargin" id="5mw-NW-yML"/>
+                                                    <constraint firstItem="DIc-MQ-CGI" firstAttribute="baseline" secondItem="uSQ-vl-tQB" secondAttribute="baseline" id="AeZ-8Z-mZv"/>
+                                                    <constraint firstItem="S8l-Gz-lir" firstAttribute="top" secondItem="6Gk-46-Nsi" secondAttribute="top" id="GVJ-4f-S6S"/>
+                                                    <constraint firstItem="D4j-wP-JEw" firstAttribute="baseline" secondItem="Bkh-h3-gJK" secondAttribute="baseline" id="MM1-fC-Uj6"/>
+                                                    <constraint firstItem="D4j-wP-JEw" firstAttribute="top" secondItem="DIc-MQ-CGI" secondAttribute="bottom" constant="8" symbolic="YES" id="MgM-lI-sQ2"/>
+                                                    <constraint firstItem="WFr-3N-PA2" firstAttribute="top" secondItem="S8l-Gz-lir" secondAttribute="bottom" constant="8" symbolic="YES" id="VRF-xz-b55"/>
+                                                    <constraint firstItem="sIt-Xj-Bgu" firstAttribute="top" secondItem="S8l-Gz-lir" secondAttribute="bottom" constant="8" symbolic="YES" id="Ydp-qQ-6kD"/>
+                                                    <constraint firstItem="S8l-Gz-lir" firstAttribute="leading" secondItem="D4j-wP-JEw" secondAttribute="leading" id="b4B-tg-50u"/>
+                                                    <constraint firstItem="uSQ-vl-tQB" firstAttribute="leading" secondItem="Bkh-h3-gJK" secondAttribute="leading" id="cBa-cq-ZTS"/>
+                                                    <constraint firstItem="S8l-Gz-lir" firstAttribute="leading" secondItem="DIc-MQ-CGI" secondAttribute="leading" id="f8J-92-Gr2"/>
+                                                    <constraint firstItem="S8l-Gz-lir" firstAttribute="leading" secondItem="6Gk-46-Nsi" secondAttribute="leading" constant="5" id="jbK-DD-500"/>
+                                                    <constraint firstAttribute="bottom" secondItem="D4j-wP-JEw" secondAttribute="bottom" constant="10" id="soO-dv-YwV"/>
+                                                    <constraint firstItem="S8l-Gz-lir" firstAttribute="leading" secondItem="WFr-3N-PA2" secondAttribute="leading" id="txG-rO-2pf"/>
+                                                </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.borderWidth" value="1"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RKA-1d-J5X">
+                                                <rect key="frame" x="16" y="539" width="343" height="148"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vtk-9Y-Wb8">
+                                                        <rect key="frame" x="5" y="0.0" width="333" height="48"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="48" id="Q97-PD-40W"/>
+                                                        </constraints>
+                                                        <attributedString key="attributedText">
+                                                            <fragment content="Biträden ">
+                                                                <attributes>
+                                                                    <font key="NSFont" size="17" name="Avenir-Heavy"/>
+                                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                            <fragment content="(arbetare som sitter brevid föraren och som inte har taxilegitimation)">
+                                                                <attributes>
+                                                                    <font key="NSFont" size="16" name="Avenir-Medium"/>
+                                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                        </attributedString>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8sI-Ty-taQ">
+                                                        <rect key="frame" x="5" y="56" width="132" height="22"/>
+                                                        <attributedString key="attributedText">
+                                                            <fragment content="Månadslön, minst:">
+                                                                <attributes>
+                                                                    <font key="NSFont" size="16" name="Avenir-Medium"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                        </attributedString>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IGz-F2-tiJ">
+                                                        <rect key="frame" x="245" y="56" width="90" height="22"/>
+                                                        <attributedString key="attributedText">
+                                                            <fragment content="20 482,00 kr">
+                                                                <attributes>
+                                                                    <font key="NSFont" size="16" name="Avenir-Medium"/>
+                                                                    <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                        </attributedString>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Lh-5M-8Ed">
+                                                        <rect key="frame" x="267" y="86" width="68" height="22"/>
+                                                        <attributedString key="attributedText">
+                                                            <fragment content="117,71 kr">
+                                                                <attributes>
+                                                                    <font key="NSFont" size="16" name="Avenir-Medium"/>
+                                                                    <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                        </attributedString>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LIE-ot-YaO">
+                                                        <rect key="frame" x="5" y="116" width="226" height="22"/>
+                                                        <attributedString key="attributedText">
+                                                            <fragment content="Timlön, 1/174 av månadslönen:">
+                                                                <attributes>
+                                                                    <font key="NSFont" size="16" name="Avenir-Medium"/>
+                                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                        </attributedString>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UTF-o9-j4Q">
+                                                        <rect key="frame" x="5" y="86" width="239" height="22"/>
+                                                        <attributedString key="attributedText">
+                                                            <fragment content="Timlön, 1/166,4 av månadslönen:">
+                                                                <attributes>
+                                                                    <font key="NSFont" size="16" name="Avenir-Medium"/>
+                                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                        </attributedString>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a6z-T9-0bf">
+                                                        <rect key="frame" x="267" y="116" width="68" height="22"/>
+                                                        <attributedString key="attributedText">
+                                                            <fragment content="123,09 kr">
+                                                                <attributes>
+                                                                    <font key="NSFont" size="16" name="Avenir-Medium"/>
+                                                                    <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                        </attributedString>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <constraints>
+                                                    <constraint firstItem="IGz-F2-tiJ" firstAttribute="trailing" secondItem="9Lh-5M-8Ed" secondAttribute="trailing" id="2ZP-Io-sBz"/>
+                                                    <constraint firstItem="Vtk-9Y-Wb8" firstAttribute="leading" secondItem="UTF-o9-j4Q" secondAttribute="leading" id="8oV-TY-uaA"/>
+                                                    <constraint firstAttribute="trailing" secondItem="Vtk-9Y-Wb8" secondAttribute="trailing" constant="5" id="Gr0-It-vxI"/>
+                                                    <constraint firstItem="Vtk-9Y-Wb8" firstAttribute="leading" secondItem="8sI-Ty-taQ" secondAttribute="leading" id="IxQ-ux-9wb"/>
+                                                    <constraint firstItem="8sI-Ty-taQ" firstAttribute="top" secondItem="Vtk-9Y-Wb8" secondAttribute="bottom" constant="8" symbolic="YES" id="Ly5-hx-MLz"/>
+                                                    <constraint firstItem="IGz-F2-tiJ" firstAttribute="top" secondItem="Vtk-9Y-Wb8" secondAttribute="bottom" constant="8" symbolic="YES" id="PUL-50-9Bz"/>
+                                                    <constraint firstItem="IGz-F2-tiJ" firstAttribute="trailing" secondItem="RKA-1d-J5X" secondAttribute="trailingMargin" id="Xcp-vY-QzS"/>
+                                                    <constraint firstItem="LIE-ot-YaO" firstAttribute="baseline" secondItem="a6z-T9-0bf" secondAttribute="baseline" id="Y3Y-a8-6iQ"/>
+                                                    <constraint firstItem="UTF-o9-j4Q" firstAttribute="baseline" secondItem="9Lh-5M-8Ed" secondAttribute="baseline" id="awH-An-bWa"/>
+                                                    <constraint firstItem="Vtk-9Y-Wb8" firstAttribute="leading" secondItem="RKA-1d-J5X" secondAttribute="leading" constant="5" id="bdH-cj-DVQ"/>
+                                                    <constraint firstItem="Vtk-9Y-Wb8" firstAttribute="top" secondItem="RKA-1d-J5X" secondAttribute="top" id="eiB-Nj-PGn"/>
+                                                    <constraint firstItem="Vtk-9Y-Wb8" firstAttribute="leading" secondItem="LIE-ot-YaO" secondAttribute="leading" id="fAs-k5-hSg"/>
+                                                    <constraint firstItem="9Lh-5M-8Ed" firstAttribute="leading" secondItem="a6z-T9-0bf" secondAttribute="leading" id="qA5-e4-Ng1"/>
+                                                    <constraint firstAttribute="bottom" secondItem="LIE-ot-YaO" secondAttribute="bottom" constant="10" id="sXn-cm-3R4"/>
+                                                    <constraint firstItem="LIE-ot-YaO" firstAttribute="top" secondItem="UTF-o9-j4Q" secondAttribute="bottom" constant="8" symbolic="YES" id="vzE-gJ-NQu"/>
+                                                    <constraint firstItem="UTF-o9-j4Q" firstAttribute="top" secondItem="8sI-Ty-taQ" secondAttribute="bottom" constant="8" symbolic="YES" id="zz1-SK-qSJ"/>
+                                                </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.borderWidth" value="1"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lowerBorder" translatesAutoresizingMaskIntoConstraints="NO" id="WDD-P9-8sU">
+                                                <rect key="frame" x="0.0" y="706" width="375" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="3pe-Kg-LOx"/>
+                                                    <constraint firstAttribute="height" constant="30" id="csU-Lt-mCe"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="JHu-qv-trK" secondAttribute="trailing" constant="16" id="0eH-SC-OCl"/>
+                                            <constraint firstItem="JHu-qv-trK" firstAttribute="leading" secondItem="CiQ-Cc-mgc" secondAttribute="leading" constant="16" id="1IK-sJ-mu8"/>
+                                            <constraint firstAttribute="trailing" secondItem="RKA-1d-J5X" secondAttribute="trailing" constant="16" id="2b6-IA-s0a"/>
+                                            <constraint firstAttribute="bottom" secondItem="WDD-P9-8sU" secondAttribute="bottom" id="2lh-kb-t5D"/>
+                                            <constraint firstAttribute="height" constant="736" id="3MX-v0-LN6"/>
+                                            <constraint firstItem="RKA-1d-J5X" firstAttribute="top" secondItem="6Gk-46-Nsi" secondAttribute="bottom" constant="8" symbolic="YES" id="89g-hf-dLf"/>
+                                            <constraint firstItem="WDD-P9-8sU" firstAttribute="leading" secondItem="CiQ-Cc-mgc" secondAttribute="leading" id="J7f-Ls-raN"/>
+                                            <constraint firstItem="6Gk-46-Nsi" firstAttribute="leading" secondItem="2rU-ql-jAg" secondAttribute="leading" id="LfL-T3-QjO"/>
+                                            <constraint firstItem="2rU-ql-jAg" firstAttribute="trailing" secondItem="JHu-qv-trK" secondAttribute="trailing" id="RX5-ic-eIx"/>
+                                            <constraint firstItem="6Gk-46-Nsi" firstAttribute="trailing" secondItem="2rU-ql-jAg" secondAttribute="trailing" id="W1G-sU-hj6"/>
+                                            <constraint firstItem="2rU-ql-jAg" firstAttribute="leading" secondItem="JHu-qv-trK" secondAttribute="leading" id="Y1d-uG-FOp"/>
+                                            <constraint firstItem="2rU-ql-jAg" firstAttribute="top" secondItem="JHu-qv-trK" secondAttribute="bottom" constant="8" symbolic="YES" id="aJa-Db-Fbg"/>
+                                            <constraint firstAttribute="trailing" secondItem="WDD-P9-8sU" secondAttribute="trailing" id="csI-8B-UZY"/>
+                                            <constraint firstItem="RKA-1d-J5X" firstAttribute="leading" secondItem="CiQ-Cc-mgc" secondAttribute="leading" constant="16" id="cyr-GT-oPs"/>
+                                            <constraint firstItem="6Gk-46-Nsi" firstAttribute="top" secondItem="2rU-ql-jAg" secondAttribute="bottom" constant="8" symbolic="YES" id="f2b-1d-T1y"/>
+                                            <constraint firstItem="RKA-1d-J5X" firstAttribute="leading" secondItem="6Gk-46-Nsi" secondAttribute="leading" id="iS2-9u-2SX"/>
+                                            <constraint firstItem="JHu-qv-trK" firstAttribute="top" secondItem="CiQ-Cc-mgc" secondAttribute="topMargin" id="idf-iG-7JD"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="CiQ-Cc-mgc" firstAttribute="leading" secondItem="Uqm-Yy-HlE" secondAttribute="leading" id="9Sq-Da-e41"/>
+                                    <constraint firstAttribute="trailing" secondItem="CiQ-Cc-mgc" secondAttribute="trailing" id="E7X-Eg-I9N"/>
+                                    <constraint firstItem="CiQ-Cc-mgc" firstAttribute="top" secondItem="Uqm-Yy-HlE" secondAttribute="top" id="LDn-5d-L4Z"/>
+                                    <constraint firstAttribute="bottom" secondItem="CiQ-Cc-mgc" secondAttribute="bottom" id="Om8-Vo-aL1"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="CiQ-Cc-mgc" firstAttribute="width" secondItem="Fet-yu-ccf" secondAttribute="width" id="Gf2-lS-0TK"/>
+                            <constraint firstItem="Uqm-Yy-HlE" firstAttribute="bottom" secondItem="Nh5-EB-eeU" secondAttribute="bottom" id="btt-XF-owF"/>
+                            <constraint firstItem="Uqm-Yy-HlE" firstAttribute="trailing" secondItem="Nh5-EB-eeU" secondAttribute="trailing" id="mHf-G6-ceq"/>
+                            <constraint firstItem="Uqm-Yy-HlE" firstAttribute="top" secondItem="Nh5-EB-eeU" secondAttribute="top" id="uaM-AI-ncN"/>
+                            <constraint firstItem="Uqm-Yy-HlE" firstAttribute="leading" secondItem="Nh5-EB-eeU" secondAttribute="leading" id="zHN-3K-ihM"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Nh5-EB-eeU"/>
                     </view>
+                    <size key="freeformSize" width="375" height="800"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5SQ-Qc-Dof" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="385" y="1042"/>
+            <point key="canvasLocation" x="437.60000000000002" y="1413.1934032983509"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="gnI-Xd-B6U">
@@ -766,7 +1427,7 @@ dCBtZWQgVHJhbnNwb3J0LgsKCg
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="2fT-Nt-Nr4" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="N7H-fA-iEc">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" red="0.078431372549019607" green="0.078431372549019607" blue="0.078431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="barTintColor" red="0.98039215690000003" green="0.81960784310000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -793,7 +1454,7 @@ dCBtZWQgVHJhbnNwb3J0LgsKCg
         <image name="calendar" width="200" height="200"/>
         <image name="coins" width="200" height="200"/>
         <image name="info" width="200" height="200"/>
-        <image name="logo" width="256" height="256"/>
+        <image name="logo" width="341" height="341"/>
         <image name="lowerBorder" width="1250" height="100"/>
     </resources>
 </document>
