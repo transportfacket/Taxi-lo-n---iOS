@@ -10,6 +10,7 @@
 		9016BCD42039E4D10049E271 /* DLRadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9016BCD32039E4D10049E271 /* DLRadioButton.m */; };
 		901FB21F2039D3A500E2B4B9 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901FB21E2039D3A500E2B4B9 /* CalculatorViewController.swift */; };
 		902C0A85203B724700B5DE6B /* ShowCalculatedSalaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902C0A84203B724700B5DE6B /* ShowCalculatedSalaryViewController.swift */; };
+		903FB1B9204585F000905B93 /* audio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 903FB1B8204585F000905B93 /* audio.mp3 */; };
 		9059B6BC203C93CE0079EADC /* Formatter+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9059B6BB203C93CE0079EADC /* Formatter+Extensions.swift */; };
 		9059B6BE203C93FC0079EADC /* Integer+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9059B6BD203C93FC0079EADC /* Integer+Extensions.swift */; };
 		9059B6C2203C97F20079EADC /* TextfieldLength+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9059B6C1203C97F20079EADC /* TextfieldLength+Extensions.swift */; };
@@ -32,6 +33,7 @@
 		901FB2212039D47B00E2B4B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		901FB2232039D47B00E2B4B9 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		902C0A84203B724700B5DE6B /* ShowCalculatedSalaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowCalculatedSalaryViewController.swift; sourceTree = "<group>"; };
+		903FB1B8204585F000905B93 /* audio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = audio.mp3; sourceTree = "<group>"; };
 		9059B6BB203C93CE0079EADC /* Formatter+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Formatter+Extensions.swift"; sourceTree = "<group>"; };
 		9059B6BD203C93FC0079EADC /* Integer+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Integer+Extensions.swift"; sourceTree = "<group>"; };
 		9059B6C1203C97F20079EADC /* TextfieldLength+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TextfieldLength+Extensions.swift"; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 				90D5F150203C5E5700186F07 /* DesignableButton.swift */,
 				9059B6C3203CA31E0079EADC /* ModifiedNavigationBar.swift */,
 				90DFEB6B203D9B830008C9DD /* EdgeInsetLabel.swift */,
+				903FB1B8204585F000905B93 /* audio.mp3 */,
 			);
 			path = "Taxi lön";
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 			files = (
 				90F57BA02029D0C200BCEB75 /* LaunchScreen.storyboard in Resources */,
 				90F57B9D2029D0C200BCEB75 /* Assets.xcassets in Resources */,
+				903FB1B9204585F000905B93 /* audio.mp3 in Resources */,
 				90F57B9B2029D0C200BCEB75 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
