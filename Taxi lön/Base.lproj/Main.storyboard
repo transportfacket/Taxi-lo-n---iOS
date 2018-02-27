@@ -470,6 +470,12 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cyI-6z-pUR">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="1530"/>
                                         <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lowerBorder" translatesAutoresizingMaskIntoConstraints="NO" id="FDB-p8-pMX">
+                                                <rect key="frame" x="0.0" y="1500" width="375" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="XLn-wZ-CsP"/>
+                                                </constraints>
+                                            </imageView>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="U3q-zx-pct">
                                                 <rect key="frame" x="8" y="8" width="359" height="120"/>
                                                 <subviews>
@@ -767,12 +773,6 @@ Det är därför viktigt att du loggar ur systemet när du har rast. Detta för 
                                                     <constraint firstItem="QvN-kA-n7H" firstAttribute="top" secondItem="d8X-VL-fVZ" secondAttribute="bottom" constant="8" symbolic="YES" id="x88-gy-nlB"/>
                                                 </constraints>
                                             </view>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lowerBorder" translatesAutoresizingMaskIntoConstraints="NO" id="FDB-p8-pMX">
-                                                <rect key="frame" x="0.0" y="1499" width="375" height="30"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="30" id="XLn-wZ-CsP"/>
-                                                </constraints>
-                                            </imageView>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
@@ -787,10 +787,12 @@ Det är därför viktigt att du loggar ur systemet när du har rast. Detta för 
                                             <constraint firstItem="Xs5-VC-I90" firstAttribute="leading" secondItem="DTE-aB-JVQ" secondAttribute="leading" id="ErJ-wk-KQM"/>
                                             <constraint firstItem="whK-Ih-fc1" firstAttribute="trailing" secondItem="U3q-zx-pct" secondAttribute="trailing" id="J9q-IB-j2I"/>
                                             <constraint firstAttribute="height" constant="1530" id="JmP-WU-kfo"/>
+                                            <constraint firstAttribute="bottom" secondItem="FDB-p8-pMX" secondAttribute="bottom" id="KzA-8v-H0x"/>
                                             <constraint firstItem="DTE-aB-JVQ" firstAttribute="top" secondItem="whK-Ih-fc1" secondAttribute="bottom" constant="8" symbolic="YES" id="SaA-kj-lO3"/>
-                                            <constraint firstAttribute="bottom" secondItem="FDB-p8-pMX" secondAttribute="bottom" constant="1" id="Wk7-jl-CjB"/>
+                                            <constraint firstItem="FDB-p8-pMX" firstAttribute="leading" secondItem="cyI-6z-pUR" secondAttribute="leading" id="Ynw-2a-GTI"/>
                                             <constraint firstAttribute="bottom" secondItem="whK-Ih-fc1" secondAttribute="bottom" constant="1117" id="aM1-7W-cQf"/>
                                             <constraint firstItem="1QQ-Tu-9sC" firstAttribute="leading" secondItem="d6s-BE-VNC" secondAttribute="leading" id="bKB-7L-Am6"/>
+                                            <constraint firstAttribute="trailing" secondItem="FDB-p8-pMX" secondAttribute="trailing" id="bib-KQ-ce9"/>
                                             <constraint firstItem="1QQ-Tu-9sC" firstAttribute="top" secondItem="d6s-BE-VNC" secondAttribute="bottom" constant="8" symbolic="YES" id="cIU-de-Hxs"/>
                                             <constraint firstItem="Xs5-VC-I90" firstAttribute="trailing" secondItem="DTE-aB-JVQ" secondAttribute="trailing" id="hWQ-qr-T8l"/>
                                             <constraint firstItem="U3q-zx-pct" firstAttribute="leading" secondItem="cyI-6z-pUR" secondAttribute="leadingMargin" id="jFb-gj-JZe"/>
@@ -822,7 +824,7 @@ Det är därför viktigt att du loggar ur systemet när du har rast. Detta för 
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7K4-8U-aHp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1232.8" y="1638.9805097451276"/>
+            <point key="canvasLocation" x="1232.608695652174" y="1638.179347826087"/>
         </scene>
         <!--Show Calculated Salary View Controller-->
         <scene sceneID="xYb-eb-quq">
