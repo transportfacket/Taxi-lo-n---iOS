@@ -12,7 +12,15 @@ import AVFoundation
 class ViewController: UIViewController {
 
    
-
+    @IBOutlet weak var garantiConstraint: NSLayoutConstraint!
+    
+    @IBOutlet weak var monthConstraint: NSLayoutConstraint!
+    
+    
+    @IBOutlet weak var faqConstraint: NSLayoutConstraint!
+    
+    
+    
     var tapCount = 0
     var bombSoundEffect: AVAudioPlayer?
     
@@ -27,8 +35,46 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        garantiConstraint.constant -= view.bounds.width
+        monthConstraint.constant -= view.bounds.width
+        faqConstraint.constant -= view.bounds.width
+    
+        
     }
+    
+    
+    
+    var animationPerformedOnce = false
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        if !animationPerformedOnce{
+            UIView.animate(withDuration: 0.5, delay: 0, options: .curveEaseOut, animations: {
+                self.garantiConstraint.constant += self.view.bounds.width
+                self.view.layoutIfNeeded()
+            }, completion: nil)
+            UIView.animate(withDuration: 0.5, delay: 0.2, options: .curveEaseOut, animations: {
+                self.monthConstraint.constant += self.view.bounds.width
+                self.view.layoutIfNeeded()
+            }, completion: nil)
+            
+            UIView.animate(withDuration: 0.5, delay: 0.4, options: .curveEaseOut, animations: {
+                self.faqConstraint.constant += self.view.bounds.width
+                self.view.layoutIfNeeded()
+            }, completion: nil)
+            
+            animationPerformedOnce = true
+        }
+        
+        
+    
+        
+        
+    }
+    
+    
+    
     
     
     

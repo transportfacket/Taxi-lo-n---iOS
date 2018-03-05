@@ -138,7 +138,7 @@ class CalculatorViewController: UIViewController, UITextFieldDelegate {
         showAlertWith(title: "Arbetstidsmått", message: "Du hittar detta på ditt anställningsbevis. Arbetstidsmått är hur många % av heltid som du ska arbeta")
     }
     @IBAction func infoWorkingWeekDays() {
-        showAlertWith(title: "Arbetar du alla veckans dagar?", message: "Arbetar du alla veckans dagar eller bara måndag till fredag?")
+        showAlertWith(title: "Schemaläggs du alla veckans dagar?", message: "Schemaläggs du alla veckans dagar eller bara måndag till fredag?")
     }
     
     //MARK: - Radiobuttons actions & calculate button action
