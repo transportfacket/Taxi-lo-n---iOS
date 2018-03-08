@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="2fT-Nt-Nr4">
-    <device id="retina3_5" orientation="portrait">
+    <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -17,14 +17,14 @@
             <objects>
                 <viewController title="Meny" id="BYZ-38-t0r" customClass="ViewController" customModule="Taxi_lo_n" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="dW5-Hu-tm1">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </imageView>
-                            <button opaque="NO" clipsSubviews="YES" alpha="0.90000000000000002" contentMode="scaleToFill" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CyJ-Lj-w8Y" customClass="BounceButton" customModule="Taxi_lo_n" customModuleProvider="target">
-                                <rect key="frame" x="16" y="82.5" width="288" height="70"/>
+                            <button opaque="NO" clipsSubviews="YES" alpha="0.90000000000000002" contentMode="center" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CyJ-Lj-w8Y" customClass="BounceButton" customModule="Taxi_lo_n" customModuleProvider="target">
+                                <rect key="frame" x="16" y="126.5" width="288" height="70"/>
                                 <color key="backgroundColor" red="0.98039215690000003" green="0.81960784310000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
                                 <constraints>
@@ -44,7 +44,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" alpha="0.90000000000000002" contentMode="scaleToFill" verticalHuggingPriority="251" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nRw-uP-8pJ" customClass="BounceButton" customModule="Taxi_lo_n" customModuleProvider="target">
-                                <rect key="frame" x="16" y="212.5" width="288" height="70"/>
+                                <rect key="frame" x="16" y="256.5" width="288" height="70"/>
                                 <color key="backgroundColor" red="0.98039215690000003" green="0.81960784310000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
                                 <constraints>
@@ -63,7 +63,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" alpha="0.90000000000000002" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wtE-IE-Amc" customClass="BounceButton" customModule="Taxi_lo_n" customModuleProvider="target">
-                                <rect key="frame" x="16" y="342.5" width="288" height="70"/>
+                                <rect key="frame" x="16" y="386.5" width="288" height="70"/>
                                 <color key="backgroundColor" red="0.98039215690000003" green="0.81960784310000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
                                 <constraints>
@@ -83,25 +83,25 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coins" translatesAutoresizingMaskIntoConstraints="NO" id="t0b-bH-C02">
-                                <rect key="frame" x="245" y="92.5" width="50" height="50"/>
+                                <rect key="frame" x="245" y="136.5" width="50" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="t0b-bH-C02" secondAttribute="height" multiplier="1:1" id="baT-af-XPQ"/>
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="calendar" translatesAutoresizingMaskIntoConstraints="NO" id="bNP-ZQ-HJn">
-                                <rect key="frame" x="245" y="222.5" width="50" height="50"/>
+                                <rect key="frame" x="245" y="266.5" width="50" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="bNP-ZQ-HJn" secondAttribute="height" multiplier="1:1" id="kXg-IB-IVz"/>
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="info" translatesAutoresizingMaskIntoConstraints="NO" id="eki-za-K9w">
-                                <rect key="frame" x="245" y="352.5" width="50" height="50"/>
+                                <rect key="frame" x="245" y="396.5" width="50" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="eki-za-K9w" secondAttribute="height" multiplier="1:1" id="Rcg-NW-Rgu"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jgH-1y-dJj">
-                                <rect key="frame" x="8" y="382" width="90" height="90"/>
+                                <rect key="frame" x="8" y="470" width="90" height="90"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="jgH-1y-dJj" secondAttribute="height" multiplier="1:1" id="13T-Ho-tOg"/>
                                     <constraint firstAttribute="height" constant="90" id="JaQ-mk-TBA"/>
@@ -110,6 +110,25 @@
                                 <state key="normal" image="logo"/>
                                 <connections>
                                     <action selector="button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0Pd-9P-Ywg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a72-Eg-vL3" customClass="BounceButton" customModule="Taxi_lo_n" customModuleProvider="target">
+                                <rect key="frame" x="134" y="508" width="170" height="40"/>
+                                <color key="backgroundColor" red="0.054901960784313725" green="0.20392156862745098" blue="0.49411764705882355" alpha="0.30136986301369861" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="0k2-Ty-K2y"/>
+                                    <constraint firstAttribute="width" constant="170" id="bc2-Wg-ZEv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <inset key="titleEdgeInsets" minX="8" minY="0.0" maxX="8" maxY="0.0"/>
+                                <state key="normal" title="Inte medlem? Klicka här">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="joinButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="spx-13-eEe"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -124,7 +143,7 @@
                             <constraint firstItem="bNP-ZQ-HJn" firstAttribute="trailing" secondItem="t0b-bH-C02" secondAttribute="trailing" id="EnQ-yd-oe5"/>
                             <constraint firstItem="t0b-bH-C02" firstAttribute="top" secondItem="CyJ-Lj-w8Y" secondAttribute="top" constant="10" id="HzZ-xN-mLM"/>
                             <constraint firstItem="nRw-uP-8pJ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="7.5" id="IIk-ts-Gey"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="CyJ-Lj-w8Y" secondAttribute="trailing" constant="16" id="IQC-sv-6oq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="a72-Eg-vL3" secondAttribute="bottom" constant="20" id="Is6-92-EW7"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nRw-uP-8pJ" secondAttribute="trailing" constant="16" id="KAc-E3-Mtt"/>
                             <constraint firstItem="wtE-IE-Amc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="L7D-Ng-Ptb"/>
                             <constraint firstItem="eki-za-K9w" firstAttribute="leading" secondItem="bNP-ZQ-HJn" secondAttribute="leading" id="LMm-nk-web"/>
@@ -140,6 +159,7 @@
                             <constraint firstItem="t0b-bH-C02" firstAttribute="leading" secondItem="dW5-Hu-tm1" secondAttribute="trailing" constant="-75" id="hIg-3u-Yte"/>
                             <constraint firstItem="eki-za-K9w" firstAttribute="bottom" secondItem="wtE-IE-Amc" secondAttribute="bottom" constant="-10" id="oq1-V9-KJA"/>
                             <constraint firstItem="bNP-ZQ-HJn" firstAttribute="bottom" secondItem="nRw-uP-8pJ" secondAttribute="bottom" constant="-10" id="pcz-He-tmq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="a72-Eg-vL3" secondAttribute="trailing" constant="16" id="qot-6N-0p0"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wtE-IE-Amc" secondAttribute="trailing" constant="16" id="sGb-Vr-2ed"/>
                             <constraint firstItem="CyJ-Lj-w8Y" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ubv-CP-SLE"/>
                         </constraints>
@@ -154,14 +174,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="439.13043478260875" y="129.61956521739131"/>
+            <point key="canvasLocation" x="438.75" y="128.87323943661971"/>
         </scene>
         <!--Garantilöneräknare-->
         <scene sceneID="O8f-GM-RDz">
             <objects>
                 <viewController title="Garantilöneräknare" id="ZXs-J4-6zZ" customClass="CalculatorViewController" customModule="Taxi_lo_n" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hsf-sC-JzN">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="ex. 174" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="htr-Fw-Qbe">
@@ -231,7 +251,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Finns det kollektivavtal på företaget?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RIQ-rg-Ni7">
-                                <rect key="frame" x="16" y="84" width="306" height="21"/>
+                                <rect key="frame" x="16" y="84" width="284" height="21"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -248,7 +268,7 @@
                                 </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Var i landet kör du? Stad eller ort:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HyE-8J-qCA">
-                                <rect key="frame" x="16" y="175" width="306" height="21"/>
+                                <rect key="frame" x="16" y="175" width="261" height="21"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -261,7 +281,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hur många timmar har du arbetat?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1k4-7X-4tc">
-                                <rect key="frame" x="16" y="254" width="306" height="21"/>
+                                <rect key="frame" x="16" y="254" width="270" height="21"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -357,8 +377,8 @@
                                     <outletCollection property="otherButtons" destination="8o3-1H-ujw" id="Had-aX-J9q"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Arbetar du alla veckans dagar?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aBK-yW-AW3">
-                                <rect key="frame" x="16" y="413" width="306" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Schemaläggs du alla veckans dagar?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="aBK-yW-AW3">
+                                <rect key="frame" x="16" y="413" width="284" height="21"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -371,7 +391,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="apr-9V-Ren" customClass="BounceButton" customModule="Taxi_lo_n" customModuleProvider="target">
-                                <rect key="frame" x="16" y="410" width="288" height="50"/>
+                                <rect key="frame" x="16" y="498" width="288" height="50"/>
                                 <color key="backgroundColor" red="0.98039215686274506" green="0.81960784313725488" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="PPq-2k-XyM"/>
@@ -390,7 +410,6 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="aBK-yW-AW3" firstAttribute="trailing" secondItem="1k4-7X-4tc" secondAttribute="trailing" id="0nV-KG-4Jv"/>
                             <constraint firstItem="LdT-47-PvJ" firstAttribute="centerY" secondItem="6Na-sv-ATG" secondAttribute="centerY" id="16o-6y-5bC"/>
                             <constraint firstItem="pih-CQ-F5h" firstAttribute="trailing" secondItem="LdT-47-PvJ" secondAttribute="trailing" id="4aG-ah-nCY"/>
                             <constraint firstItem="aBK-yW-AW3" firstAttribute="leading" secondItem="8o3-1H-ujw" secondAttribute="leading" id="5WL-nM-aJW"/>
@@ -402,9 +421,11 @@
                             <constraint firstItem="RIQ-rg-Ni7" firstAttribute="leading" secondItem="hsf-sC-JzN" secondAttribute="leadingMargin" id="BOu-C6-qyd"/>
                             <constraint firstItem="Vlt-sI-EvP" firstAttribute="centerY" secondItem="5Dv-A4-o6P" secondAttribute="centerY" id="Djf-CU-H6j"/>
                             <constraint firstItem="pih-CQ-F5h" firstAttribute="centerY" secondItem="UP2-8n-GNj" secondAttribute="centerY" id="FHm-lC-iIK"/>
+                            <constraint firstItem="aBK-yW-AW3" firstAttribute="leading" secondItem="enF-qe-dnK" secondAttribute="leading" constant="16" id="Hbh-xI-11W"/>
                             <constraint firstItem="apr-9V-Ren" firstAttribute="leading" secondItem="8o3-1H-ujw" secondAttribute="leading" id="KdN-TS-JHB"/>
                             <constraint firstItem="Vaf-bM-0Ba" firstAttribute="top" secondItem="htr-Fw-Qbe" secondAttribute="bottom" constant="20" id="N2g-Ea-mUW"/>
                             <constraint firstItem="HyE-8J-qCA" firstAttribute="top" secondItem="LdT-47-PvJ" secondAttribute="bottom" constant="28" id="NOe-Nt-28y"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="1k4-7X-4tc" secondAttribute="trailing" constant="20" symbolic="YES" id="R6Z-6o-Q7h"/>
                             <constraint firstItem="ONd-NK-Cl5" firstAttribute="top" secondItem="HyE-8J-qCA" secondAttribute="bottom" constant="8" symbolic="YES" id="SDf-3q-Avf"/>
                             <constraint firstItem="RIQ-rg-Ni7" firstAttribute="leading" secondItem="h8l-Zk-wag" secondAttribute="leading" id="SGS-4G-5o3"/>
                             <constraint firstItem="cRH-wR-FNO" firstAttribute="trailing" secondItem="jFs-dl-mJw" secondAttribute="trailing" id="T1t-TB-HWl"/>
@@ -426,8 +447,8 @@
                             <constraint firstItem="UP2-8n-GNj" firstAttribute="leading" secondItem="wJ5-lT-NWW" secondAttribute="leading" id="dMj-kl-5OA"/>
                             <constraint firstItem="ONd-NK-Cl5" firstAttribute="leading" secondItem="1k4-7X-4tc" secondAttribute="leading" id="djL-xi-K7e"/>
                             <constraint firstItem="htr-Fw-Qbe" firstAttribute="leading" secondItem="Vaf-bM-0Ba" secondAttribute="leading" id="eAV-hY-Wa7"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="RIQ-rg-Ni7" secondAttribute="trailing" constant="-18" id="gE4-5j-2GK"/>
                             <constraint firstItem="UP2-8n-GNj" firstAttribute="trailing" secondItem="5Dv-A4-o6P" secondAttribute="trailing" id="hnc-mn-doK"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="aBK-yW-AW3" secondAttribute="trailing" constant="20" symbolic="YES" id="hs1-oP-TxF"/>
                             <constraint firstItem="cRH-wR-FNO" firstAttribute="leading" secondItem="htr-Fw-Qbe" secondAttribute="trailing" constant="8" symbolic="YES" id="iwX-6s-cWY"/>
                             <constraint firstItem="8o3-1H-ujw" firstAttribute="top" secondItem="aBK-yW-AW3" secondAttribute="bottom" constant="8" symbolic="YES" id="kl5-k8-mcy"/>
                             <constraint firstItem="Vaf-bM-0Ba" firstAttribute="leading" secondItem="Vlt-sI-EvP" secondAttribute="leading" id="kvW-WH-UTj"/>
@@ -437,12 +458,12 @@
                             <constraint firstItem="wJ5-lT-NWW" firstAttribute="trailing" secondItem="cRH-wR-FNO" secondAttribute="trailing" id="n1B-Bx-A5D"/>
                             <constraint firstItem="ONd-NK-Cl5" firstAttribute="centerY" secondItem="wJ5-lT-NWW" secondAttribute="centerY" id="nRy-7z-mmx"/>
                             <constraint firstItem="8o3-1H-ujw" firstAttribute="top" secondItem="pih-CQ-F5h" secondAttribute="top" id="o35-Ze-zUk"/>
-                            <constraint firstItem="HyE-8J-qCA" firstAttribute="trailing" secondItem="1k4-7X-4tc" secondAttribute="trailing" id="odc-3a-onv"/>
                             <constraint firstItem="1k4-7X-4tc" firstAttribute="leading" secondItem="htr-Fw-Qbe" secondAttribute="leading" id="qBl-SJ-TTz"/>
-                            <constraint firstItem="RIQ-rg-Ni7" firstAttribute="trailing" secondItem="HyE-8J-qCA" secondAttribute="trailing" id="rdo-L5-7Xb"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="HyE-8J-qCA" secondAttribute="trailing" constant="20" symbolic="YES" id="sKe-tU-bYT"/>
                             <constraint firstItem="apr-9V-Ren" firstAttribute="trailing" secondItem="jFs-dl-mJw" secondAttribute="trailing" id="w8b-19-gsH"/>
                             <constraint firstItem="jFs-dl-mJw" firstAttribute="leading" secondItem="Vaf-bM-0Ba" secondAttribute="trailing" constant="16" id="xTh-id-wJa"/>
                             <constraint firstItem="aBK-yW-AW3" firstAttribute="top" secondItem="Vlt-sI-EvP" secondAttribute="bottom" constant="21" id="xvL-1t-5d6"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="RIQ-rg-Ni7" secondAttribute="trailing" constant="20" symbolic="YES" id="zda-VP-xxI"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="enF-qe-dnK"/>
                     </view>
@@ -466,352 +487,237 @@
             <objects>
                 <viewController title="Vanliga frågor" id="J44-2E-4sa" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sFD-nT-SEk">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="1593"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1900"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DrC-Br-Hwe">
-                                <rect key="frame" x="0.0" y="64" width="375" height="1529"/>
+                                <rect key="frame" x="0.0" y="64" width="375" height="1836"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cyI-6z-pUR">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1530"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1836"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lowerBorder" translatesAutoresizingMaskIntoConstraints="NO" id="FDB-p8-pMX">
-                                                <rect key="frame" x="0.0" y="1500" width="375" height="30"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vem omfattas av garantilön?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2TH-1e-S0I">
+                                                <rect key="frame" x="16" y="16" width="343" height="24"/>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Du som arbetar på ett åkeri med kollektivavtal och kör på procentlön har rätt till garantilön." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v3c-vY-hNH">
+                                                <rect key="frame" x="16" y="44" width="343" height="65"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="30" id="XLn-wZ-CsP"/>
+                                                    <constraint firstAttribute="height" constant="65" id="hvv-DO-aE4"/>
                                                 </constraints>
-                                            </imageView>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="U3q-zx-pct">
-                                                <rect key="frame" x="8" y="8" width="359" height="120"/>
-                                                <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1dB-HZ-hQh">
-                                                        <rect key="frame" x="8" y="8" width="343" height="24"/>
-                                                        <attributedString key="attributedText">
-                                                            <fragment content="Vem omfattas av garantilön?">
-                                                                <attributes>
-                                                                    <font key="NSFont" size="17" name="Avenir-Heavy"/>
-                                                                </attributes>
-                                                            </fragment>
-                                                        </attributedString>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Laq-UO-3ME">
-                                                        <rect key="frame" x="8" y="40" width="343" height="76"/>
-                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="76" id="ofU-h1-e4g"/>
-                                                        </constraints>
-                                                        <attributedString key="attributedText">
-                                                            <fragment content="Du som arbetar på ett åkeri med kollektivavtal och kör på procentlön har rätt till garantilön.">
-                                                                <attributes>
-                                                                    <font key="NSFont" size="16" name="Avenir-Medium"/>
-                                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                                </attributes>
-                                                            </fragment>
-                                                        </attributedString>
-                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                                    </textView>
-                                                </subviews>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hur vet jag om jag omfattas av garantilön?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5XK-MD-rFw">
+                                                <rect key="frame" x="16" y="125" width="343" height="49"/>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QpC-oj-Wxn">
+                                                <rect key="frame" x="16" y="178" width="343" height="90"/>
                                                 <constraints>
-                                                    <constraint firstItem="Laq-UO-3ME" firstAttribute="trailing" secondItem="1dB-HZ-hQh" secondAttribute="trailing" id="6bY-hJ-qhZ"/>
-                                                    <constraint firstItem="Laq-UO-3ME" firstAttribute="leading" secondItem="1dB-HZ-hQh" secondAttribute="leading" id="FyQ-pY-NSt"/>
-                                                    <constraint firstItem="Laq-UO-3ME" firstAttribute="top" secondItem="1dB-HZ-hQh" secondAttribute="bottom" constant="8" symbolic="YES" id="GGx-Vs-F8f"/>
-                                                    <constraint firstItem="Laq-UO-3ME" firstAttribute="leading" secondItem="U3q-zx-pct" secondAttribute="leading" constant="8" id="SoZ-Oa-usM"/>
-                                                    <constraint firstItem="Laq-UO-3ME" firstAttribute="top" secondItem="U3q-zx-pct" secondAttribute="top" constant="40" id="pdP-Sn-ebb"/>
-                                                    <constraint firstAttribute="bottom" secondItem="Laq-UO-3ME" secondAttribute="bottom" constant="4" id="wbi-zN-c0Q"/>
-                                                    <constraint firstAttribute="trailing" secondItem="Laq-UO-3ME" secondAttribute="trailing" constant="8" id="yhT-iW-5FM"/>
+                                                    <constraint firstAttribute="height" constant="90" id="heU-0h-PLr"/>
                                                 </constraints>
-                                            </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="whK-Ih-fc1">
-                                                <rect key="frame" x="8" y="136" width="359" height="277"/>
-                                                <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fcr-pA-Mfm">
-                                                        <rect key="frame" x="9" y="9.5" width="341" height="46.5"/>
-                                                        <attributedString key="attributedText">
-                                                            <fragment content="Hur vet jag om jag omfattas av kollektivavtal?">
-                                                                <attributes>
-                                                                    <font key="NSFont" size="17" name="Avenir-Heavy"/>
-                                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                                </attributes>
-                                                            </fragment>
-                                                        </attributedString>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nsv-Ox-Eql">
-                                                        <rect key="frame" x="9" y="64" width="341" height="213"/>
-                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="213" id="jLF-ie-YNa"/>
-                                                        </constraints>
-                                                        <attributedString key="attributedText">
-                                                            <fragment>
-                                                                <string key="content" base64-UTF8="YES">
-RHUgb21mYXR0YXMgYXYga29sbGVrdGl2YXZ0YWwgb20gZGluIMOla2FyZSDDpHIgbWVkbGVtIGkgQmls
-dHJhZmlrZW5zIEFyYmV0c2dpdmFyZWbDtnJidW5kIGVsbGVyIGhhciB0ZWNrbmF0IGF2dGFsIGRpcmVr
-dCBtZWQgVHJhbnNwb3J0LgsgCkZyw6VnYSBkaW4gw6VrYXJlIGVsbGVyIGtvbnRyb2xsZXJhIGRldCBt
-ZWQgZGluIGxva2FsYSBUcmFuc3BvcnRhdmRlbG5pbmcuIFJpbmcgMDEwLTQ4MCAzMCAwMCBvY2ggdGFs
-YSBvbSB2YXIgZHUgYXJiZXRhci4gVmkgYmVow7Z2ZXIgZMOlIGRpbiBhcmJldHNnaXZhcmVzIG9yZ2Fu
-aXNhdGlvbnNudW1tZXIsIGRldCBzdMOlciBww6UgZGUga3ZpdHRvbiBzb20ga3VuZGVuIGbDpXIuA
-</string>
-                                                                <attributes>
-                                                                    <font key="NSFont" size="16" name="Avenir-Medium"/>
-                                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                                </attributes>
-                                                            </fragment>
-                                                        </attributedString>
-                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                                    </textView>
-                                                </subviews>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <string key="text">Du som omfattas av kollektivavtal om din åkare är medlem i Biltrafikens Arbetsgivareförbund eller tecknat avtal direkt med Transport.</string>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5VO-yx-foP">
+                                                <rect key="frame" x="16" y="276" width="343" height="112"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="bottom" secondItem="Nsv-Ox-Eql" secondAttribute="bottom" id="7xk-eM-6Tg"/>
-                                                    <constraint firstItem="Nsv-Ox-Eql" firstAttribute="top" secondItem="Fcr-pA-Mfm" secondAttribute="bottom" constant="8" symbolic="YES" id="N93-BX-dXi"/>
-                                                    <constraint firstItem="Nsv-Ox-Eql" firstAttribute="centerX" secondItem="whK-Ih-fc1" secondAttribute="centerX" id="Zpk-ep-eob"/>
-                                                    <constraint firstItem="Nsv-Ox-Eql" firstAttribute="centerX" secondItem="Fcr-pA-Mfm" secondAttribute="centerX" id="bR1-vT-X2K"/>
-                                                    <constraint firstItem="Nsv-Ox-Eql" firstAttribute="leading" secondItem="whK-Ih-fc1" secondAttribute="leading" constant="9" id="kGV-O2-kos"/>
-                                                    <constraint firstItem="Nsv-Ox-Eql" firstAttribute="leading" secondItem="Fcr-pA-Mfm" secondAttribute="leading" id="rmi-T8-aql"/>
+                                                    <constraint firstAttribute="height" constant="112" id="U60-Lu-uQM"/>
                                                 </constraints>
-                                            </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DTE-aB-JVQ">
-                                                <rect key="frame" x="8" y="421" width="359" height="227"/>
-                                                <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GiU-ZS-ZU5">
-                                                        <rect key="frame" x="8" y="8" width="343" height="24"/>
-                                                        <attributedString key="attributedText">
-                                                            <fragment content="Hur räknas timlönen fram?">
-                                                                <attributes>
-                                                                    <font key="NSFont" size="17" name="Avenir-Heavy"/>
-                                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                                </attributes>
-                                                            </fragment>
-                                                        </attributedString>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ht0-2X-Zuq">
-                                                        <rect key="frame" x="8" y="40" width="343" height="187"/>
-                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="187" id="868-Pj-Jfd"/>
-                                                        </constraints>
-                                                        <attributedString key="attributedText">
-                                                            <fragment>
-                                                                <string key="content">Om du arbetar alla veckans dagar är 166,4 timmar/månad den uträknade arbetstid som du arbetar i genomsnitt under ett år som heltidsanställd. Parterna har enats om denna tid som en beräkningsgrund för att räkna fram bland annat timlön. Arbetar du endast vardagar (måndag – fredag, helgfri vecka) är beräkningsgrunden 174 timmar istället.</string>
-                                                                <attributes>
-                                                                    <color key="NSColor" red="0.12941" green="0.12941" blue="0.12941" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                    <font key="NSFont" size="16" name="Avenir-Medium"/>
-                                                                    <real key="NSKern" value="0.0"/>
-                                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
-                                                                        <tabStops/>
-                                                                    </paragraphStyle>
-                                                                    <color key="NSStrokeColor" red="0.12941" green="0.12941" blue="0.12941" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                </attributes>
-                                                            </fragment>
-                                                        </attributedString>
-                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                                    </textView>
-                                                </subviews>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <string key="text">Fråga din åkare eller kontrollera det med din lokala Transportavdelning. Ring 010-480 30 00 och tala om var du arbetar. Vi behöver då din arbetsgivares organisationsnummer, det står på de kvitton som kunden får.</string>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hur räknas timlönen fram?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LY9-cm-Qaj">
+                                                <rect key="frame" x="16" y="404" width="343" height="24"/>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qrc-1T-BLJ">
+                                                <rect key="frame" x="16" y="432" width="343" height="200"/>
                                                 <constraints>
-                                                    <constraint firstItem="ht0-2X-Zuq" firstAttribute="trailing" secondItem="GiU-ZS-ZU5" secondAttribute="trailing" id="ChZ-eZ-UbI"/>
-                                                    <constraint firstAttribute="bottom" secondItem="ht0-2X-Zuq" secondAttribute="bottom" id="PvC-Ju-Em5"/>
-                                                    <constraint firstItem="ht0-2X-Zuq" firstAttribute="top" secondItem="DTE-aB-JVQ" secondAttribute="top" constant="40" id="U9g-cp-ffM"/>
-                                                    <constraint firstItem="ht0-2X-Zuq" firstAttribute="top" secondItem="GiU-ZS-ZU5" secondAttribute="bottom" constant="8" symbolic="YES" id="XXV-D5-CHl"/>
-                                                    <constraint firstAttribute="trailing" secondItem="ht0-2X-Zuq" secondAttribute="trailing" constant="8" id="cs8-1S-syB"/>
-                                                    <constraint firstItem="ht0-2X-Zuq" firstAttribute="leading" secondItem="DTE-aB-JVQ" secondAttribute="leading" constant="8" id="iCX-Sh-zf6"/>
-                                                    <constraint firstItem="ht0-2X-Zuq" firstAttribute="leading" secondItem="GiU-ZS-ZU5" secondAttribute="leading" id="yqU-np-enj"/>
+                                                    <constraint firstAttribute="height" constant="200" id="hup-nS-AeI"/>
                                                 </constraints>
-                                            </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xs5-VC-I90">
-                                                <rect key="frame" x="8" y="656" width="359" height="294"/>
-                                                <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aZG-J7-1Nz">
-                                                        <rect key="frame" x="8" y="8" width="343" height="24"/>
-                                                        <attributedString key="attributedText">
-                                                            <fragment content="Vilka har rätt till månadslön?">
-                                                                <attributes>
-                                                                    <font key="NSFont" size="17" name="Avenir-Heavy"/>
-                                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                                </attributes>
-                                                            </fragment>
-                                                        </attributedString>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="coX-Md-37d">
-                                                        <rect key="frame" x="8" y="40" width="343" height="254"/>
-                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="254" id="fRT-zT-b15"/>
-                                                        </constraints>
-                                                        <attributedString key="attributedText">
-                                                            <fragment>
-                                                                <string key="content">Från och med den 1 december 2017 måste arbetsgivare betala månadslön till de anställda som enbart kör samhällsbetalda körningar som är upphandlade efter samma datum. Exempelvis färdtjänst, sjukresor och skolskjuts.
-
-Arbetsgivaren kan också välja att avlöna även de som kör blandade körningar (Samhällsbetald taxitrafik och övrig taxitrafik) med månadslön enligt kollektivavtalet.
-</string>
-                                                                <attributes>
-                                                                    <color key="NSColor" red="0.12941" green="0.12941" blue="0.12941" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                    <font key="NSFont" size="16" name="Avenir-Medium"/>
-                                                                    <real key="NSKern" value="0.0"/>
-                                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
-                                                                        <tabStops/>
-                                                                    </paragraphStyle>
-                                                                    <color key="NSStrokeColor" red="0.12941" green="0.12941" blue="0.12941" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                </attributes>
-                                                            </fragment>
-                                                        </attributedString>
-                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                                    </textView>
-                                                </subviews>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <string key="text">Om schemaläggs alla veckans dagar är 166,4 timmar/månad den uträknande arbetstid som du arbetar i genomsnitt under ett år som heltidsanställd. Parterna har enats om denna ti som en beräkningsgrund för att räkna fram bland annat timlön. Schemaläggs du endast vardagar (måndag - fredag, helgfri vecka) är beräkningsgrunden 174 timmar istället.</string>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vilka har rätt till månadslön?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SnS-9N-tmk">
+                                                <rect key="frame" x="16" y="648" width="343" height="24"/>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k6Q-Ja-1nl">
+                                                <rect key="frame" x="16" y="676" width="343" height="219"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="trailing" secondItem="coX-Md-37d" secondAttribute="trailing" constant="8" id="0B0-jz-HbU"/>
-                                                    <constraint firstAttribute="bottom" secondItem="coX-Md-37d" secondAttribute="bottom" id="CSz-2P-uV7"/>
-                                                    <constraint firstItem="coX-Md-37d" firstAttribute="top" secondItem="aZG-J7-1Nz" secondAttribute="bottom" constant="8" symbolic="YES" id="Dne-rY-16g"/>
-                                                    <constraint firstItem="coX-Md-37d" firstAttribute="top" secondItem="Xs5-VC-I90" secondAttribute="top" constant="40" id="KjV-KO-BEa"/>
-                                                    <constraint firstItem="coX-Md-37d" firstAttribute="leading" secondItem="aZG-J7-1Nz" secondAttribute="leading" id="OQW-HI-eUH"/>
-                                                    <constraint firstItem="coX-Md-37d" firstAttribute="leading" secondItem="Xs5-VC-I90" secondAttribute="leading" constant="8" id="VmG-Ke-7vE"/>
-                                                    <constraint firstItem="coX-Md-37d" firstAttribute="trailing" secondItem="aZG-J7-1Nz" secondAttribute="trailing" id="pbh-qt-knf"/>
+                                                    <constraint firstAttribute="height" constant="219" id="CFA-dc-Bw9"/>
                                                 </constraints>
-                                            </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d6s-BE-VNC">
-                                                <rect key="frame" x="8" y="958" width="359" height="230"/>
-                                                <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mS4-kt-qmO">
-                                                        <rect key="frame" x="8" y="8" width="353" height="24"/>
-                                                        <attributedString key="attributedText">
-                                                            <fragment content="Om min lön inte stämmer, vad kan jag göra?">
-                                                                <attributes>
-                                                                    <font key="NSFont" size="17" name="Avenir-Heavy"/>
-                                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                                </attributes>
-                                                            </fragment>
-                                                        </attributedString>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nva-hK-zGb">
-                                                        <rect key="frame" x="8" y="40" width="353" height="190"/>
-                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="190" id="BJm-t0-nn0"/>
-                                                        </constraints>
-                                                        <attributedString key="attributedText">
-                                                            <fragment>
-                                                                <string key="content">Om du misstänker att din lön inte stämmer överens med gällande kollektivavtal kan du räkna ut din rätta lön i den här appen.
-
-Skulle det visa sig att din lön inte stämmer ska du påpeka detta för din arbetsgivare. Får du problem kan du som medlem kontakta din lokala avdelning inom Transport.
-</string>
-                                                                <attributes>
-                                                                    <color key="NSColor" red="0.12941" green="0.12941" blue="0.12941" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                    <font key="NSFont" size="16" name="Avenir-Medium"/>
-                                                                    <real key="NSKern" value="0.0"/>
-                                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
-                                                                        <tabStops/>
-                                                                    </paragraphStyle>
-                                                                    <color key="NSStrokeColor" red="0.12941" green="0.12941" blue="0.12941" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                </attributes>
-                                                            </fragment>
-                                                        </attributedString>
-                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                                    </textView>
-                                                </subviews>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <string key="text">Från och med 1 december 2017 måste arbetsgivare betala månadslön till de anställda som enbart kör samhällsbetalda körningar som är upphandlade efter samma datum. Exempelvis färdtjänst, sjukresor och skolskjuts. Arbetsgivaren kan också völja att avlöna även de som kör blandade körningar (samhällsbetald taxitrafik och övrig taxitrafik) med månadslön enligt kollektivavtalet.</string>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Om min lön inte stämmer, vad kan jag göra?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RmM-7h-VYz">
+                                                <rect key="frame" x="16" y="911" width="343" height="50"/>
                                                 <constraints>
-                                                    <constraint firstItem="nva-hK-zGb" firstAttribute="leading" secondItem="mS4-kt-qmO" secondAttribute="leading" id="1py-CK-Xq4"/>
-                                                    <constraint firstAttribute="bottom" secondItem="nva-hK-zGb" secondAttribute="bottom" id="3gc-z4-sJ3"/>
-                                                    <constraint firstItem="nva-hK-zGb" firstAttribute="trailing" secondItem="mS4-kt-qmO" secondAttribute="trailing" id="4w7-Hy-Rrn"/>
-                                                    <constraint firstItem="nva-hK-zGb" firstAttribute="top" secondItem="mS4-kt-qmO" secondAttribute="bottom" constant="8" symbolic="YES" id="LX7-sE-GUE"/>
-                                                    <constraint firstItem="nva-hK-zGb" firstAttribute="top" secondItem="d6s-BE-VNC" secondAttribute="top" constant="40" id="MAD-pr-BJd"/>
-                                                    <constraint firstAttribute="trailing" secondItem="nva-hK-zGb" secondAttribute="trailing" constant="-2" id="Ptu-Ne-j5e"/>
-                                                    <constraint firstItem="nva-hK-zGb" firstAttribute="leading" secondItem="d6s-BE-VNC" secondAttribute="leading" constant="8" id="wRx-6l-cbO"/>
+                                                    <constraint firstAttribute="height" constant="50" id="mQZ-nU-6eb"/>
                                                 </constraints>
-                                            </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1QQ-Tu-9sC">
-                                                <rect key="frame" x="8" y="1196" width="359" height="267"/>
-                                                <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d8X-VL-fVZ">
-                                                        <rect key="frame" x="8" y="8" width="256" height="24"/>
-                                                        <attributedString key="attributedText">
-                                                            <fragment content="Vilken tid räknas som arbetstid?">
-                                                                <attributes>
-                                                                    <font key="NSFont" size="17" name="Avenir-Heavy"/>
-                                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                                </attributes>
-                                                            </fragment>
-                                                        </attributedString>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QvN-kA-n7H">
-                                                        <rect key="frame" x="8" y="40" width="343" height="227"/>
-                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="227" id="tOL-bs-onj"/>
-                                                        </constraints>
-                                                        <attributedString key="attributedText">
-                                                            <fragment>
-                                                                <string key="content">All arbetstid räknas som arbetstid, det vill säga den tid som du står till arbetsgivarens förfogande. Rast är inte arbetstid, det är egen tid, och när man har rast står man inte heller till arbetsgivarens förfogande. 
-
-Det är därför viktigt att du loggar ur systemet när du har rast. Detta för att beräkningen av din arbetstid och din lön ska bli korrekt.
-</string>
-                                                                <attributes>
-                                                                    <color key="NSColor" red="0.12941" green="0.12941" blue="0.12941" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                    <font key="NSFont" size="16" name="Avenir-Medium"/>
-                                                                    <real key="NSKern" value="0.0"/>
-                                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
-                                                                        <tabStops/>
-                                                                    </paragraphStyle>
-                                                                    <color key="NSStrokeColor" red="0.12941" green="0.12941" blue="0.12941" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                </attributes>
-                                                            </fragment>
-                                                        </attributedString>
-                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                                    </textView>
-                                                </subviews>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w96-Vl-kdA">
+                                                <rect key="frame" x="16" y="965" width="343" height="158"/>
                                                 <constraints>
-                                                    <constraint firstItem="QvN-kA-n7H" firstAttribute="top" secondItem="1QQ-Tu-9sC" secondAttribute="top" constant="40" id="JhM-oH-DYW"/>
-                                                    <constraint firstAttribute="bottom" secondItem="QvN-kA-n7H" secondAttribute="bottom" id="KWN-Ak-Cg4"/>
-                                                    <constraint firstItem="QvN-kA-n7H" firstAttribute="trailing" secondItem="d8X-VL-fVZ" secondAttribute="trailing" constant="87" id="Ve1-uh-ZBR"/>
-                                                    <constraint firstItem="QvN-kA-n7H" firstAttribute="leading" secondItem="1QQ-Tu-9sC" secondAttribute="leading" constant="8" id="bjA-Iu-0Ux"/>
-                                                    <constraint firstAttribute="trailing" secondItem="QvN-kA-n7H" secondAttribute="trailing" constant="8" id="eE9-5j-7aI"/>
-                                                    <constraint firstItem="QvN-kA-n7H" firstAttribute="leading" secondItem="d8X-VL-fVZ" secondAttribute="leading" id="tuw-eF-fbG"/>
-                                                    <constraint firstItem="QvN-kA-n7H" firstAttribute="top" secondItem="d8X-VL-fVZ" secondAttribute="bottom" constant="8" symbolic="YES" id="x88-gy-nlB"/>
+                                                    <constraint firstAttribute="height" constant="158" id="W9d-fB-4pU"/>
                                                 </constraints>
-                                            </view>
+                                                <string key="text">Om du misstänker att din lön inte stämmer överens med gällande kollektivavtal kan du räkna ut din rätta lön i den här appen. Skulle det visa sig att din lön inte stämmer ska du påpeka detta för din arbetsgivare. Får du problem kan du som medlem kontakta din lokala avdelning inom Transport.</string>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vilken tid räknas som arbetstid?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eZy-7d-DvT">
+                                                <rect key="frame" x="16" y="1139" width="343" height="24"/>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zpb-hx-tZ2">
+                                                <rect key="frame" x="16" y="1167" width="343" height="178"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="178" id="zGV-y4-a1I"/>
+                                                </constraints>
+                                                <string key="text">All arbetstid räknas som arbetstid, det vill säga den tid som du står till arbetsgivarens förfogande. Rast är inte arbetstid, det är egen tid, och när man har rast står man inte heller till arbetsgivarens förfogande. Det är därför viktigt att du loggar ur systemet när du har rast. Detta för beräkningen av din arbetstid och din lön ska bli korrekt.</string>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lönebesked" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TIN-2l-gmg">
+                                                <rect key="frame" x="16" y="1361" width="343" height="24"/>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ALE-LN-QIl">
+                                                <rect key="frame" x="16" y="1389" width="343" height="306.5"/>
+                                                <string key="text">Du som förare har rätt att få en lönespecifikation av din arbetsgivare. Där ska det också stå hur mycket skatt som har dragits. På lönespecifikationen ska det även framgå hur många timmar du arbetat och varit frånvarande under perioden samt betalda och obetalda semesterdagar. Alla avtalsreglerade ersättningar ska specificeras, ex. Ob-ersättning, övertid m.m. Kör du på procentlön ska öven inkört lönegrundande belopp redovisas (kan ske med bilaga). Du som förare ska kvittera avlöningen när den inte betalas ut via bank, postgiro eller på annat betryggande sätt.</string>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
-                                            <constraint firstItem="FDB-p8-pMX" firstAttribute="leading" secondItem="cyI-6z-pUR" secondAttribute="leading" id="0UO-S7-3N8"/>
-                                            <constraint firstItem="whK-Ih-fc1" firstAttribute="top" secondItem="U3q-zx-pct" secondAttribute="bottom" constant="8" symbolic="YES" id="3h3-St-9PX"/>
-                                            <constraint firstItem="U3q-zx-pct" firstAttribute="centerX" secondItem="FDB-p8-pMX" secondAttribute="centerX" id="4k6-cF-ahp"/>
-                                            <constraint firstItem="U3q-zx-pct" firstAttribute="top" secondItem="cyI-6z-pUR" secondAttribute="topMargin" id="6E6-BV-513"/>
-                                            <constraint firstItem="whK-Ih-fc1" firstAttribute="leading" secondItem="U3q-zx-pct" secondAttribute="leading" id="758-f8-7Zd"/>
-                                            <constraint firstAttribute="trailing" secondItem="FDB-p8-pMX" secondAttribute="trailing" id="AMH-cH-K4j"/>
-                                            <constraint firstItem="d6s-BE-VNC" firstAttribute="leading" secondItem="Xs5-VC-I90" secondAttribute="leading" id="DOr-6O-Qep"/>
-                                            <constraint firstItem="DTE-aB-JVQ" firstAttribute="trailing" secondItem="whK-Ih-fc1" secondAttribute="trailing" id="EUU-Xf-j1l"/>
-                                            <constraint firstItem="Xs5-VC-I90" firstAttribute="leading" secondItem="DTE-aB-JVQ" secondAttribute="leading" id="ErJ-wk-KQM"/>
-                                            <constraint firstItem="whK-Ih-fc1" firstAttribute="trailing" secondItem="U3q-zx-pct" secondAttribute="trailing" id="J9q-IB-j2I"/>
-                                            <constraint firstAttribute="height" constant="1530" id="JmP-WU-kfo"/>
-                                            <constraint firstAttribute="bottom" secondItem="FDB-p8-pMX" secondAttribute="bottom" id="KzA-8v-H0x"/>
-                                            <constraint firstItem="DTE-aB-JVQ" firstAttribute="top" secondItem="whK-Ih-fc1" secondAttribute="bottom" constant="8" symbolic="YES" id="SaA-kj-lO3"/>
-                                            <constraint firstItem="FDB-p8-pMX" firstAttribute="leading" secondItem="cyI-6z-pUR" secondAttribute="leading" id="Ynw-2a-GTI"/>
-                                            <constraint firstAttribute="bottom" secondItem="whK-Ih-fc1" secondAttribute="bottom" constant="1117" id="aM1-7W-cQf"/>
-                                            <constraint firstItem="1QQ-Tu-9sC" firstAttribute="leading" secondItem="d6s-BE-VNC" secondAttribute="leading" id="bKB-7L-Am6"/>
-                                            <constraint firstAttribute="trailing" secondItem="FDB-p8-pMX" secondAttribute="trailing" id="bib-KQ-ce9"/>
-                                            <constraint firstItem="1QQ-Tu-9sC" firstAttribute="top" secondItem="d6s-BE-VNC" secondAttribute="bottom" constant="8" symbolic="YES" id="cIU-de-Hxs"/>
-                                            <constraint firstItem="Xs5-VC-I90" firstAttribute="trailing" secondItem="DTE-aB-JVQ" secondAttribute="trailing" id="hWQ-qr-T8l"/>
-                                            <constraint firstItem="U3q-zx-pct" firstAttribute="leading" secondItem="cyI-6z-pUR" secondAttribute="leadingMargin" id="jFb-gj-JZe"/>
-                                            <constraint firstItem="d6s-BE-VNC" firstAttribute="top" secondItem="Xs5-VC-I90" secondAttribute="bottom" constant="8" symbolic="YES" id="okx-YV-zMQ"/>
-                                            <constraint firstItem="Xs5-VC-I90" firstAttribute="top" secondItem="DTE-aB-JVQ" secondAttribute="bottom" constant="8" symbolic="YES" id="sUJ-jb-pnV"/>
-                                            <constraint firstItem="DTE-aB-JVQ" firstAttribute="leading" secondItem="whK-Ih-fc1" secondAttribute="leading" id="ugS-T8-CyB"/>
+                                            <constraint firstItem="SnS-9N-tmk" firstAttribute="top" secondItem="qrc-1T-BLJ" secondAttribute="bottom" constant="16" id="0as-by-M0p"/>
+                                            <constraint firstItem="w96-Vl-kdA" firstAttribute="trailing" secondItem="RmM-7h-VYz" secondAttribute="trailing" id="0lg-Pl-chd"/>
+                                            <constraint firstItem="RmM-7h-VYz" firstAttribute="trailing" secondItem="k6Q-Ja-1nl" secondAttribute="trailing" id="34c-CG-KNA"/>
+                                            <constraint firstItem="RmM-7h-VYz" firstAttribute="leading" secondItem="cyI-6z-pUR" secondAttribute="leading" constant="16" id="3L6-pt-EWs"/>
+                                            <constraint firstItem="qrc-1T-BLJ" firstAttribute="top" secondItem="LY9-cm-Qaj" secondAttribute="bottom" constant="4" id="4ow-2H-BrX"/>
+                                            <constraint firstItem="v3c-vY-hNH" firstAttribute="leading" secondItem="cyI-6z-pUR" secondAttribute="leading" constant="16" id="5or-Ad-0Q2"/>
+                                            <constraint firstItem="v3c-vY-hNH" firstAttribute="top" secondItem="2TH-1e-S0I" secondAttribute="bottom" constant="4" id="6Uc-6w-bUI"/>
+                                            <constraint firstItem="w96-Vl-kdA" firstAttribute="leading" secondItem="cyI-6z-pUR" secondAttribute="leading" constant="16" id="6u7-jt-wha"/>
+                                            <constraint firstItem="v3c-vY-hNH" firstAttribute="leading" secondItem="2TH-1e-S0I" secondAttribute="leading" id="7cC-6i-B9h"/>
+                                            <constraint firstAttribute="trailing" secondItem="k6Q-Ja-1nl" secondAttribute="trailing" constant="16" id="8DO-3c-cpw"/>
+                                            <constraint firstItem="w96-Vl-kdA" firstAttribute="top" secondItem="RmM-7h-VYz" secondAttribute="bottom" constant="4" id="8jc-v4-xcu"/>
+                                            <constraint firstItem="qrc-1T-BLJ" firstAttribute="leading" secondItem="cyI-6z-pUR" secondAttribute="leading" constant="16" id="9nx-xm-yiO"/>
+                                            <constraint firstAttribute="bottom" secondItem="RmM-7h-VYz" secondAttribute="bottom" constant="875" id="AYB-W1-C8s"/>
+                                            <constraint firstAttribute="trailing" secondItem="v3c-vY-hNH" secondAttribute="trailing" constant="16" id="BMq-eL-vjs"/>
+                                            <constraint firstItem="RmM-7h-VYz" firstAttribute="leading" secondItem="cyI-6z-pUR" secondAttribute="leading" constant="16" id="Bdn-Of-cqu"/>
+                                            <constraint firstItem="k6Q-Ja-1nl" firstAttribute="leading" secondItem="cyI-6z-pUR" secondAttribute="leading" constant="16" id="CDQ-z1-7rx"/>
+                                            <constraint firstAttribute="trailing" secondItem="QpC-oj-Wxn" secondAttribute="trailing" constant="16" id="Dib-iu-AgP"/>
+                                            <constraint firstItem="QpC-oj-Wxn" firstAttribute="top" secondItem="5XK-MD-rFw" secondAttribute="bottom" constant="4" id="Fpq-Cn-YqX"/>
+                                            <constraint firstItem="k6Q-Ja-1nl" firstAttribute="top" secondItem="SnS-9N-tmk" secondAttribute="bottom" constant="4" id="G8q-po-WDx"/>
+                                            <constraint firstItem="ALE-LN-QIl" firstAttribute="leading" secondItem="cyI-6z-pUR" secondAttribute="leading" constant="16" id="GxA-ag-EcG"/>
+                                            <constraint firstAttribute="trailing" secondItem="5VO-yx-foP" secondAttribute="trailing" constant="16" id="Gzj-bc-W5L"/>
+                                            <constraint firstItem="v3c-vY-hNH" firstAttribute="top" secondItem="2TH-1e-S0I" secondAttribute="bottom" constant="4" id="Hot-4H-cVD"/>
+                                            <constraint firstItem="ALE-LN-QIl" firstAttribute="leading" secondItem="cyI-6z-pUR" secondAttribute="leading" constant="16" id="Ieo-Uc-2Vl"/>
+                                            <constraint firstAttribute="height" constant="1836" id="JmP-WU-kfo"/>
+                                            <constraint firstAttribute="trailing" secondItem="zpb-hx-tZ2" secondAttribute="trailing" constant="16" id="KCT-vV-QDS"/>
+                                            <constraint firstItem="QpC-oj-Wxn" firstAttribute="top" secondItem="5XK-MD-rFw" secondAttribute="bottom" constant="4" id="Keu-um-T2o"/>
+                                            <constraint firstItem="5VO-yx-foP" firstAttribute="leading" secondItem="cyI-6z-pUR" secondAttribute="leading" constant="16" id="Km1-lb-6sC"/>
+                                            <constraint firstItem="qrc-1T-BLJ" firstAttribute="leading" secondItem="LY9-cm-Qaj" secondAttribute="leading" id="Kob-dM-mwI"/>
+                                            <constraint firstItem="ALE-LN-QIl" firstAttribute="top" secondItem="TIN-2l-gmg" secondAttribute="bottom" constant="4" id="Kvj-es-t5l"/>
+                                            <constraint firstItem="2TH-1e-S0I" firstAttribute="leading" secondItem="cyI-6z-pUR" secondAttribute="leading" constant="16" id="Lh2-Nq-8ck"/>
+                                            <constraint firstAttribute="trailing" secondItem="5XK-MD-rFw" secondAttribute="trailing" constant="16" id="NZy-ho-NFe"/>
+                                            <constraint firstItem="TIN-2l-gmg" firstAttribute="leading" secondItem="cyI-6z-pUR" secondAttribute="leading" constant="16" id="OkT-F8-2ah"/>
+                                            <constraint firstItem="5XK-MD-rFw" firstAttribute="top" secondItem="v3c-vY-hNH" secondAttribute="bottom" constant="16" id="Olk-1b-5ne"/>
+                                            <constraint firstItem="LY9-cm-Qaj" firstAttribute="top" secondItem="5VO-yx-foP" secondAttribute="bottom" constant="16" id="P8M-nL-SHI"/>
+                                            <constraint firstItem="ALE-LN-QIl" firstAttribute="leading" secondItem="cyI-6z-pUR" secondAttribute="leading" constant="16" id="QG1-Vb-ogG"/>
+                                            <constraint firstItem="eZy-7d-DvT" firstAttribute="leading" secondItem="cyI-6z-pUR" secondAttribute="leading" constant="16" id="Qhm-Pl-DBj"/>
+                                            <constraint firstItem="SnS-9N-tmk" firstAttribute="leading" secondItem="cyI-6z-pUR" secondAttribute="leading" constant="16" id="Rgw-O3-Kvo"/>
+                                            <constraint firstItem="qrc-1T-BLJ" firstAttribute="top" secondItem="LY9-cm-Qaj" secondAttribute="bottom" constant="4" id="Sjn-ov-swI"/>
+                                            <constraint firstItem="QpC-oj-Wxn" firstAttribute="leading" secondItem="5XK-MD-rFw" secondAttribute="leading" id="VDu-hI-CkP"/>
+                                            <constraint firstAttribute="trailing" secondItem="LY9-cm-Qaj" secondAttribute="trailing" constant="16" id="VWY-Yf-pRa"/>
+                                            <constraint firstAttribute="trailing" secondItem="2TH-1e-S0I" secondAttribute="trailing" constant="16" id="WA8-z3-Rlt"/>
+                                            <constraint firstAttribute="trailing" secondItem="TIN-2l-gmg" secondAttribute="trailing" constant="16" id="WFf-mD-AbP"/>
+                                            <constraint firstAttribute="trailing" secondItem="ALE-LN-QIl" secondAttribute="trailing" constant="16" id="WRe-7K-F6F"/>
+                                            <constraint firstItem="RmM-7h-VYz" firstAttribute="top" secondItem="k6Q-Ja-1nl" secondAttribute="bottom" constant="16" id="WVt-qB-41c"/>
+                                            <constraint firstItem="TIN-2l-gmg" firstAttribute="top" secondItem="zpb-hx-tZ2" secondAttribute="bottom" constant="16" id="WjX-nv-iU1"/>
+                                            <constraint firstItem="zpb-hx-tZ2" firstAttribute="top" secondItem="eZy-7d-DvT" secondAttribute="bottom" constant="4" id="WpB-dR-Oa1"/>
+                                            <constraint firstItem="v3c-vY-hNH" firstAttribute="trailing" secondItem="2TH-1e-S0I" secondAttribute="trailing" id="Z30-JF-LCF"/>
+                                            <constraint firstAttribute="trailing" secondItem="w96-Vl-kdA" secondAttribute="trailing" constant="16" id="b0Y-D1-xAw"/>
+                                            <constraint firstItem="qrc-1T-BLJ" firstAttribute="top" secondItem="cyI-6z-pUR" secondAttribute="top" constant="432" id="cHH-Ct-kfr"/>
+                                            <constraint firstItem="eZy-7d-DvT" firstAttribute="top" secondItem="w96-Vl-kdA" secondAttribute="bottom" constant="16" id="cXe-OI-OFj"/>
+                                            <constraint firstAttribute="trailing" secondItem="qrc-1T-BLJ" secondAttribute="trailing" constant="16" id="chD-LC-WSZ"/>
+                                            <constraint firstItem="w96-Vl-kdA" firstAttribute="leading" secondItem="RmM-7h-VYz" secondAttribute="leading" id="ciD-i8-xR3"/>
+                                            <constraint firstItem="5VO-yx-foP" firstAttribute="top" secondItem="QpC-oj-Wxn" secondAttribute="bottom" constant="8" symbolic="YES" id="dTY-Ai-aes"/>
+                                            <constraint firstItem="RmM-7h-VYz" firstAttribute="top" secondItem="k6Q-Ja-1nl" secondAttribute="bottom" constant="16" id="fRg-eM-JDG"/>
+                                            <constraint firstItem="ALE-LN-QIl" firstAttribute="top" secondItem="TIN-2l-gmg" secondAttribute="bottom" constant="4" id="gVI-Mp-zX2"/>
+                                            <constraint firstItem="zpb-hx-tZ2" firstAttribute="top" secondItem="eZy-7d-DvT" secondAttribute="bottom" constant="4" id="jPi-vg-Scx"/>
+                                            <constraint firstItem="2TH-1e-S0I" firstAttribute="top" secondItem="cyI-6z-pUR" secondAttribute="top" constant="16" id="kUM-Nj-qwJ"/>
+                                            <constraint firstItem="QpC-oj-Wxn" firstAttribute="leading" secondItem="cyI-6z-pUR" secondAttribute="leading" constant="16" id="mNZ-ji-B6M"/>
+                                            <constraint firstItem="RmM-7h-VYz" firstAttribute="top" secondItem="k6Q-Ja-1nl" secondAttribute="bottom" constant="16" id="n3L-Re-LLz"/>
+                                            <constraint firstItem="w96-Vl-kdA" firstAttribute="top" secondItem="RmM-7h-VYz" secondAttribute="bottom" constant="4" id="nC0-XJ-eYY"/>
+                                            <constraint firstAttribute="trailing" secondItem="ALE-LN-QIl" secondAttribute="trailing" constant="16" id="nTC-bC-1Ht"/>
+                                            <constraint firstItem="5VO-yx-foP" firstAttribute="leading" secondItem="QpC-oj-Wxn" secondAttribute="leading" id="obt-cH-5rZ"/>
+                                            <constraint firstAttribute="trailing" secondItem="RmM-7h-VYz" secondAttribute="trailing" constant="16" id="pR7-Jt-lll"/>
+                                            <constraint firstItem="zpb-hx-tZ2" firstAttribute="leading" secondItem="eZy-7d-DvT" secondAttribute="leading" id="qrN-M0-Oeb"/>
+                                            <constraint firstAttribute="trailing" secondItem="ALE-LN-QIl" secondAttribute="trailing" constant="16" id="rWq-KP-e7y"/>
+                                            <constraint firstItem="5VO-yx-foP" firstAttribute="top" secondItem="QpC-oj-Wxn" secondAttribute="bottom" constant="8" id="sNu-21-98j"/>
+                                            <constraint firstItem="QpC-oj-Wxn" firstAttribute="trailing" secondItem="5XK-MD-rFw" secondAttribute="trailing" id="tb8-Z8-PFU"/>
+                                            <constraint firstItem="RmM-7h-VYz" firstAttribute="leading" secondItem="k6Q-Ja-1nl" secondAttribute="leading" id="urq-Zl-P2F"/>
+                                            <constraint firstItem="LY9-cm-Qaj" firstAttribute="leading" secondItem="cyI-6z-pUR" secondAttribute="leading" constant="16" id="uuA-e7-h6Z"/>
+                                            <constraint firstAttribute="trailing" secondItem="SnS-9N-tmk" secondAttribute="trailing" constant="16" id="v1I-J8-IXA"/>
+                                            <constraint firstItem="5XK-MD-rFw" firstAttribute="leading" secondItem="cyI-6z-pUR" secondAttribute="leading" constant="16" id="vrP-K2-2VJ"/>
+                                            <constraint firstItem="w96-Vl-kdA" firstAttribute="top" secondItem="RmM-7h-VYz" secondAttribute="bottom" constant="4" id="x1F-Mp-Pod"/>
+                                            <constraint firstItem="zpb-hx-tZ2" firstAttribute="trailing" secondItem="eZy-7d-DvT" secondAttribute="trailing" id="x9I-j5-siA"/>
+                                            <constraint firstAttribute="trailing" secondItem="eZy-7d-DvT" secondAttribute="trailing" constant="16" id="xbh-wi-VGh"/>
+                                            <constraint firstItem="zpb-hx-tZ2" firstAttribute="leading" secondItem="cyI-6z-pUR" secondAttribute="leading" constant="16" id="yU4-6P-nxq"/>
+                                            <constraint firstAttribute="trailing" secondItem="RmM-7h-VYz" secondAttribute="trailing" constant="16" id="zF5-BO-5Jb"/>
                                         </constraints>
                                     </view>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lowerBorder" translatesAutoresizingMaskIntoConstraints="NO" id="FDB-p8-pMX">
+                                        <rect key="frame" x="0.0" y="1806" width="375" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="XLn-wZ-CsP"/>
+                                        </constraints>
+                                    </imageView>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="cyI-6z-pUR" firstAttribute="top" secondItem="DrC-Br-Hwe" secondAttribute="top" id="5Vi-bP-2vp"/>
+                                    <constraint firstItem="FDB-p8-pMX" firstAttribute="leading" secondItem="DrC-Br-Hwe" secondAttribute="leading" id="JZQ-OW-MRY"/>
+                                    <constraint firstAttribute="trailing" secondItem="FDB-p8-pMX" secondAttribute="trailing" id="K3X-YD-UvD"/>
                                     <constraint firstAttribute="trailing" secondItem="cyI-6z-pUR" secondAttribute="trailing" id="ODF-FN-kip"/>
+                                    <constraint firstAttribute="bottom" secondItem="FDB-p8-pMX" secondAttribute="bottom" id="UfW-ym-Kby"/>
                                     <constraint firstItem="cyI-6z-pUR" firstAttribute="leading" secondItem="DrC-Br-Hwe" secondAttribute="leading" id="csb-cF-0nk"/>
-                                    <constraint firstAttribute="bottom" secondItem="cyI-6z-pUR" secondAttribute="bottom" constant="-1" id="zOF-1r-6M2"/>
+                                    <constraint firstAttribute="trailing" secondItem="FDB-p8-pMX" secondAttribute="trailing" id="hoC-p9-W9A"/>
+                                    <constraint firstItem="FDB-p8-pMX" firstAttribute="leading" secondItem="DrC-Br-Hwe" secondAttribute="leading" id="jdT-Fd-EhP"/>
+                                    <constraint firstItem="FDB-p8-pMX" firstAttribute="leading" secondItem="DrC-Br-Hwe" secondAttribute="leading" id="oZB-70-E5d"/>
+                                    <constraint firstAttribute="trailing" secondItem="FDB-p8-pMX" secondAttribute="trailing" id="q9p-wk-VTI"/>
+                                    <constraint firstAttribute="bottom" secondItem="FDB-p8-pMX" secondAttribute="bottom" id="tC0-r5-l2Y"/>
+                                    <constraint firstAttribute="bottom" secondItem="cyI-6z-pUR" secondAttribute="bottom" id="zOF-1r-6M2"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
@@ -825,22 +731,22 @@ Det är därför viktigt att du loggar ur systemet när du har rast. Detta för 
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="B3k-Dd-ArS"/>
                     </view>
-                    <size key="freeformSize" width="375" height="1593"/>
+                    <size key="freeformSize" width="375" height="1900"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7K4-8U-aHp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1232.608695652174" y="1638.179347826087"/>
+            <point key="canvasLocation" x="1230.9375" y="1637.323943661972"/>
         </scene>
         <!--Show Calculated Salary View Controller-->
         <scene sceneID="xYb-eb-quq">
             <objects>
                 <viewController id="ukb-o9-Hae" customClass="ShowCalculatedSalaryViewController" customModule="Taxi_lo_n" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ma7-Np-iTv">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sSi-uf-BNf" customClass="BounceButton" customModule="Taxi_lo_n" customModuleProvider="target">
-                                <rect key="frame" x="17" y="410" width="287" height="50"/>
+                                <rect key="frame" x="16" y="498" width="288" height="50"/>
                                 <color key="backgroundColor" red="0.98039215686274506" green="0.81960784313725488" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="oCw-va-sEn"/>
@@ -858,7 +764,7 @@ Det är därför viktigt att du loggar ur systemet när du har rast. Detta för 
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="26 000kr" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="37" translatesAutoresizingMaskIntoConstraints="NO" id="PRW-I8-rnF">
-                                <rect key="frame" x="15" y="48" width="288" height="89"/>
+                                <rect key="frame" x="15" y="48" width="289" height="89"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="74"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -876,7 +782,7 @@ Det är därför viktigt att du loggar ur systemet när du har rast. Detta för 
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="26 000kr" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="37" translatesAutoresizingMaskIntoConstraints="NO" id="aKg-bC-p4V">
-                                <rect key="frame" x="16" y="186" width="288" height="89"/>
+                                <rect key="frame" x="15" y="186" width="289" height="89"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="74"/>
                                 <color key="textColor" red="0.58039215686274503" green="0.066666666666666666" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -893,25 +799,22 @@ Det är därför viktigt att du loggar ur systemet när du har rast. Detta för 
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="150 kr" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="4s7-0l-Vc3">
-                                <rect key="frame" x="192" y="281" width="111" height="21"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="111" id="Bac-zQ-dtG"/>
-                                </constraints>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="150 kr" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="4s7-0l-Vc3">
+                                <rect key="frame" x="192" y="281" width="112" height="21"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                 <color key="textColor" red="0.47612626903553301" green="0.47612626903553301" blue="0.47612626903553301" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="150 kr" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="mEw-Sv-zYi">
-                                <rect key="frame" x="192" y="317" width="111" height="21"/>
+                                <rect key="frame" x="192" y="317" width="112" height="21"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                 <color key="textColor" red="0.43529412150000002" green="0.4431372583" blue="0.47450980539999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="ocU-Od-LY4" customClass="EdgeInsetLabel" customModule="Taxi_lo_n" customModuleProvider="target">
-                                <rect key="frame" x="16" y="346" width="287" height="62"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="7" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ocU-Od-LY4" customClass="EdgeInsetLabel" customModule="Taxi_lo_n" customModuleProvider="target">
+                                <rect key="frame" x="14" y="346" width="290" height="103"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="62" id="RGx-bQ-EMr"/>
+                                    <constraint firstAttribute="height" constant="103" id="RGx-bQ-EMr"/>
                                 </constraints>
                                 <string key="text">* I det fall semesterersättning utbetalas vid varje lönetillfälle skall den minst vara den angivna summan. I annat fall skall ersättningen samlas ihopa och utbetalas i samband med att man har semester.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -938,32 +841,35 @@ Det är därför viktigt att du loggar ur systemet när du har rast. Detta för 
                         <constraints>
                             <constraint firstItem="4s7-0l-Vc3" firstAttribute="leading" secondItem="mEw-Sv-zYi" secondAttribute="leading" id="2Ir-4h-gkH"/>
                             <constraint firstItem="mEw-Sv-zYi" firstAttribute="top" secondItem="4s7-0l-Vc3" secondAttribute="bottom" constant="15" id="8ea-zS-sp2"/>
-                            <constraint firstItem="mEw-Sv-zYi" firstAttribute="trailing" secondItem="ocU-Od-LY4" secondAttribute="trailing" id="A3x-mc-MK6"/>
-                            <constraint firstItem="aKg-bC-p4V" firstAttribute="trailing" secondItem="sSi-uf-BNf" secondAttribute="trailing" id="F3X-HV-L5f"/>
+                            <constraint firstItem="mEw-Sv-zYi" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="ocU-Od-LY4" secondAttribute="trailing" id="A3x-mc-MK6"/>
+                            <constraint firstItem="aKg-bC-p4V" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="sSi-uf-BNf" secondAttribute="trailing" id="F3X-HV-L5f"/>
                             <constraint firstItem="PRW-I8-rnF" firstAttribute="top" secondItem="ZEA-3a-ebC" secondAttribute="bottom" constant="7" id="FBj-i3-MGP"/>
                             <constraint firstItem="ZEA-3a-ebC" firstAttribute="top" secondItem="XPZ-2s-jNc" secondAttribute="top" id="KiA-fu-iDy"/>
-                            <constraint firstItem="aKg-bC-p4V" firstAttribute="leading" secondItem="ocU-Od-LY4" secondAttribute="leading" id="N6R-EY-r85"/>
+                            <constraint firstItem="aKg-bC-p4V" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="ocU-Od-LY4" secondAttribute="leading" id="N6R-EY-r85"/>
                             <constraint firstItem="ocU-Od-LY4" firstAttribute="top" secondItem="mEw-Sv-zYi" secondAttribute="bottom" constant="8" symbolic="YES" id="Nbx-PB-iyJ"/>
                             <constraint firstItem="Zop-Rl-IGt" firstAttribute="trailing" secondItem="hEr-x5-hey" secondAttribute="trailing" id="Oo7-ld-G3l"/>
                             <constraint firstItem="Zop-Rl-IGt" firstAttribute="baseline" secondItem="4s7-0l-Vc3" secondAttribute="baseline" id="SBe-k6-t1N"/>
-                            <constraint firstItem="PRW-I8-rnF" firstAttribute="trailing" secondItem="4s7-0l-Vc3" secondAttribute="trailing" id="SS9-Ld-ijb"/>
-                            <constraint firstItem="l2x-rT-C4O" firstAttribute="leading" secondItem="aKg-bC-p4V" secondAttribute="leading" id="SaT-9Z-Jh3"/>
+                            <constraint firstItem="PRW-I8-rnF" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="4s7-0l-Vc3" secondAttribute="trailing" id="SS9-Ld-ijb"/>
+                            <constraint firstItem="l2x-rT-C4O" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="aKg-bC-p4V" secondAttribute="leading" id="SaT-9Z-Jh3"/>
                             <constraint firstItem="l2x-rT-C4O" firstAttribute="top" secondItem="PRW-I8-rnF" secondAttribute="bottom" constant="21" id="V39-PH-ea6"/>
                             <constraint firstItem="ZEA-3a-ebC" firstAttribute="trailing" secondItem="ma7-Np-iTv" secondAttribute="trailingMargin" id="W3N-pF-Ya9"/>
                             <constraint firstItem="ZEA-3a-ebC" firstAttribute="trailing" secondItem="l2x-rT-C4O" secondAttribute="trailing" id="bLd-DO-AjK"/>
                             <constraint firstItem="aKg-bC-p4V" firstAttribute="top" secondItem="l2x-rT-C4O" secondAttribute="bottom" constant="7" id="bMM-Kt-lxV"/>
-                            <constraint firstItem="PRW-I8-rnF" firstAttribute="leading" secondItem="Zop-Rl-IGt" secondAttribute="leading" id="boM-hd-mbK"/>
+                            <constraint firstItem="PRW-I8-rnF" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Zop-Rl-IGt" secondAttribute="leading" id="boM-hd-mbK"/>
                             <constraint firstItem="aKg-bC-p4V" firstAttribute="centerX" secondItem="ocU-Od-LY4" secondAttribute="centerX" id="cSp-7V-jgR"/>
                             <constraint firstItem="4s7-0l-Vc3" firstAttribute="trailing" secondItem="mEw-Sv-zYi" secondAttribute="trailing" id="cTb-pA-RhH"/>
+                            <constraint firstItem="4s7-0l-Vc3" firstAttribute="leading" secondItem="Zop-Rl-IGt" secondAttribute="trailing" constant="27" id="ceL-pY-eBo"/>
                             <constraint firstItem="ZEA-3a-ebC" firstAttribute="leading" secondItem="l2x-rT-C4O" secondAttribute="leading" id="crh-1f-qSJ"/>
                             <constraint firstItem="ZEA-3a-ebC" firstAttribute="leading" secondItem="ma7-Np-iTv" secondAttribute="leadingMargin" id="g9b-in-Qr1"/>
                             <constraint firstItem="Zop-Rl-IGt" firstAttribute="leading" secondItem="hEr-x5-hey" secondAttribute="leading" id="gX4-YP-CMs"/>
                             <constraint firstItem="Zop-Rl-IGt" firstAttribute="top" secondItem="aKg-bC-p4V" secondAttribute="bottom" constant="8" symbolic="YES" id="hiC-fA-wLp"/>
                             <constraint firstItem="ocU-Od-LY4" firstAttribute="top" secondItem="hEr-x5-hey" secondAttribute="bottom" constant="8" symbolic="YES" id="lTm-Rd-yas"/>
+                            <constraint firstItem="Zop-Rl-IGt" firstAttribute="leading" secondItem="XPZ-2s-jNc" secondAttribute="leading" constant="15" id="mOP-qW-gID"/>
                             <constraint firstItem="aKg-bC-p4V" firstAttribute="centerX" secondItem="sSi-uf-BNf" secondAttribute="centerX" id="o7f-Xi-RUx"/>
                             <constraint firstAttribute="bottom" secondItem="sSi-uf-BNf" secondAttribute="bottom" constant="20" symbolic="YES" id="pnH-vt-29c"/>
+                            <constraint firstItem="sSi-uf-BNf" firstAttribute="leading" secondItem="XPZ-2s-jNc" secondAttribute="leading" constant="16" id="r1L-Ol-IYm"/>
                             <constraint firstItem="PRW-I8-rnF" firstAttribute="centerX" secondItem="ocU-Od-LY4" secondAttribute="centerX" id="sRZ-2p-fX5"/>
-                            <constraint firstItem="l2x-rT-C4O" firstAttribute="trailing" secondItem="aKg-bC-p4V" secondAttribute="trailing" id="xpe-xm-ns1"/>
+                            <constraint firstItem="l2x-rT-C4O" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="aKg-bC-p4V" secondAttribute="trailing" id="xpe-xm-ns1"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="XPZ-2s-jNc"/>
                     </view>
@@ -976,7 +882,7 @@ Det är därför viktigt att du loggar ur systemet när du har rast. Detta för 
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="T1t-JL-otW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2141.5999999999999" y="-550.07496251874068"/>
+            <point key="canvasLocation" x="2141.25" y="-550.35211267605632"/>
         </scene>
         <!--Månadslön-->
         <scene sceneID="hM9-eJ-fcL">
@@ -992,11 +898,11 @@ Det är därför viktigt att du loggar ur systemet när du har rast. Detta för 
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CiQ-Cc-mgc">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="736"/>
                                         <subviews>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" adjustsFontForContentSizeCategory="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JHu-qv-trK">
-                                                <rect key="frame" x="16" y="8" width="343" height="259"/>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" usesAttributedText="YES" adjustsFontForContentSizeCategory="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JHu-qv-trK">
+                                                <rect key="frame" x="16" y="8" width="343" height="267"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="259" id="jdB-3K-t7p"/>
+                                                    <constraint firstAttribute="height" constant="267" id="jdB-3K-t7p"/>
                                                 </constraints>
                                                 <attributedString key="attributedText">
                                                     <fragment content="Från och med den 1 december 2017 ">
@@ -1059,7 +965,7 @@ Det är därför viktigt att du loggar ur systemet när du har rast. Detta för 
                                                         </attributedString>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fzb-rL-WVn">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Fzb-rL-WVn">
                                                         <rect key="frame" x="5" y="32" width="132" height="22"/>
                                                         <attributedString key="attributedText">
                                                             <fragment content="Månadslön, minst:">
@@ -1094,25 +1000,37 @@ Det är därför viktigt att du loggar ur systemet när du har rast. Detta för 
                                                         </attributedString>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tbq-Mb-lEf">
-                                                        <rect key="frame" x="5" y="92" width="226" height="22"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="Tbq-Mb-lEf">
+                                                        <rect key="frame" x="5" y="92" width="179.5" height="22"/>
                                                         <attributedString key="attributedText">
-                                                            <fragment content="Timlön, 1/174 av månadslönen:">
+                                                            <fragment content="Timlön, ">
                                                                 <attributes>
                                                                     <font key="NSFont" size="16" name="Avenir-Medium"/>
-                                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                            <fragment content="1/174 av månadslön:">
+                                                                <attributes>
+                                                                    <font key="NSFont" size="13" name="Avenir-Medium"/>
+                                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                                 </attributes>
                                                             </fragment>
                                                         </attributedString>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DHW-fX-NXq">
-                                                        <rect key="frame" x="5" y="62" width="239" height="22"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="DHW-fX-NXq">
+                                                        <rect key="frame" x="5" y="62" width="190.5" height="22"/>
                                                         <attributedString key="attributedText">
-                                                            <fragment content="Timlön, 1/166,4 av månadslönen:">
+                                                            <fragment content="Timlön, ">
                                                                 <attributes>
                                                                     <font key="NSFont" size="16" name="Avenir-Medium"/>
-                                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                            <fragment content="1/166,4 av månadslön:">
+                                                                <attributes>
+                                                                    <font key="NSFont" size="13" name="Avenir-Medium"/>
+                                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                                 </attributes>
                                                             </fragment>
                                                         </attributedString>
@@ -1133,23 +1051,34 @@ Det är därför viktigt att du loggar ur systemet när du har rast. Detta för 
                                                 </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <constraints>
-                                                    <constraint firstItem="GKv-B3-VRZ" firstAttribute="leading" secondItem="DHW-fX-NXq" secondAttribute="leading" id="3Jl-2J-lEg"/>
-                                                    <constraint firstItem="Tbq-Mb-lEf" firstAttribute="top" secondItem="DHW-fX-NXq" secondAttribute="bottom" constant="8" symbolic="YES" id="41k-RQ-ixU"/>
-                                                    <constraint firstItem="GKv-B3-VRZ" firstAttribute="leading" secondItem="2rU-ql-jAg" secondAttribute="leading" constant="5" id="GgW-dH-Ouf"/>
-                                                    <constraint firstItem="5BK-Yd-yyg" firstAttribute="top" secondItem="GKv-B3-VRZ" secondAttribute="bottom" constant="8" symbolic="YES" id="JKF-rR-eFI"/>
-                                                    <constraint firstItem="Fzb-rL-WVn" firstAttribute="top" secondItem="GKv-B3-VRZ" secondAttribute="bottom" constant="8" symbolic="YES" id="QNt-D0-ImI"/>
-                                                    <constraint firstAttribute="trailing" secondItem="GKv-B3-VRZ" secondAttribute="trailing" constant="5" id="Um9-W9-yTP"/>
-                                                    <constraint firstItem="LbV-Sf-z3F" firstAttribute="leading" secondItem="jcp-3H-GBo" secondAttribute="leading" id="XD7-wM-EG4"/>
-                                                    <constraint firstAttribute="bottom" secondItem="Tbq-Mb-lEf" secondAttribute="bottom" constant="10" id="XNk-Nf-gcX"/>
-                                                    <constraint firstItem="GKv-B3-VRZ" firstAttribute="leading" secondItem="Tbq-Mb-lEf" secondAttribute="leading" id="Xn3-Aq-lLa"/>
-                                                    <constraint firstItem="5BK-Yd-yyg" firstAttribute="trailing" secondItem="LbV-Sf-z3F" secondAttribute="trailing" id="as8-Br-Dth"/>
-                                                    <constraint firstItem="Tbq-Mb-lEf" firstAttribute="baseline" secondItem="jcp-3H-GBo" secondAttribute="baseline" id="f1D-vF-4cE"/>
-                                                    <constraint firstItem="5BK-Yd-yyg" firstAttribute="trailing" secondItem="2rU-ql-jAg" secondAttribute="trailingMargin" id="hbt-Be-1XH"/>
-                                                    <constraint firstItem="DHW-fX-NXq" firstAttribute="top" secondItem="Fzb-rL-WVn" secondAttribute="bottom" constant="8" symbolic="YES" id="kvr-2U-Ifa"/>
-                                                    <constraint firstItem="5BK-Yd-yyg" firstAttribute="leading" secondItem="Fzb-rL-WVn" secondAttribute="trailing" constant="108" id="msN-w3-ZVj"/>
-                                                    <constraint firstItem="DHW-fX-NXq" firstAttribute="baseline" secondItem="LbV-Sf-z3F" secondAttribute="baseline" id="sIN-Za-unh"/>
-                                                    <constraint firstItem="GKv-B3-VRZ" firstAttribute="top" secondItem="2rU-ql-jAg" secondAttribute="top" id="y2U-ng-Wr1"/>
-                                                    <constraint firstItem="GKv-B3-VRZ" firstAttribute="leading" secondItem="Fzb-rL-WVn" secondAttribute="leading" id="ywQ-Vb-Std"/>
+                                                    <constraint firstAttribute="trailing" secondItem="5BK-Yd-yyg" secondAttribute="trailing" constant="8" id="1Ge-GQ-eFk"/>
+                                                    <constraint firstItem="GKv-B3-VRZ" firstAttribute="leading" secondItem="2rU-ql-jAg" secondAttribute="leading" constant="5" id="5Dh-vl-VkH"/>
+                                                    <constraint firstItem="5BK-Yd-yyg" firstAttribute="top" secondItem="GKv-B3-VRZ" secondAttribute="bottom" constant="8" id="5lr-PV-6H5"/>
+                                                    <constraint firstItem="GKv-B3-VRZ" firstAttribute="top" secondItem="2rU-ql-jAg" secondAttribute="top" id="8OR-WH-lq3"/>
+                                                    <constraint firstItem="jcp-3H-GBo" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="2rU-ql-jAg" secondAttribute="leading" constant="20" symbolic="YES" id="9Oo-vX-OPz"/>
+                                                    <constraint firstItem="Tbq-Mb-lEf" firstAttribute="leading" secondItem="2rU-ql-jAg" secondAttribute="leading" constant="5" id="9nF-XY-BhR"/>
+                                                    <constraint firstAttribute="trailing" secondItem="jcp-3H-GBo" secondAttribute="trailing" constant="8" id="BJY-dV-trg"/>
+                                                    <constraint firstItem="Fzb-rL-WVn" firstAttribute="top" secondItem="GKv-B3-VRZ" secondAttribute="bottom" constant="8" id="C3H-96-SJq"/>
+                                                    <constraint firstItem="DHW-fX-NXq" firstAttribute="top" secondItem="Fzb-rL-WVn" secondAttribute="bottom" constant="8" id="FEi-Ps-mvj"/>
+                                                    <constraint firstAttribute="bottom" secondItem="jcp-3H-GBo" secondAttribute="bottom" constant="10" id="FgH-gi-Gtu"/>
+                                                    <constraint firstItem="DHW-fX-NXq" firstAttribute="top" secondItem="Fzb-rL-WVn" secondAttribute="bottom" constant="8" id="GvB-CK-72a"/>
+                                                    <constraint firstItem="jcp-3H-GBo" firstAttribute="top" secondItem="LbV-Sf-z3F" secondAttribute="bottom" constant="8" id="Hgy-u4-pXh"/>
+                                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Fzb-rL-WVn" secondAttribute="trailing" constant="20" symbolic="YES" id="I21-6T-cvf"/>
+                                                    <constraint firstAttribute="bottom" secondItem="Tbq-Mb-lEf" secondAttribute="bottom" constant="10" id="LP3-OM-FyA"/>
+                                                    <constraint firstAttribute="trailing" secondItem="GKv-B3-VRZ" secondAttribute="trailing" constant="5" id="MxP-jH-AOa"/>
+                                                    <constraint firstItem="LbV-Sf-z3F" firstAttribute="top" secondItem="5BK-Yd-yyg" secondAttribute="bottom" constant="8" id="NLt-mx-OHI"/>
+                                                    <constraint firstItem="Fzb-rL-WVn" firstAttribute="top" secondItem="GKv-B3-VRZ" secondAttribute="bottom" constant="8" id="PFf-xs-Jde"/>
+                                                    <constraint firstItem="LbV-Sf-z3F" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="2rU-ql-jAg" secondAttribute="leading" constant="20" symbolic="YES" id="Q0r-PC-o2W"/>
+                                                    <constraint firstItem="jcp-3H-GBo" firstAttribute="top" secondItem="LbV-Sf-z3F" secondAttribute="bottom" constant="8" id="RjG-P8-mYy"/>
+                                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Tbq-Mb-lEf" secondAttribute="trailing" constant="20" symbolic="YES" id="SZv-ht-187"/>
+                                                    <constraint firstItem="Fzb-rL-WVn" firstAttribute="leading" secondItem="2rU-ql-jAg" secondAttribute="leading" constant="5" id="ds6-yW-Igc"/>
+                                                    <constraint firstAttribute="trailing" secondItem="LbV-Sf-z3F" secondAttribute="trailing" constant="8" id="dwy-tn-bqB"/>
+                                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="DHW-fX-NXq" secondAttribute="trailing" constant="20" symbolic="YES" id="hxV-NG-185"/>
+                                                    <constraint firstItem="5BK-Yd-yyg" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="2rU-ql-jAg" secondAttribute="leading" constant="20" symbolic="YES" id="iyo-Ps-oOK"/>
+                                                    <constraint firstItem="DHW-fX-NXq" firstAttribute="leading" secondItem="2rU-ql-jAg" secondAttribute="leading" constant="5" id="raJ-bu-ELL"/>
+                                                    <constraint firstItem="Tbq-Mb-lEf" firstAttribute="top" secondItem="DHW-fX-NXq" secondAttribute="bottom" constant="8" id="uSW-Lp-Acq"/>
+                                                    <constraint firstItem="LbV-Sf-z3F" firstAttribute="top" secondItem="5BK-Yd-yyg" secondAttribute="bottom" constant="8" id="urW-Du-Dpz"/>
+                                                    <constraint firstItem="Tbq-Mb-lEf" firstAttribute="top" secondItem="DHW-fX-NXq" secondAttribute="bottom" constant="8" id="yP6-fE-jnp"/>
                                                 </constraints>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="string" keyPath="layer.borderWidth" value="1"/>
@@ -1205,25 +1134,37 @@ Det är därför viktigt att du loggar ur systemet när du har rast. Detta för 
                                                         </attributedString>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D4j-wP-JEw">
-                                                        <rect key="frame" x="5" y="92" width="226" height="22"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="D4j-wP-JEw">
+                                                        <rect key="frame" x="5" y="92" width="179.5" height="22"/>
                                                         <attributedString key="attributedText">
-                                                            <fragment content="Timlön, 1/174 av månadslönen:">
+                                                            <fragment content="Timlön, ">
                                                                 <attributes>
                                                                     <font key="NSFont" size="16" name="Avenir-Medium"/>
-                                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                            <fragment content="1/174 av månadslön:">
+                                                                <attributes>
+                                                                    <font key="NSFont" size="13" name="Avenir-Medium"/>
+                                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                                 </attributes>
                                                             </fragment>
                                                         </attributedString>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DIc-MQ-CGI">
-                                                        <rect key="frame" x="5" y="62" width="239" height="22"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="DIc-MQ-CGI">
+                                                        <rect key="frame" x="5" y="62" width="190.5" height="22"/>
                                                         <attributedString key="attributedText">
-                                                            <fragment content="Timlön, 1/166,4 av månadslönen:">
+                                                            <fragment content="Timlön, ">
                                                                 <attributes>
                                                                     <font key="NSFont" size="16" name="Avenir-Medium"/>
-                                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                            <fragment content="1/166,4 av månadslön:">
+                                                                <attributes>
+                                                                    <font key="NSFont" size="13" name="Avenir-Medium"/>
+                                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                                 </attributes>
                                                             </fragment>
                                                         </attributedString>
@@ -1248,16 +1189,21 @@ Det är därför viktigt att du loggar ur systemet när du har rast. Detta för 
                                                     <constraint firstItem="DIc-MQ-CGI" firstAttribute="top" secondItem="WFr-3N-PA2" secondAttribute="bottom" constant="8" symbolic="YES" id="1by-9o-ApO"/>
                                                     <constraint firstAttribute="trailing" secondItem="S8l-Gz-lir" secondAttribute="trailing" constant="5" id="1sf-Ll-KIb"/>
                                                     <constraint firstItem="sIt-Xj-Bgu" firstAttribute="trailing" secondItem="6Gk-46-Nsi" secondAttribute="trailingMargin" id="5mw-NW-yML"/>
+                                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="D4j-wP-JEw" secondAttribute="trailing" constant="20" symbolic="YES" id="AZc-ne-QcY"/>
                                                     <constraint firstItem="DIc-MQ-CGI" firstAttribute="baseline" secondItem="uSQ-vl-tQB" secondAttribute="baseline" id="AeZ-8Z-mZv"/>
+                                                    <constraint firstItem="sIt-Xj-Bgu" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Gk-46-Nsi" secondAttribute="leadingMargin" id="B1V-IJ-JEm"/>
+                                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="DIc-MQ-CGI" secondAttribute="trailing" constant="20" symbolic="YES" id="FJi-3v-Zwj"/>
                                                     <constraint firstItem="S8l-Gz-lir" firstAttribute="top" secondItem="6Gk-46-Nsi" secondAttribute="top" id="GVJ-4f-S6S"/>
+                                                    <constraint firstAttribute="trailing" secondItem="Bkh-h3-gJK" secondAttribute="trailing" constant="8" id="LbV-pQ-zQc"/>
                                                     <constraint firstItem="D4j-wP-JEw" firstAttribute="baseline" secondItem="Bkh-h3-gJK" secondAttribute="baseline" id="MM1-fC-Uj6"/>
                                                     <constraint firstItem="D4j-wP-JEw" firstAttribute="top" secondItem="DIc-MQ-CGI" secondAttribute="bottom" constant="8" symbolic="YES" id="MgM-lI-sQ2"/>
                                                     <constraint firstItem="WFr-3N-PA2" firstAttribute="top" secondItem="S8l-Gz-lir" secondAttribute="bottom" constant="8" symbolic="YES" id="VRF-xz-b55"/>
                                                     <constraint firstItem="sIt-Xj-Bgu" firstAttribute="top" secondItem="S8l-Gz-lir" secondAttribute="bottom" constant="8" symbolic="YES" id="Ydp-qQ-6kD"/>
                                                     <constraint firstItem="S8l-Gz-lir" firstAttribute="leading" secondItem="D4j-wP-JEw" secondAttribute="leading" id="b4B-tg-50u"/>
-                                                    <constraint firstItem="uSQ-vl-tQB" firstAttribute="leading" secondItem="Bkh-h3-gJK" secondAttribute="leading" id="cBa-cq-ZTS"/>
+                                                    <constraint firstItem="uSQ-vl-tQB" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Bkh-h3-gJK" secondAttribute="leading" id="cBa-cq-ZTS"/>
                                                     <constraint firstItem="S8l-Gz-lir" firstAttribute="leading" secondItem="DIc-MQ-CGI" secondAttribute="leading" id="f8J-92-Gr2"/>
                                                     <constraint firstItem="S8l-Gz-lir" firstAttribute="leading" secondItem="6Gk-46-Nsi" secondAttribute="leading" constant="5" id="jbK-DD-500"/>
+                                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="WFr-3N-PA2" secondAttribute="trailing" constant="20" symbolic="YES" id="oUB-4E-uk6"/>
                                                     <constraint firstAttribute="bottom" secondItem="D4j-wP-JEw" secondAttribute="bottom" constant="10" id="soO-dv-YwV"/>
                                                     <constraint firstItem="S8l-Gz-lir" firstAttribute="leading" secondItem="WFr-3N-PA2" secondAttribute="leading" id="txG-rO-2pf"/>
                                                 </constraints>
@@ -1268,7 +1214,7 @@ Det är därför viktigt att du loggar ur systemet när du har rast. Detta för 
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RKA-1d-J5X">
                                                 <rect key="frame" x="16" y="539" width="343" height="148"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vtk-9Y-Wb8">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="Vtk-9Y-Wb8">
                                                         <rect key="frame" x="5" y="0.0" width="333" height="48"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="48" id="Q97-PD-40W"/>
@@ -1277,13 +1223,13 @@ Det är därför viktigt att du loggar ur systemet när du har rast. Detta för 
                                                             <fragment content="Biträden ">
                                                                 <attributes>
                                                                     <font key="NSFont" size="17" name="Avenir-Heavy"/>
-                                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                                 </attributes>
                                                             </fragment>
                                                             <fragment content="(arbetare som sitter brevid föraren och som inte har taxilegitimation)">
                                                                 <attributes>
-                                                                    <font key="NSFont" size="16" name="Avenir-Medium"/>
-                                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                    <font key="NSFont" size="14" name="Avenir-Medium"/>
+                                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                                 </attributes>
                                                             </fragment>
                                                         </attributedString>
@@ -1324,25 +1270,37 @@ Det är därför viktigt att du loggar ur systemet när du har rast. Detta för 
                                                         </attributedString>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LIE-ot-YaO">
-                                                        <rect key="frame" x="5" y="116" width="226" height="22"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="LIE-ot-YaO">
+                                                        <rect key="frame" x="5" y="116" width="179.5" height="22"/>
                                                         <attributedString key="attributedText">
-                                                            <fragment content="Timlön, 1/174 av månadslönen:">
+                                                            <fragment content="Timlön, ">
                                                                 <attributes>
                                                                     <font key="NSFont" size="16" name="Avenir-Medium"/>
-                                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                            <fragment content="1/174 av månadslön:">
+                                                                <attributes>
+                                                                    <font key="NSFont" size="13" name="Avenir-Medium"/>
+                                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                                 </attributes>
                                                             </fragment>
                                                         </attributedString>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UTF-o9-j4Q">
-                                                        <rect key="frame" x="5" y="86" width="239" height="22"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="UTF-o9-j4Q">
+                                                        <rect key="frame" x="5" y="86" width="190.5" height="22"/>
                                                         <attributedString key="attributedText">
-                                                            <fragment content="Timlön, 1/166,4 av månadslönen:">
+                                                            <fragment content="Timlön, ">
                                                                 <attributes>
                                                                     <font key="NSFont" size="16" name="Avenir-Medium"/>
-                                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                            <fragment content="1/166,4 av månadslön:">
+                                                                <attributes>
+                                                                    <font key="NSFont" size="13" name="Avenir-Medium"/>
+                                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                                 </attributes>
                                                             </fragment>
                                                         </attributedString>
@@ -1364,6 +1322,8 @@ Det är därför viktigt att du loggar ur systemet när du har rast. Detta för 
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <constraints>
                                                     <constraint firstItem="IGz-F2-tiJ" firstAttribute="trailing" secondItem="9Lh-5M-8Ed" secondAttribute="trailing" id="2ZP-Io-sBz"/>
+                                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="UTF-o9-j4Q" secondAttribute="trailing" constant="20" symbolic="YES" id="4BQ-ip-WMW"/>
+                                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="LIE-ot-YaO" secondAttribute="trailing" constant="20" symbolic="YES" id="7QW-R3-bwo"/>
                                                     <constraint firstItem="Vtk-9Y-Wb8" firstAttribute="leading" secondItem="UTF-o9-j4Q" secondAttribute="leading" id="8oV-TY-uaA"/>
                                                     <constraint firstAttribute="trailing" secondItem="Vtk-9Y-Wb8" secondAttribute="trailing" constant="5" id="Gr0-It-vxI"/>
                                                     <constraint firstItem="IGz-F2-tiJ" firstAttribute="leading" secondItem="8sI-Ty-taQ" secondAttribute="trailing" constant="108" id="I2N-9A-xga"/>
@@ -1376,7 +1336,8 @@ Det är därför viktigt att du loggar ur systemet när du har rast. Detta för 
                                                     <constraint firstItem="Vtk-9Y-Wb8" firstAttribute="leading" secondItem="RKA-1d-J5X" secondAttribute="leading" constant="5" id="bdH-cj-DVQ"/>
                                                     <constraint firstItem="Vtk-9Y-Wb8" firstAttribute="top" secondItem="RKA-1d-J5X" secondAttribute="top" id="eiB-Nj-PGn"/>
                                                     <constraint firstItem="Vtk-9Y-Wb8" firstAttribute="leading" secondItem="LIE-ot-YaO" secondAttribute="leading" id="fAs-k5-hSg"/>
-                                                    <constraint firstItem="9Lh-5M-8Ed" firstAttribute="leading" secondItem="a6z-T9-0bf" secondAttribute="leading" id="qA5-e4-Ng1"/>
+                                                    <constraint firstAttribute="trailing" secondItem="a6z-T9-0bf" secondAttribute="trailing" constant="8" id="i28-P3-ppf"/>
+                                                    <constraint firstItem="9Lh-5M-8Ed" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="a6z-T9-0bf" secondAttribute="leading" id="qA5-e4-Ng1"/>
                                                     <constraint firstAttribute="bottom" secondItem="LIE-ot-YaO" secondAttribute="bottom" constant="10" id="sXn-cm-3R4"/>
                                                     <constraint firstItem="LIE-ot-YaO" firstAttribute="top" secondItem="UTF-o9-j4Q" secondAttribute="bottom" constant="8" symbolic="YES" id="vzE-gJ-NQu"/>
                                                     <constraint firstItem="UTF-o9-j4Q" firstAttribute="top" secondItem="8sI-Ty-taQ" secondAttribute="bottom" constant="8" symbolic="YES" id="zz1-SK-qSJ"/>
@@ -1406,7 +1367,7 @@ Det är därför viktigt att du loggar ur systemet när du har rast. Detta för 
                                             <constraint firstItem="2rU-ql-jAg" firstAttribute="trailing" secondItem="JHu-qv-trK" secondAttribute="trailing" id="RX5-ic-eIx"/>
                                             <constraint firstItem="6Gk-46-Nsi" firstAttribute="trailing" secondItem="2rU-ql-jAg" secondAttribute="trailing" id="W1G-sU-hj6"/>
                                             <constraint firstItem="2rU-ql-jAg" firstAttribute="leading" secondItem="JHu-qv-trK" secondAttribute="leading" id="Y1d-uG-FOp"/>
-                                            <constraint firstItem="2rU-ql-jAg" firstAttribute="top" secondItem="JHu-qv-trK" secondAttribute="bottom" constant="8" symbolic="YES" id="aJa-Db-Fbg"/>
+                                            <constraint firstItem="2rU-ql-jAg" firstAttribute="top" secondItem="JHu-qv-trK" secondAttribute="bottom" id="aJa-Db-Fbg"/>
                                             <constraint firstAttribute="trailing" secondItem="WDD-P9-8sU" secondAttribute="trailing" id="csI-8B-UZY"/>
                                             <constraint firstItem="RKA-1d-J5X" firstAttribute="leading" secondItem="CiQ-Cc-mgc" secondAttribute="leading" constant="16" id="cyr-GT-oPs"/>
                                             <constraint firstItem="6Gk-46-Nsi" firstAttribute="top" secondItem="2rU-ql-jAg" secondAttribute="bottom" constant="8" symbolic="YES" id="f2b-1d-T1y"/>
@@ -1437,7 +1398,7 @@ Det är därför viktigt att du loggar ur systemet när du har rast. Detta för 
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5SQ-Qc-Dof" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="437.60000000000002" y="1413.1934032983509"/>
+            <point key="canvasLocation" x="435.9375" y="1412.323943661972"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="gnI-Xd-B6U">

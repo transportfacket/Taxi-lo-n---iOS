@@ -28,7 +28,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TAXI" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="91" translatesAutoresizingMaskIntoConstraints="NO" id="b0W-mQ-ioh">
-                                <rect key="frame" x="58" y="128" width="259" height="158"/>
+                                <rect key="frame" x="58" y="96" width="259" height="158"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="132"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -36,14 +36,14 @@
                         </subviews>
                         <color key="backgroundColor" red="0.98039215686274506" green="0.81960784313725488" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="nse-JT-ZTj" firstAttribute="top" secondItem="b0W-mQ-ioh" secondAttribute="bottom" constant="8" symbolic="YES" id="3OS-Jz-43r"/>
                             <constraint firstItem="utg-Hl-vvN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="88" id="BcJ-iI-CNy"/>
                             <constraint firstItem="utg-Hl-vvN" firstAttribute="top" secondItem="nse-JT-ZTj" secondAttribute="bottom" constant="32" id="Hrc-Nn-sje"/>
                             <constraint firstItem="nse-JT-ZTj" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Krx-oh-FIO"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="utg-Hl-vvN" secondAttribute="bottom" constant="30" id="Lgb-E9-hws"/>
-                            <constraint firstItem="b0W-mQ-ioh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="108" id="UHw-yw-oyo"/>
                             <constraint firstItem="nse-JT-ZTj" firstAttribute="centerX" secondItem="utg-Hl-vvN" secondAttribute="centerX" id="UnZ-pd-Tvi"/>
-                            <constraint firstItem="b0W-mQ-ioh" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="aQH-pA-ZYJ"/>
-                            <constraint firstItem="b0W-mQ-ioh" firstAttribute="centerX" secondItem="nse-JT-ZTj" secondAttribute="centerX" id="pJP-GI-RDM"/>
+                            <constraint firstItem="b0W-mQ-ioh" firstAttribute="centerX" secondItem="nse-JT-ZTj" secondAttribute="centerX" id="knP-Zn-px1"/>
+                            <constraint firstItem="b0W-mQ-ioh" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="uVK-Iu-F0Y"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <variation key="heightClass=regular-widthClass=compact">

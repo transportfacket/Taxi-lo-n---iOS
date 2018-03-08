@@ -19,6 +19,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var faqConstraint: NSLayoutConstraint!
     
+   
     
     
     var tapCount = 0
@@ -35,7 +36,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+  
         garantiConstraint.constant -= view.bounds.width
         monthConstraint.constant -= view.bounds.width
         faqConstraint.constant -= view.bounds.width
@@ -50,6 +51,7 @@ class ViewController: UIViewController {
         super.viewDidAppear(animated)
         
         if !animationPerformedOnce{
+          
             UIView.animate(withDuration: 0.5, delay: 0, options: .curveEaseOut, animations: {
                 self.garantiConstraint.constant += self.view.bounds.width
                 self.view.layoutIfNeeded()
@@ -67,16 +69,17 @@ class ViewController: UIViewController {
             animationPerformedOnce = true
         }
         
-        
-    
-        
-        
     }
     
     
     
     
     
+    @IBAction func joinButton(_ sender: Any) {
+        if let url = URL(string: "https://www.transport.se/blimedlem/") {
+            UIApplication.shared.open(url, options: [:])
+        }
+    }
     
     
     @IBAction func button(_ sender: Any) {
