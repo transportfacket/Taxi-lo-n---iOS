@@ -18,6 +18,27 @@ class CalculatorViewController: UIViewController, UITextFieldDelegate {
         case guaranteeHoursWeekdays = 174.0
     }
     
+    let callTransportText = NSLocalizedString("call_transport", comment: "")
+    let infoLocationTitle = NSLocalizedString("info_location_title", comment: "")
+    let infoLocationBody = NSLocalizedString("info_location_body", comment: "")
+
+    let infoWorkedHoursTitle = NSLocalizedString("info_workedhours_title", comment: "")
+    let infoWorkedHoursBody = NSLocalizedString("info_workedhours_body", comment: "")
+    let infoCollectiveAgreementTitle = NSLocalizedString("info_collectiveagreement_title", comment: "")
+    let infoCollectiveAgreementBody = NSLocalizedString("info_collectiveagreement_body", comment: "")
+    let infoCollectiveAgreementRadioButton = NSLocalizedString("info_collectiveagreement_radio_title", comment: "")
+    let infoPercentageOfFulltimeTitle = NSLocalizedString("info_percentagefulltime_title", comment: "")
+    let infoPercentageOfFulltimeBody = NSLocalizedString("info_percentagefulltime_body", comment: "")
+     let infoWorkAllDaysTitle = NSLocalizedString("info_workalldays_title", comment: "")
+     let infoWorkAllDaysBody = NSLocalizedString("info_workalldays_body", comment: "")
+     let alertSorry = NSLocalizedString("alert_sorry", comment: "")
+     let alertSorryBody = NSLocalizedString("alert_sorry_body", comment: "")
+    let alertPlaceMissingTitle = NSLocalizedString("place_missing_title", comment: "")
+     let alertPlaceMissingBody = NSLocalizedString("place_missing_body", comment: "")
+     let alertWorkedHoursTitle = NSLocalizedString("worked_hours_missing_title", comment: "")
+     let alertWorkedHoursBody = NSLocalizedString("worked_hours_missing_title", comment: "")
+    
+    
     var passOnCalculatedSalary: Double = 0.0
     var passOnWorkedHours: Double = 0.0
     var hasCollectiveAgreement: Bool = true
@@ -96,7 +117,7 @@ class CalculatorViewController: UIViewController, UITextFieldDelegate {
         
         let okAction = UIAlertAction(title: "OK", style: .cancel, handler: dismissAlert)
         
-        let callAction = UIAlertAction(title: "Ring Transport", style: .default, handler: callTransport)
+        let callAction = UIAlertAction(title: callTransportText, style: .default, handler: callTransport)
         
         alertController.addAction(okAction)
         alertController.addAction(callAction)
@@ -125,20 +146,20 @@ class CalculatorViewController: UIViewController, UITextFieldDelegate {
     
     //MARK: - Info buttons
     @IBAction func infoLocationButton() {
-        showAlertWith(title: "Var i landet kör du?", message: "Här skriver du in vilken ort som du är stationerad på.")
+        showAlertWith(title: infoLocationTitle, message: infoLocationBody)
     }
     @IBAction func infoWorkedHoursButton() {
-        showAlertWith(title: "Hur många timmar har du arbetat?", message: "Här skriver du in hur många timmar du arbetat på den månad du vill räkna ut din garantilön")
+        showAlertWith(title: infoWorkedHoursTitle, message: infoWorkedHoursBody)
     }
     @IBAction func infoCollectiveAgreementButton() {
-        showAlertWithCallButton(title: "Har du kollektivavtal på företaget?", message: "Garantilön gäller bara för dig som arbetar på ett åkeri som har kollektivavtal med Transport. \n \n Vet du inte om det finns kollektivavtal där du arbetar så ring Transport och kolla upp det.")
+        showAlertWithCallButton(title: infoCollectiveAgreementTitle, message: infoCollectiveAgreementBody)
     }
     
     @IBAction func infoPercentageOfFulltime() {
-        showAlertWith(title: "Arbetstidsmått", message: "Du hittar detta på ditt anställningsbevis. Arbetstidsmått är hur många % av heltid som du ska arbeta")
+        showAlertWith(title: infoPercentageOfFulltimeTitle, message: infoPercentageOfFulltimeBody)
     }
     @IBAction func infoWorkingWeekDays() {
-        showAlertWith(title: "Schemaläggs du alla veckans dagar?", message: "Schemaläggs du alla veckans dagar eller bara måndag till fredag?")
+        showAlertWith(title: infoWorkAllDaysTitle, message: infoWorkAllDaysBody)
     }
     
     //MARK: - Radiobuttons actions & calculate button action
@@ -150,7 +171,7 @@ class CalculatorViewController: UIViewController, UITextFieldDelegate {
         }else{
             hasCollectiveAgreement = false
             calculateButtonOutlet.backgroundColor = UIColor(displayP3Red: 220/255, green: 220/255, blue: 220/255, alpha: 1.0)
-            showAlertWithCallButton(title: "Inget kollektivavtal - Ingen garantilön", message: "Garantilön gäller endast om ditt åkeri har kollektivavtal med Transport. \n \n Ring Transport och kolla om företaget du arbetar på har kollektivavtal.")
+            showAlertWithCallButton(title: infoCollectiveAgreementRadioButton, message: infoCollectiveAgreementBody)
             
         }
     }
@@ -176,16 +197,16 @@ class CalculatorViewController: UIViewController, UITextFieldDelegate {
         if (workedHourTextField.text?.isEmpty)! && (locationTextField.text?.isEmpty)!{
            changeTextField(textField: locationTextField, borderWidth: 1, borderColor: redColor)
            changeTextField(textField: workedHourTextField, borderWidth: 1, borderColor: redColor)
-            showAlertWith(title: "Tyvärr", message: "Det saknas både ort och arbetade timmar")
+            showAlertWith(title: alertSorry, message: alertSorryBody)
            
         } else if (locationTextField.text?.isEmpty)! {
            changeTextField(textField: locationTextField, borderWidth: 1, borderColor: redColor)
             
-            showAlertWith(title: "Ort saknas", message: "Du måste skriva in var du kör för att få rätt uträknad lön")
+            showAlertWith(title: alertPlaceMissingTitle, message: alertPlaceMissingBody)
         } else if (workedHourTextField.text?.isEmpty)! {
            changeTextField(textField: workedHourTextField, borderWidth: 1, borderColor: redColor)
             
-        showAlertWith(title: "Inga arbetade timmar", message: "Du behöver skriva in hur många timmar du arbetat på den månad som du vill räkna ut din garantilön")
+        showAlertWith(title: alertWorkedHoursTitle, message: alertWorkedHoursBody)
         }else {
             getValuesAndSegue()
             
@@ -218,7 +239,7 @@ class CalculatorViewController: UIViewController, UITextFieldDelegate {
             performSegue(withIdentifier: "showResult", sender: self)
             
         }else {
-            showAlertWith(title: "Kan inte räkna något", message: "E")
+            showAlertWith(title: "Error", message: "Error")
         }
         
     }

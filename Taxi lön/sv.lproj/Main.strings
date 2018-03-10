@@ -1,0 +1,138 @@
+
+/* Class = "UILabel"; text = "Hur många timmar har du arbetat?"; ObjectID = "1k4-7X-4tc"; */
+"1k4-7X-4tc.text" = "Hur många timmar har du arbetat?";
+
+/* Class = "UILabel"; text = "Vem omfattas av garantilön?"; ObjectID = "2TH-1e-S0I"; */
+"2TH-1e-S0I.text" = "Vem omfattas av garantilön?";
+
+/* Class = "UILabel"; text = "150 kr"; ObjectID = "4s7-0l-Vc3"; */
+"4s7-0l-Vc3.text" = "150 kr";
+
+/* Class = "UILabel"; text = "Fråga din åkare eller kontrollera det med din lokala Transportavdelning. Ring 010-480 30 00 och tala om var du arbetar. Vi behöver då din arbetsgivares organisationsnummer, det står på de kvitton som kunden får."; ObjectID = "5VO-yx-foP"; */
+"5VO-yx-foP.text" = "Fråga din åkare eller kontrollera det med din lokala Transportavdelning. Ring 010-480 30 00 och tala om var du arbetar. Vi behöver då din arbetsgivares organisationsnummer, det står på de kvitton som kunden får.";
+
+/* Class = "UILabel"; text = "Hur vet jag om jag omfattas av garantilön?"; ObjectID = "5XK-MD-rFw"; */
+"5XK-MD-rFw.text" = "Hur vet jag om jag omfattas av garantilön?";
+
+/* Class = "UIButton"; normalTitle = "Ja"; ObjectID = "8o3-1H-ujw"; */
+"8o3-1H-ujw.normalTitle" = "Ja";
+
+/* Class = "UILabel"; text = "Du som förare har rätt att få en lönespecifikation av din arbetsgivare. Där ska det också stå hur mycket skatt som har dragits. På lönespecifikationen ska det även framgå hur många timmar du arbetat och varit frånvarande under perioden samt betalda och obetalda semesterdagar. Alla avtalsreglerade ersättningar ska specificeras, ex. Ob-ersättning, övertid m.m. Kör du på procentlön ska öven inkört lönegrundande belopp redovisas (kan ske med bilaga). Du som förare ska kvittera avlöningen när den inte betalas ut via bank, postgiro eller på annat betryggande sätt."; ObjectID = "ALE-LN-QIl"; */
+"ALE-LN-QIl.text" = "Du som förare har rätt att få en lönespecifikation av din arbetsgivare. Där ska det också stå hur mycket skatt som har dragits. På lönespecifikationen ska det även framgå hur många timmar du arbetat och varit frånvarande under perioden samt betalda och obetalda semesterdagar. Alla avtalsreglerade ersättningar ska specificeras, ex. Ob-ersättning, övertid m.m. Kör du på procentlön ska öven inkört lönegrundande belopp redovisas (kan ske med bilaga). Du som förare ska kvittera avlöningen när den inte betalas ut via bank, postgiro eller på annat betryggande sätt.";
+
+/* Class = "UIViewController"; title = "Meny"; ObjectID = "BYZ-38-t0r"; */
+"BYZ-38-t0r.title" = "Meny";
+
+/* Class = "UIButton"; normalTitle = "Garantilöneräknare"; ObjectID = "CyJ-Lj-w8Y"; */
+"CyJ-Lj-w8Y.normalTitle" = "Garantilöneräknare";
+
+/* Class = "UILabel"; text = "Var i landet kör du? Stad eller ort:"; ObjectID = "HyE-8J-qCA"; */
+"HyE-8J-qCA.text" = "Var i landet kör du? Stad eller ort:";
+
+/* Class = "UIViewController"; title = "Vanliga frågor"; ObjectID = "J44-2E-4sa"; */
+"J44-2E-4sa.title" = "Vanliga frågor";
+
+/* Class = "UILabel"; text = "Hur räknas timlönen fram?"; ObjectID = "LY9-cm-Qaj"; */
+"LY9-cm-Qaj.text" = "Hur räknas timlönen fram?";
+
+/* Class = "UIButton"; normalTitle = "Nej"; ObjectID = "LdT-47-PvJ"; */
+"LdT-47-PvJ.normalTitle" = "Nej";
+
+/* Class = "UITextField"; placeholder = "ex. Malmö"; ObjectID = "ONd-NK-Cl5"; */
+"ONd-NK-Cl5.placeholder" = "ex. Malmö";
+
+/* Class = "UILabel"; text = "26 000kr"; ObjectID = "PRW-I8-rnF"; */
+"PRW-I8-rnF.text" = "26 000kr";
+
+/* Class = "UILabel"; text = "Du som omfattas av kollektivavtal om din åkare är medlem i Biltrafikens Arbetsgivareförbund eller tecknat avtal direkt med Transport."; ObjectID = "QpC-oj-Wxn"; */
+"QpC-oj-Wxn.text" = "Du som omfattas av kollektivavtal om din åkare är medlem i Biltrafikens Arbetsgivareförbund eller tecknat avtal direkt med Transport.";
+
+/* Class = "UILabel"; text = "Finns det kollektivavtal på företaget?"; ObjectID = "RIQ-rg-Ni7"; */
+"RIQ-rg-Ni7.text" = "Finns det kollektivavtal på företaget?";
+
+/* Class = "UILabel"; text = "Om min lön inte stämmer, vad kan jag göra?"; ObjectID = "RmM-7h-VYz"; */
+"RmM-7h-VYz.text" = "Om min lön inte stämmer, vad kan jag göra?";
+
+/* Class = "UILabel"; text = "Vilka har rätt till månadslön?"; ObjectID = "SnS-9N-tmk"; */
+"SnS-9N-tmk.text" = "Vilka har rätt till månadslön?";
+
+/* Class = "UILabel"; text = "Lönebesked"; ObjectID = "TIN-2l-gmg"; */
+"TIN-2l-gmg.text" = "Lönebesked";
+
+/* Class = "UILabel"; text = "Arbetstidsmått:"; ObjectID = "Vaf-bM-0Ba"; */
+"Vaf-bM-0Ba.text" = "Arbetstidsmått:";
+
+/* Class = "UILabel"; text = "Din månadslön ska minst vara:"; ObjectID = "ZEA-3a-ebC"; */
+"ZEA-3a-ebC.text" = "Din månadslön ska minst vara:";
+
+/* Class = "UIViewController"; title = "Garantilöneräknare"; ObjectID = "ZXs-J4-6zZ"; */
+"ZXs-J4-6zZ.title" = "Garantilöneräknare";
+
+/* Class = "UILabel"; text = "Genomsnittlig timlön:"; ObjectID = "Zop-Rl-IGt"; */
+"Zop-Rl-IGt.text" = "Genomsnittlig timlön:";
+
+/* Class = "UIButton"; normalTitle = "Inte medlem? Klicka här"; ObjectID = "a72-Eg-vL3"; */
+"a72-Eg-vL3.normalTitle" = "Inte medlem? Klicka här";
+
+/* Class = "UILabel"; text = "Schemaläggs du alla veckans dagar?"; ObjectID = "aBK-yW-AW3"; */
+"aBK-yW-AW3.text" = "Schemaläggs du alla veckans dagar?";
+
+/* Class = "UILabel"; text = "26 000kr"; ObjectID = "aKg-bC-p4V"; */
+"aKg-bC-p4V.text" = "26 000kr";
+
+/* Class = "UIButton"; normalTitle = "Räkna ut"; ObjectID = "apr-9V-Ren"; */
+"apr-9V-Ren.normalTitle" = "Räkna ut";
+
+/* Class = "UIViewController"; title = "Månadslön"; ObjectID = "bRz-fY-19U"; */
+"bRz-fY-19U.title" = "Månadslön";
+
+/* Class = "UILabel"; text = "Vilken tid räknas som arbetstid?"; ObjectID = "eZy-7d-DvT"; */
+"eZy-7d-DvT.text" = "Vilken tid räknas som arbetstid?";
+
+/* Class = "UIButton"; normalTitle = "Ja"; ObjectID = "h8l-Zk-wag"; */
+"h8l-Zk-wag.normalTitle" = "Ja";
+
+/* Class = "UILabel"; text = "* Semesterersättning:"; ObjectID = "hEr-x5-hey"; */
+"hEr-x5-hey.text" = "* Semesterersättning:";
+
+/* Class = "UITextField"; placeholder = "ex. 174"; ObjectID = "htr-Fw-Qbe"; */
+"htr-Fw-Qbe.placeholder" = "ex. 174";
+
+/* Class = "UILabel"; text = "100%"; ObjectID = "jFs-dl-mJw"; */
+"jFs-dl-mJw.text" = "100%";
+
+/* Class = "UILabel"; text = "Från och med 1 december 2017 måste arbetsgivare betala månadslön till de anställda som enbart kör samhällsbetalda körningar som är upphandlade efter samma datum. Exempelvis färdtjänst, sjukresor och skolskjuts. Arbetsgivaren kan också völja att avlöna även de som kör blandade körningar (samhällsbetald taxitrafik och övrig taxitrafik) med månadslön enligt kollektivavtalet."; ObjectID = "k6Q-Ja-1nl"; */
+"k6Q-Ja-1nl.text" = "Från och med 1 december 2017 måste arbetsgivare betala månadslön till de anställda som enbart kör samhällsbetalda körningar som är upphandlade efter samma datum. Exempelvis färdtjänst, sjukresor och skolskjuts. Arbetsgivaren kan också völja att avlöna även de som kör blandade körningar (samhällsbetald taxitrafik och övrig taxitrafik) med månadslön enligt kollektivavtalet.";
+
+/* Class = "UILabel"; text = "* Månadslön + semesterersättning"; ObjectID = "l2x-rT-C4O"; */
+"l2x-rT-C4O.text" = "* Månadslön + semesterersättning";
+
+/* Class = "UILabel"; text = "150 kr"; ObjectID = "mEw-Sv-zYi"; */
+"mEw-Sv-zYi.text" = "150 kr";
+
+/* Class = "UIButton"; normalTitle = "Månadslön"; ObjectID = "nRw-uP-8pJ"; */
+"nRw-uP-8pJ.normalTitle" = "Månadslön";
+
+/* Class = "UILabel"; text = "* I det fall semesterersättning utbetalas vid varje lönetillfälle skall den minst vara den angivna summan. I annat fall skall ersättningen samlas ihopa och utbetalas i samband med att man har semester."; ObjectID = "ocU-Od-LY4"; */
+"ocU-Od-LY4.text" = "* I det fall semesterersättning utbetalas vid varje lönetillfälle skall den minst vara den angivna summan. I annat fall skall ersättningen samlas ihopa och utbetalas i samband med att man har semester.";
+
+/* Class = "UIButton"; normalTitle = "Nej"; ObjectID = "pih-CQ-F5h"; */
+"pih-CQ-F5h.normalTitle" = "Nej";
+
+/* Class = "UILabel"; text = "Om schemaläggs alla veckans dagar är 166,4 timmar/månad den uträknande arbetstid som du arbetar i genomsnitt under ett år som heltidsanställd. Parterna har enats om denna ti som en beräkningsgrund för att räkna fram bland annat timlön. Schemaläggs du endast vardagar (måndag - fredag, helgfri vecka) är beräkningsgrunden 174 timmar istället."; ObjectID = "qrc-1T-BLJ"; */
+"qrc-1T-BLJ.text" = "Om schemaläggs alla veckans dagar är 166,4 timmar/månad den uträknande arbetstid som du arbetar i genomsnitt under ett år som heltidsanställd. Parterna har enats om denna ti som en beräkningsgrund för att räkna fram bland annat timlön. Schemaläggs du endast vardagar (måndag - fredag, helgfri vecka) är beräkningsgrunden 174 timmar istället.";
+
+/* Class = "UIButton"; normalTitle = "Stäng"; ObjectID = "sSi-uf-BNf"; */
+"sSi-uf-BNf.normalTitle" = "Stäng";
+
+/* Class = "UILabel"; text = "Du som arbetar på ett åkeri med kollektivavtal och kör på procentlön har rätt till garantilön."; ObjectID = "v3c-vY-hNH"; */
+"v3c-vY-hNH.text" = "Du som arbetar på ett åkeri med kollektivavtal och kör på procentlön har rätt till garantilön.";
+
+/* Class = "UILabel"; text = "Om du misstänker att din lön inte stämmer överens med gällande kollektivavtal kan du räkna ut din rätta lön i den här appen. Skulle det visa sig att din lön inte stämmer ska du påpeka detta för din arbetsgivare. Får du problem kan du som medlem kontakta din lokala avdelning inom Transport."; ObjectID = "w96-Vl-kdA"; */
+"w96-Vl-kdA.text" = "Om du misstänker att din lön inte stämmer överens med gällande kollektivavtal kan du räkna ut din rätta lön i den här appen. Skulle det visa sig att din lön inte stämmer ska du påpeka detta för din arbetsgivare. Får du problem kan du som medlem kontakta din lokala avdelning inom Transport.";
+
+/* Class = "UIButton"; normalTitle = "Vanliga frågor"; ObjectID = "wtE-IE-Amc"; */
+"wtE-IE-Amc.normalTitle" = "Vanliga frågor";
+
+/* Class = "UILabel"; text = "All arbetstid räknas som arbetstid, det vill säga den tid som du står till arbetsgivarens förfogande. Rast är inte arbetstid, det är egen tid, och när man har rast står man inte heller till arbetsgivarens förfogande. Det är därför viktigt att du loggar ur systemet när du har rast. Detta för beräkningen av din arbetstid och din lön ska bli korrekt."; ObjectID = "zpb-hx-tZ2"; */
+"zpb-hx-tZ2.text" = "All arbetstid räknas som arbetstid, det vill säga den tid som du står till arbetsgivarens förfogande. Rast är inte arbetstid, det är egen tid, och när man har rast står man inte heller till arbetsgivarens förfogande. Det är därför viktigt att du loggar ur systemet när du har rast. Detta för beräkningen av din arbetstid och din lön ska bli korrekt.";

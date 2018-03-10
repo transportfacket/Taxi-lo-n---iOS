@@ -16,6 +16,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var monthConstraint: NSLayoutConstraint!
     
+    @IBOutlet weak var calculateButtonTitle: BounceButton!
     
     @IBOutlet weak var faqConstraint: NSLayoutConstraint!
     
@@ -40,6 +41,7 @@ class ViewController: UIViewController {
         garantiConstraint.constant -= view.bounds.width
         monthConstraint.constant -= view.bounds.width
         faqConstraint.constant -= view.bounds.width
+        
     
         
     }
