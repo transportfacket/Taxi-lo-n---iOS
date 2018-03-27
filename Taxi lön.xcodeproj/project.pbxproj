@@ -39,9 +39,6 @@
 		9059B6C3203CA31E0079EADC /* ModifiedNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifiedNavigationBar.swift; sourceTree = "<group>"; };
 		90867C3C2053E21A00C4DE39 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		90867C3E2053E21D00C4DE39 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Localizable.strings; sourceTree = "<group>"; };
-		90867C3F205425C600C4DE39 /* sv */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = sv; path = sv.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		90B5E9972052EB2300B80887 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Main.strings; sourceTree = "<group>"; };
-		90B5E99A2052EC6C00B80887 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		90B5E99C2052ED6000B80887 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
 		90D5F14E203C5B4000186F07 /* BounceButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BounceButton.swift; sourceTree = "<group>"; };
 		90D5F150203C5E5700186F07 /* DesignableButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = "<group>"; };
@@ -66,6 +63,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9033BD892069143F0007BA6F /* Extras */ = {
+			isa = PBXGroup;
+			children = (
+				90D5F14E203C5B4000186F07 /* BounceButton.swift */,
+				90F57B952029D0C200BCEB75 /* AppDelegate.swift */,
+				90D5F150203C5E5700186F07 /* DesignableButton.swift */,
+				9059B6C3203CA31E0079EADC /* ModifiedNavigationBar.swift */,
+				90DFEB6B203D9B830008C9DD /* EdgeInsetLabel.swift */,
+			);
+			path = Extras;
+			sourceTree = "<group>";
+		};
 		9059B6BF203C95F10079EADC /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -105,10 +114,9 @@
 		90F57B942029D0C200BCEB75 /* Taxi lön */ = {
 			isa = PBXGroup;
 			children = (
+				9033BD892069143F0007BA6F /* Extras */,
 				9059B6C0203C970E0079EADC /* ViewControllers */,
 				9059B6BF203C95F10079EADC /* Extensions */,
-				90D5F14E203C5B4000186F07 /* BounceButton.swift */,
-				90F57B952029D0C200BCEB75 /* AppDelegate.swift */,
 				9016BCD22039E4D10049E271 /* DLRadioButton.h */,
 				9016BCD32039E4D10049E271 /* DLRadioButton.m */,
 				90F57B992029D0C200BCEB75 /* Main.storyboard */,
@@ -116,9 +124,6 @@
 				90F57B9E2029D0C200BCEB75 /* LaunchScreen.storyboard */,
 				90F57BA12029D0C200BCEB75 /* Info.plist */,
 				9016BCD12039E4D00049E271 /* Taxi lön-Bridging-Header.h */,
-				90D5F150203C5E5700186F07 /* DesignableButton.swift */,
-				9059B6C3203CA31E0079EADC /* ModifiedNavigationBar.swift */,
-				90DFEB6B203D9B830008C9DD /* EdgeInsetLabel.swift */,
 				903FB1B8204585F000905B93 /* audio.mp3 */,
 				90867C3D2053E21A00C4DE39 /* Localizable.strings */,
 			);
@@ -232,7 +237,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				90F57B9A2029D0C200BCEB75 /* Base */,
-				90B5E9972052EB2300B80887 /* sv */,
 				90B5E99C2052ED6000B80887 /* en */,
 			);
 			name = Main.storyboard;
@@ -242,8 +246,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				90F57B9F2029D0C200BCEB75 /* Base */,
-				90B5E99A2052EC6C00B80887 /* en */,
-				90867C3F205425C600C4DE39 /* sv */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";

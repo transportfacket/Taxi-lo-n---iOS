@@ -13,20 +13,30 @@ class ShowCalculatedSalaryViewController: UIViewController {
     
    var passedCalculatedSalary = Double()
     var passedWorkedHours = Double()
+ 
+    
+ 
+    
+
+  
+   
+    
+    @IBOutlet var resultView: UIView!
+    
     @IBOutlet weak var calculatedSalary: UILabel!
     
     @IBOutlet weak var calculatedSalaryWithVaccationPay: UILabel!
     
-    @IBOutlet weak var hourlyWageLabel: UILabel!
-  
     @IBOutlet weak var vaccationPayLabel: UILabel!
     
     
-
+    @IBOutlet weak var hourlyWageLabel: UILabel!
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+          navigationController?.setNavigationBarHidden(true, animated: false)
         let intSalary = Int(passedCalculatedSalary)
         let vaccationPay = passedCalculatedSalary * 1.13
         let intVaccation = Int(vaccationPay)
@@ -46,14 +56,11 @@ class ShowCalculatedSalaryViewController: UIViewController {
         hourlyWageLabel.text = "\(readableHourlyWage) kr/h"
         vaccationPayLabel.text = "\(readableVaccationPay) kr"
         
-
-        // Do any additional setup after loading the view.
+    
+     
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+
     
     @IBAction func closeButton(_ sender: Any) {
         

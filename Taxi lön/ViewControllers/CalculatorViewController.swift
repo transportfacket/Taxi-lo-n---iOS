@@ -15,7 +15,7 @@ class CalculatorViewController: UIViewController, UITextFieldDelegate {
         case stockholmSalary = 19572.0
         case restOfSwedenSalary = 19211.0
         case guaranteeHours = 166.4
-        case guaranteeHoursWeekdays = 174.0
+    
     }
     
     let callTransportText = NSLocalizedString("call_transport", comment: "")
@@ -27,10 +27,8 @@ class CalculatorViewController: UIViewController, UITextFieldDelegate {
     let infoCollectiveAgreementTitle = NSLocalizedString("info_collectiveagreement_title", comment: "")
     let infoCollectiveAgreementBody = NSLocalizedString("info_collectiveagreement_body", comment: "")
     let infoCollectiveAgreementRadioButton = NSLocalizedString("info_collectiveagreement_radio_title", comment: "")
-    let infoPercentageOfFulltimeTitle = NSLocalizedString("info_percentagefulltime_title", comment: "")
-    let infoPercentageOfFulltimeBody = NSLocalizedString("info_percentagefulltime_body", comment: "")
-     let infoWorkAllDaysTitle = NSLocalizedString("info_workalldays_title", comment: "")
-     let infoWorkAllDaysBody = NSLocalizedString("info_workalldays_body", comment: "")
+   
+   
      let alertSorry = NSLocalizedString("alert_sorry", comment: "")
      let alertSorryBody = NSLocalizedString("alert_sorry_body", comment: "")
     let alertPlaceMissingTitle = NSLocalizedString("place_missing_title", comment: "")
@@ -66,15 +64,29 @@ class CalculatorViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var radioButtonWeek: DLRadioButton!
     
     
-    
+ 
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.locationTextField.delegate = self
         self.workedHourTextField.delegate = self
+    
+        let keyboardToolbar = UIToolbar()
+        keyboardToolbar.sizeToFit()
         
-      
+        let flexibleSpace = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.flexibleSpace, target: nil, action: nil)
+        let doneButton = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.done, target: self, action: #selector(self.doneClicked))
+        
+        keyboardToolbar.setItems([flexibleSpace, doneButton], animated: false)
+        
+        locationTextField.inputAccessoryView = keyboardToolbar
+      workedHourTextField.inputAccessoryView = keyboardToolbar
+        
         // Do any additional setup after loading the view.
+    }
+    
+    @objc func doneClicked(){
+        view.endEditing(true)
     }
     
     
@@ -123,7 +135,13 @@ class CalculatorViewController: UIViewController, UITextFieldDelegate {
         alertController.addAction(callAction)
         
         
-        present(alertController, animated: true, completion: nil)
+        if presentedViewController == nil {
+            self.present(alertController, animated: true, completion: nil)
+        } else{
+            self.dismiss(animated: false) { () -> Void in
+                self.present(alertController, animated: true, completion: nil)
+            }
+        }
     }
   
     func dismissAlert(sender: UIAlertAction) -> Void {
@@ -155,12 +173,7 @@ class CalculatorViewController: UIViewController, UITextFieldDelegate {
         showAlertWithCallButton(title: infoCollectiveAgreementTitle, message: infoCollectiveAgreementBody)
     }
     
-    @IBAction func infoPercentageOfFulltime() {
-        showAlertWith(title: infoPercentageOfFulltimeTitle, message: infoPercentageOfFulltimeBody)
-    }
-    @IBAction func infoWorkingWeekDays() {
-        showAlertWith(title: infoWorkAllDaysTitle, message: infoWorkAllDaysBody)
-    }
+   
     
     //MARK: - Radiobuttons actions & calculate button action
     @IBAction func radioButtonAction(_ sender: DLRadioButton) {
@@ -177,16 +190,7 @@ class CalculatorViewController: UIViewController, UITextFieldDelegate {
     }
    
     
-    @IBAction func radioButtonWeekAction(_ sender: DLRadioButton) {
-        if sender.tag == 3{
-            workingAllDaysOfTheWeek = true
-            
-        }else{
-            
-            workingAllDaysOfTheWeek = false
-
-        }
-    }
+   
     
     
   
@@ -219,17 +223,14 @@ class CalculatorViewController: UIViewController, UITextFieldDelegate {
    
     
     func getValuesAndSegue() {
-        let currentSliderValue = Int(procentageOfFulltimeSlider.value)
         
-        if workingAllDaysOfTheWeek == true{
+       
             calculateFromGuaranteeHours = GuaranteeSalary.guaranteeHours.rawValue
-        }else {
-            calculateFromGuaranteeHours = GuaranteeSalary.guaranteeHoursWeekdays.rawValue
-        }
+        
         
         
         if hasCollectiveAgreement == true{
-            passOnCalculatedSalary =  calculateSalaryBy(location:  locationFrom(textField: locationTextField.text), hours: hoursFrom(textField: workedHourTextField.text), procentage: currentSliderValue, guaranteeHours: calculateFromGuaranteeHours)
+            passOnCalculatedSalary =  calculateSalaryBy(location:  locationFrom(textField: locationTextField.text), hours: hoursFrom(textField: workedHourTextField.text), guaranteeHours: calculateFromGuaranteeHours)
             if (workedHourTextField.text?.isEmpty)!  {
                 passOnWorkedHours = calculateFromGuaranteeHours
             }else {
@@ -246,15 +247,15 @@ class CalculatorViewController: UIViewController, UITextFieldDelegate {
   
     
     
-    func calculateSalaryBy(location: Double, hours: Double, procentage: Int, guaranteeHours: Double) -> Double{
+    func calculateSalaryBy(location: Double, hours: Double, guaranteeHours: Double) -> Double{
         var workedHours: Double
         let returnSalary: Double
-        let procentageOfGuranteeHours = (guaranteeHours / 100) * Double(procentage)
+       
         
         
         
-        if hours <= procentageOfGuranteeHours {
-            returnSalary = location / 100 * Double(procentage)
+        if hours <= guaranteeHours {
+            returnSalary = location
             
         
         }else {
@@ -323,6 +324,8 @@ class CalculatorViewController: UIViewController, UITextFieldDelegate {
         showResult.passedCalculatedSalary = passOnCalculatedSalary
         showResult.passedWorkedHours = passOnWorkedHours
         
+        
+        
     }
     
     
@@ -341,14 +344,6 @@ class CalculatorViewController: UIViewController, UITextFieldDelegate {
         changeTextField(textField: workedHourTextField, borderWidth: 0, borderColor: lightGreyColor)
     }
     
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+    
+ 
 }

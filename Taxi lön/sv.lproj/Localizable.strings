@@ -5,11 +5,11 @@
  Created by Transport on 2018-03-10.
  Copyright © 2018 Transportarbetareförbundet. All rights reserved.
  */
-"call_transport" = "Call Transport";
+"call_transport" = "Ring Transport";
 "info_location_title" = "Var i landet kör du?";
 "info_location_body" = "Här skriver du in vilken ort som du är stationerad på.";
 "info_workedhours_title" = "Hur många timmar har du arbetat?";
-"info_workedhours_body" = "Här skriver du in hur många timmar du arbetat på den månad du vill räkna ut din garantilön.";
+"info_workedhours_body" = "Här skriver du in hur många timmar du arbetat den månad du vill räkna ut din garantilön.";
 "info_collectiveagreement_title" = "Har du kollektivavtal på företaget?";
 "info_collectiveagreement_body" = "Garantilön gäller bara för dig som arbetar på ett åkeri som har kollektivavtal med Transport. \n \n Vet du inte om det finns kollektivavtal där du arbetar så ring Transport och kolla upp det.";
 "info_collectiveagreement_radio_title" = "Inget kollektivavtal - Ingen garantilön";
