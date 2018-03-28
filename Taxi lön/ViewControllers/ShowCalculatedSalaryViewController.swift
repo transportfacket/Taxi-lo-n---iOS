@@ -37,20 +37,22 @@ class ShowCalculatedSalaryViewController: UIViewController {
         super.viewDidLoad()
         
           navigationController?.setNavigationBarHidden(true, animated: false)
-        let intSalary = Int(passedCalculatedSalary)
+        let intSalary = Int(passedCalculatedSalary.rounded())
         let vaccationPay = passedCalculatedSalary * 1.13
-        let intVaccation = Int(vaccationPay)
+        let intVaccation = Int(vaccationPay.rounded())
         
         let vaccationPayWithoutSalary = passedCalculatedSalary * 0.13
-        let intVaccationWithout = Int(vaccationPayWithoutSalary)
+        let intVaccationWithout = Int(vaccationPayWithoutSalary.rounded())
         let readableSalary = intSalary.formattedWithSeparator
         let readableSalaryWithVaccationPay = intVaccation.formattedWithSeparator
         let readableVaccationPay = intVaccationWithout.formattedWithSeparator
-        let intHours = Int(passedWorkedHours)
+    
         
         
-        let hourlyWage = intSalary / intHours
-        let readableHourlyWage = hourlyWage.formattedWithSeparator
+        let hourlyWage = passedCalculatedSalary / passedWorkedHours
+
+        let readableHourlyWage  = String(format: "%.02f", hourlyWage)
+      
         calculatedSalary.text = "\(readableSalary) kr"
         calculatedSalaryWithVaccationPay.text = "\(readableSalaryWithVaccationPay) kr"
         hourlyWageLabel.text = "\(readableHourlyWage) kr/h"

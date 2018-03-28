@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="2fT-Nt-Nr4">
-    <device id="retina4_0" orientation="portrait">
+    <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -17,14 +17,14 @@
             <objects>
                 <viewController title="Meny" id="BYZ-38-t0r" customClass="ViewController" customModule="Taxi_lo_n" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="dW5-Hu-tm1">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                             </imageView>
                             <button opaque="NO" clipsSubviews="YES" alpha="0.90000000000000002" contentMode="center" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CyJ-Lj-w8Y" customClass="BounceButton" customModule="Taxi_lo_n" customModuleProvider="target">
-                                <rect key="frame" x="16" y="126.5" width="288" height="70"/>
+                                <rect key="frame" x="16" y="248.66666666666663" width="343" height="70"/>
                                 <color key="backgroundColor" red="0.98039215690000003" green="0.81960784310000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
                                 <constraints>
@@ -44,7 +44,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" clipsSubviews="YES" alpha="0.90000000000000002" contentMode="scaleToFill" verticalHuggingPriority="251" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nRw-uP-8pJ" customClass="BounceButton" customModule="Taxi_lo_n" customModuleProvider="target">
-                                <rect key="frame" x="16" y="256.5" width="288" height="70"/>
+                                <rect key="frame" x="16" y="378.66666666666669" width="343" height="70"/>
                                 <color key="backgroundColor" red="0.98039215690000003" green="0.81960784310000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
                                 <constraints>
@@ -63,7 +63,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" alpha="0.90000000000000002" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wtE-IE-Amc" customClass="BounceButton" customModule="Taxi_lo_n" customModuleProvider="target">
-                                <rect key="frame" x="16" y="386.5" width="288" height="70"/>
+                                <rect key="frame" x="16" y="508.66666666666674" width="343" height="70"/>
                                 <color key="backgroundColor" red="0.98039215690000003" green="0.81960784310000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
                                 <constraints>
@@ -83,25 +83,25 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coins" translatesAutoresizingMaskIntoConstraints="NO" id="t0b-bH-C02">
-                                <rect key="frame" x="245" y="136.5" width="50" height="50"/>
+                                <rect key="frame" x="300" y="258.66666666666669" width="50" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="t0b-bH-C02" secondAttribute="height" multiplier="1:1" id="baT-af-XPQ"/>
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="calendar" translatesAutoresizingMaskIntoConstraints="NO" id="bNP-ZQ-HJn">
-                                <rect key="frame" x="245" y="266.5" width="50" height="50"/>
+                                <rect key="frame" x="300" y="388.66666666666669" width="50" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="bNP-ZQ-HJn" secondAttribute="height" multiplier="1:1" id="kXg-IB-IVz"/>
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="info" translatesAutoresizingMaskIntoConstraints="NO" id="eki-za-K9w">
-                                <rect key="frame" x="245" y="396.5" width="50" height="50"/>
+                                <rect key="frame" x="300" y="518.66666666666663" width="50" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="eki-za-K9w" secondAttribute="height" multiplier="1:1" id="Rcg-NW-Rgu"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jgH-1y-dJj">
-                                <rect key="frame" x="8" y="470" width="90" height="90"/>
+                                <rect key="frame" x="8" y="680" width="90" height="90"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="jgH-1y-dJj" secondAttribute="height" multiplier="1:1" id="13T-Ho-tOg"/>
                                     <constraint firstAttribute="height" constant="90" id="JaQ-mk-TBA"/>
@@ -113,7 +113,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a72-Eg-vL3" customClass="BounceButton" customModule="Taxi_lo_n" customModuleProvider="target">
-                                <rect key="frame" x="157" y="508" width="147" height="40"/>
+                                <rect key="frame" x="212" y="718" width="147" height="40"/>
                                 <color key="backgroundColor" red="0.054901960784313725" green="0.20392156862745098" blue="0.49411764705882355" alpha="0.30136986301369861" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="0k2-Ty-K2y"/>
@@ -186,7 +186,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DrC-Br-Hwe">
-                                <rect key="frame" x="0.0" y="64" width="375" height="2036"/>
+                                <rect key="frame" x="0.0" y="88" width="375" height="1978"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cyI-6z-pUR">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="2036"/>
@@ -309,7 +309,7 @@ It is therefore important that you log out of the system when you take a break. 
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" translatesAutoresizingMaskIntoConstraints="NO" id="ALE-LN-QIl">
-                                                <rect key="frame" x="16" y="1547" width="343" height="372.5"/>
+                                                <rect key="frame" x="16" y="1547" width="343" height="372.33333333333326"/>
                                                 <string key="text">As a driver you have the right to receive a wage statement from your employer. It should also state how much tax has been deducted.
 The wage statement should also state how many hours you have worked and been absent during the period and paid and unpaid holidays. All payments regulated by the agreement shall be specified, for example unsocial hours payment, overtime etc.
 If you drive for a percentage wage the driven amount as a basis for the wage must be reported (also via an appendix).
@@ -447,7 +447,7 @@ As a driver you must acknowledge payment when it is not via bank, postal giro or
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Uqm-Yy-HlE">
-                                <rect key="frame" x="0.0" y="64" width="375" height="786"/>
+                                <rect key="frame" x="0.0" y="88" width="375" height="728"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CiQ-Cc-mgc">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="786"/>
@@ -480,10 +480,10 @@ The employer may also choose to pay those that drive a mixture of journeys (Comm
                                                 </constraints>
                                             </imageView>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2rU-ql-jAg">
-                                                <rect key="frame" x="16" y="316" width="343" height="131.5"/>
+                                                <rect key="frame" x="16" y="316" width="343" height="131.66666666666663"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GKv-B3-VRZ">
-                                                        <rect key="frame" x="5" y="0.0" width="333" height="25.5"/>
+                                                        <rect key="frame" x="5" y="0.0" width="333" height="25.666666666666668"/>
                                                         <attributedString key="attributedText">
                                                             <fragment content="Starting wage for drivers">
                                                                 <attributes>
@@ -497,7 +497,7 @@ The employer may also choose to pay those that drive a mixture of journeys (Comm
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fzb-rL-WVn">
-                                                        <rect key="frame" x="5" y="33.5" width="169.5" height="24"/>
+                                                        <rect key="frame" x="5" y="33.666666666666686" width="169.66666666666666" height="24"/>
                                                         <attributedString key="attributedText">
                                                             <fragment content="Monthly wage, at least:">
                                                                 <attributes>
@@ -511,7 +511,7 @@ The employer may also choose to pay those that drive a mixture of journeys (Comm
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="753" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5BK-Yd-yyg">
-                                                        <rect key="frame" x="245" y="33.5" width="90" height="22"/>
+                                                        <rect key="frame" x="245" y="33.666666666666686" width="90" height="22"/>
                                                         <attributedString key="attributedText">
                                                             <fragment content="22 758,00 kr">
                                                                 <attributes>
@@ -523,7 +523,7 @@ The employer may also choose to pay those that drive a mixture of journeys (Comm
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LbV-Sf-z3F">
-                                                        <rect key="frame" x="267" y="63.5" width="68" height="22"/>
+                                                        <rect key="frame" x="267" y="63.666666666666686" width="68" height="22"/>
                                                         <attributedString key="attributedText">
                                                             <fragment content="130,79 kr">
                                                                 <attributes>
@@ -535,7 +535,7 @@ The employer may also choose to pay those that drive a mixture of journeys (Comm
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jcp-3H-GBo">
-                                                        <rect key="frame" x="267" y="93.5" width="68" height="28"/>
+                                                        <rect key="frame" x="267" y="93.666666666666686" width="68" height="28"/>
                                                         <attributedString key="attributedText">
                                                             <fragment content="136,77 kr">
                                                                 <attributes>
@@ -547,7 +547,7 @@ The employer may also choose to pay those that drive a mixture of journeys (Comm
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DHW-fX-NXq">
-                                                        <rect key="frame" x="5" y="62" width="197.5" height="24"/>
+                                                        <rect key="frame" x="5" y="62" width="197.66666666666666" height="24"/>
                                                         <attributedString key="attributedText">
                                                             <fragment content="Hourly wage, 1/166,4">
                                                                 <attributes>
@@ -577,7 +577,7 @@ The employer may also choose to pay those that drive a mixture of journeys (Comm
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tbq-Mb-lEf">
-                                                        <rect key="frame" x="5" y="92" width="187.5" height="24"/>
+                                                        <rect key="frame" x="5" y="92" width="187.66666666666666" height="24"/>
                                                         <attributedString key="attributedText">
                                                             <fragment content="Hourly wage, 1/174">
                                                                 <attributes>
@@ -643,7 +643,7 @@ The employer may also choose to pay those that drive a mixture of journeys (Comm
                                                 </userDefinedRuntimeAttributes>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Gk-46-Nsi">
-                                                <rect key="frame" x="16" y="455.5" width="343" height="130"/>
+                                                <rect key="frame" x="16" y="455.66666666666663" width="343" height="130"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="S8l-Gz-lir">
                                                         <rect key="frame" x="5" y="0.0" width="333" height="24"/>
@@ -688,7 +688,7 @@ The employer may also choose to pay those that drive a mixture of journeys (Comm
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uSQ-vl-tQB">
                                                         <rect key="frame" x="267" y="66" width="68" height="22"/>
                                                         <attributedString key="attributedText">
-                                                            <fragment content="133,55 kr">
+                                                            <fragment content="133,56 kr">
                                                                 <attributes>
                                                                     <font key="NSFont" size="16" name="Avenir-Medium"/>
                                                                     <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
@@ -698,7 +698,7 @@ The employer may also choose to pay those that drive a mixture of journeys (Comm
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D4j-wP-JEw">
-                                                        <rect key="frame" x="5" y="96" width="187.5" height="24"/>
+                                                        <rect key="frame" x="5" y="96" width="187.66666666666666" height="24"/>
                                                         <attributedString key="attributedText">
                                                             <fragment content="Hourly wage, 1/174">
                                                                 <attributes>
@@ -728,7 +728,7 @@ The employer may also choose to pay those that drive a mixture of journeys (Comm
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DIc-MQ-CGI">
-                                                        <rect key="frame" x="5" y="64" width="197.5" height="24"/>
+                                                        <rect key="frame" x="5" y="64" width="197.66666666666666" height="24"/>
                                                         <attributedString key="attributedText">
                                                             <fragment content="Hourly wage, 1/166,4">
                                                                 <attributes>
@@ -799,7 +799,7 @@ The employer may also choose to pay those that drive a mixture of journeys (Comm
                                                 </userDefinedRuntimeAttributes>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RKA-1d-J5X">
-                                                <rect key="frame" x="16" y="593.5" width="343" height="154"/>
+                                                <rect key="frame" x="16" y="593.66666666666663" width="343" height="154"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="Vtk-9Y-Wb8">
                                                         <rect key="frame" x="5" y="0.0" width="333" height="48"/>
@@ -851,7 +851,7 @@ The employer may also choose to pay those that drive a mixture of journeys (Comm
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LIE-ot-YaO">
-                                                        <rect key="frame" x="5" y="120" width="187.5" height="24"/>
+                                                        <rect key="frame" x="5" y="120" width="187.66666666666666" height="24"/>
                                                         <attributedString key="attributedText">
                                                             <fragment content="Hourly wage, 1/174">
                                                                 <attributes>
@@ -881,7 +881,7 @@ The employer may also choose to pay those that drive a mixture of journeys (Comm
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UTF-o9-j4Q">
-                                                        <rect key="frame" x="5" y="88" width="197.5" height="24"/>
+                                                        <rect key="frame" x="5" y="88" width="197.66666666666666" height="24"/>
                                                         <attributedString key="attributedText">
                                                             <fragment content="Hourly wage, 1/166,4">
                                                                 <attributes>
@@ -1018,7 +1018,7 @@ The employer may also choose to pay those that drive a mixture of journeys (Comm
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="2fT-Nt-Nr4" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="N7H-fA-iEc">
-                        <rect key="frame" x="0.0" y="20" width="320" height="44"/>
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" red="0.078431372549019607" green="0.078431372549019607" blue="0.078431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="barTintColor" red="0.98039215690000003" green="0.81960784310000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1044,11 +1044,11 @@ The employer may also choose to pay those that drive a mixture of journeys (Comm
             <objects>
                 <viewController title="Guarantee wage calculator" id="NCd-uf-hAZ" customClass="CalculatorViewController" customModule="Taxi_lo_n" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gmP-AW-G0T">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MBu-71-Kpi" customClass="BounceButton" customModule="Taxi_lo_n" customModuleProvider="target">
-                                <rect key="frame" x="8" y="498" width="304" height="50"/>
+                                <rect key="frame" x="8" y="742" width="359" height="50"/>
                                 <color key="backgroundColor" red="0.98039215690000003" green="0.81960784310000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="Iy9-Up-iTr"/>
@@ -1062,11 +1062,11 @@ The employer may also choose to pay those that drive a mixture of journeys (Comm
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="calculateButton:" destination="NCd-uf-hAZ" eventType="touchUpInside" id="nIN-qh-pkH"/>
-                                    <segue destination="irk-py-W4i" kind="presentation" identifier="showResult" id="wUO-K4-mB0"/>
+                                    <segue destination="o9B-x0-YKC" kind="presentation" identifier="showResult" id="d8u-gp-oAg"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="PKB-PD-YaC">
-                                <rect key="frame" x="8" y="79" width="304" height="101"/>
+                                <rect key="frame" x="8" y="103" width="359" height="100.33333333333331"/>
                                 <string key="text">If you drive with a percentage wage at a company with a collective agreement have the right to a guaranteed wage. This means that you are entitled to a minimum payroll - no matter how much you drive.
 Enter your city and how many hours you worked the month you want to calculate your salary.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -1074,10 +1074,10 @@ Enter your city and how many hours you worked the month you want to calculate yo
                                 <nil key="highlightedColor"/>
                             </label>
                             <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Z4A-jc-A4R">
-                                <rect key="frame" x="8" y="210" width="304" height="273"/>
+                                <rect key="frame" x="8" y="233.33333333333337" width="359" height="273"/>
                                 <subviews>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="ex. 166,4" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ozF-9R-T6W">
-                                        <rect key="frame" x="8" y="223" width="254" height="30"/>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="e.g. 166,4" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ozF-9R-T6W">
+                                        <rect key="frame" x="8" y="222.99999999999997" width="309" height="30"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" keyboardType="decimalPad" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
@@ -1093,7 +1093,7 @@ Enter your city and how many hours you worked the month you want to calculate yo
                                         </connections>
                                     </textField>
                                     <button opaque="NO" tag="1" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xyE-7A-HNG" customClass="DLRadioButton">
-                                        <rect key="frame" x="10" y="46" width="133" height="34"/>
+                                        <rect key="frame" x="10" y="45.999999999999972" width="188" height="34"/>
                                         <state key="normal" title="Yes">
                                             <color key="titleColor" red="0.078431372550000003" green="0.078431372550000003" blue="0.078431372550000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
@@ -1117,7 +1117,7 @@ Enter your city and how many hours you worked the month you want to calculate yo
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nyR-N7-Buh" customClass="DLRadioButton">
-                                        <rect key="frame" x="151" y="46" width="111" height="34"/>
+                                        <rect key="frame" x="206" y="45.999999999999972" width="111" height="34"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="111" id="Sa9-6Y-nju"/>
                                         </constraints>
@@ -1143,13 +1143,13 @@ Enter your city and how many hours you worked the month you want to calculate yo
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Does the company have a collective agreement?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="1kd-9A-8QO">
-                                        <rect key="frame" x="10" y="17" width="286" height="21"/>
+                                        <rect key="frame" x="10" y="17" width="341" height="21"/>
                                         <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="ex. Malmö" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hKE-K1-IQx">
-                                        <rect key="frame" x="8" y="137" width="254" height="30"/>
+                                    <textField opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="e.g. Malmö" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hKE-K1-IQx">
+                                        <rect key="frame" x="8" y="136.99999999999997" width="309" height="30"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocorrectionType="yes" spellCheckingType="yes" returnKeyType="next" textContentType="address-level2"/>
@@ -1160,7 +1160,7 @@ Enter your city and how many hours you worked the month you want to calculate yo
                                         </connections>
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Where in the country do you drive? City or place:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="nuP-XS-G9H">
-                                        <rect key="frame" x="10" y="88" width="282" height="33"/>
+                                        <rect key="frame" x="10" y="87.999999999999972" width="337" height="33"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="33" id="JEL-nI-y4Z"/>
                                         </constraints>
@@ -1169,7 +1169,7 @@ Enter your city and how many hours you worked the month you want to calculate yo
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sy0-Yg-guX">
-                                        <rect key="frame" x="270" y="141" width="22" height="22"/>
+                                        <rect key="frame" x="325" y="140.99999999999997" width="22" height="22"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="22" id="a4P-4K-EHl"/>
                                         </constraints>
@@ -1179,20 +1179,20 @@ Enter your city and how many hours you worked the month you want to calculate yo
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How many hours have you worked?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="vWc-bS-dgd">
-                                        <rect key="frame" x="8" y="191" width="276" height="21"/>
+                                        <rect key="frame" x="8" y="190.99999999999997" width="276" height="21"/>
                                         <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wiC-XZ-eNH">
-                                        <rect key="frame" x="270" y="52" width="26" height="22"/>
+                                        <rect key="frame" x="325" y="51.999999999999972" width="26" height="22"/>
                                         <color key="tintColor" red="0.078431372550000003" green="0.078431372550000003" blue="0.078431372550000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
                                             <action selector="infoCollectiveAgreementButton" destination="NCd-uf-hAZ" eventType="touchUpInside" id="JKf-8x-BgM"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YOe-97-dK4">
-                                        <rect key="frame" x="266" y="227" width="30" height="22"/>
+                                        <rect key="frame" x="321" y="226.99999999999997" width="30" height="22"/>
                                         <color key="tintColor" red="0.078431372550000003" green="0.078431372550000003" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
                                             <action selector="infoWorkedHoursButton" destination="NCd-uf-hAZ" eventType="touchUpInside" id="vyP-Bq-046"/>
@@ -1269,146 +1269,130 @@ Enter your city and how many hours you worked the month you want to calculate yo
             <point key="canvasLocation" x="1280.625" y="-545.07042253521126"/>
         </scene>
         <!--Show Calculated Salary View Controller-->
-        <scene sceneID="wG5-np-NpH">
+        <scene sceneID="VYi-cS-wBp">
             <objects>
-                <viewController modalTransitionStyle="crossDissolve" modalPresentationStyle="overCurrentContext" id="irk-py-W4i" customClass="ShowCalculatedSalaryViewController" customModule="Taxi_lo_n" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" alpha="0.75" contentMode="scaleToFill" id="HRZ-vL-uRP">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                <viewController modalTransitionStyle="crossDissolve" modalPresentationStyle="overCurrentContext" id="o9B-x0-YKC" customClass="ShowCalculatedSalaryViewController" customModule="Taxi_lo_n" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" alpha="0.75" contentMode="scaleToFill" id="D4T-To-j2m">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TTm-8z-UZZ" customClass="BounceButton" customModule="Taxi_lo_n" customModuleProvider="target">
-                                <rect key="frame" x="8" y="498" width="304" height="50"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H77-q0-Vyd" customClass="BounceButton" customModule="Taxi_lo_n" customModuleProvider="target">
+                                <rect key="frame" x="8" y="718" width="359" height="74"/>
                                 <color key="backgroundColor" red="0.98039215690000003" green="0.81960784310000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="OWO-A0-HgA"/>
-                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <state key="normal" title="Stäng">
+                                <state key="normal" title="Close">
                                     <color key="titleColor" red="0.078431372550000003" green="0.078431372550000003" blue="0.078431372550000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="closeButton:" destination="irk-py-W4i" eventType="touchUpInside" id="v5e-2e-iXM"/>
-                                    <action selector="goBack" destination="mDI-SX-Qw7" eventType="touchUpInside" id="bKG-if-H1Y"/>
+                                    <action selector="closeButton:" destination="o9B-x0-YKC" eventType="touchUpInside" id="gq8-Pd-50D"/>
+                                    <action selector="goBack" destination="JxP-4S-6mc" eventType="touchUpInside" id="CnY-Mq-UJb"/>
                                 </connections>
                             </button>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GCF-gh-9wh">
-                                <rect key="frame" x="6" y="108" width="308" height="373.5"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9cu-pS-Jkz">
+                                <rect key="frame" x="6" y="105" width="363" height="570"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="Your monthly wage must be at least:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="fJF-6k-Kiu">
-                                        <rect key="frame" x="16" y="25" width="276" height="21"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="Your guaranteed wage must be at least:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="rg9-J1-Vts">
+                                        <rect key="frame" x="30" y="16" width="303" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="* Monthly wage + vaccation pay:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="MKp-VU-na7">
-                                        <rect key="frame" x="16" y="124" width="276" height="21"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="* Guaranteed wage + vaccation pay:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="3NR-do-U5Q">
+                                        <rect key="frame" x="30" y="117" width="295.66666666666669" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="26 000kr" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="37" translatesAutoresizingMaskIntoConstraints="NO" id="Tqe-Xd-LwU">
-                                        <rect key="frame" x="16" y="145" width="292" height="72"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="254" verticalCompressionResistancePriority="752" text="26 000kr" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="25" translatesAutoresizingMaskIntoConstraints="NO" id="OXD-mf-Ykp">
+                                        <rect key="frame" x="30" y="138" width="295.66666666666669" height="72"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="60"/>
                                         <color key="textColor" red="0.58039215690000001" green="0.066666666669999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Average hourly wage:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="W8h-jV-W2P">
-                                        <rect key="frame" x="20" y="245" width="147" height="18"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="150 kr" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="ooo-mx-yBB">
-                                        <rect key="frame" x="226" y="246" width="50" height="21"/>
-                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
-                                        <color key="textColor" red="0.47612626899999999" green="0.47612626899999999" blue="0.47612626899999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="* Vacction pay:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="oXp-kW-XkL">
-                                        <rect key="frame" x="16" y="219" width="150" height="18"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="26 000kr" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="37" translatesAutoresizingMaskIntoConstraints="NO" id="rEH-dc-xc6">
-                                        <rect key="frame" x="16" y="46" width="276" height="72"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="26 000kr" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="25" translatesAutoresizingMaskIntoConstraints="NO" id="uJS-jN-DwT">
+                                        <rect key="frame" x="30" y="37" width="295.66666666666669" height="72"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="60"/>
                                         <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="150 kr" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="MdK-59-14Y">
-                                        <rect key="frame" x="226" y="216" width="50" height="21"/>
-                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
-                                        <color key="textColor" red="0.43529412150000002" green="0.4431372583" blue="0.47450980539999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="9" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Vc8-vG-9hA" customClass="EdgeInsetLabel" customModule="Taxi_lo_n" customModuleProvider="target">
-                                        <rect key="frame" x="16" y="282" width="276" height="73"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IMr-ta-V4S">
+                                        <rect key="frame" x="30" y="218" width="295.66666666666669" height="50"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="* Vacction pay:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="5mW-Mb-gqH">
+                                                <rect key="frame" x="8" y="6" width="151" height="18"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="255" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="756" text="Average hourly wage:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="Gfq-jT-LOM">
+                                                <rect key="frame" x="12" y="32" width="147" height="18"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="150 kr" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="f9e-aa-UdI">
+                                                <rect key="frame" x="219" y="29" width="68.666666666666686" height="21"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                                <color key="textColor" red="0.47612626899999999" green="0.47612626899999999" blue="0.47612626899999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="150 kr" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="6E2-zS-BDc">
+                                                <rect key="frame" x="219" y="3" width="68.666666666666686" height="21"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                                <color key="textColor" red="0.43529412150000002" green="0.4431372583" blue="0.47450980539999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="73" id="4VI-bx-76d"/>
+                                            <constraint firstItem="6E2-zS-BDc" firstAttribute="leading" secondItem="5mW-Mb-gqH" secondAttribute="trailing" constant="60" id="0r5-Yb-1nY"/>
+                                            <constraint firstItem="Gfq-jT-LOM" firstAttribute="bottom" secondItem="f9e-aa-UdI" secondAttribute="bottom" id="1vc-Kv-5cD"/>
+                                            <constraint firstItem="5mW-Mb-gqH" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Gfq-jT-LOM" secondAttribute="trailing" id="5kv-kz-XHF"/>
+                                            <constraint firstAttribute="trailing" secondItem="f9e-aa-UdI" secondAttribute="trailing" constant="8" id="CHn-CI-ZK6"/>
+                                            <constraint firstItem="Gfq-jT-LOM" firstAttribute="top" secondItem="5mW-Mb-gqH" secondAttribute="bottom" constant="8" symbolic="YES" id="FzW-0t-Rjh"/>
+                                            <constraint firstItem="Gfq-jT-LOM" firstAttribute="leading" secondItem="IMr-ta-V4S" secondAttribute="leading" constant="12" id="G5c-6e-vbe"/>
+                                            <constraint firstAttribute="bottom" secondItem="Gfq-jT-LOM" secondAttribute="bottom" id="NFG-hC-enp"/>
+                                            <constraint firstItem="5mW-Mb-gqH" firstAttribute="bottom" secondItem="6E2-zS-BDc" secondAttribute="bottom" id="PXd-eM-n3c"/>
+                                            <constraint firstAttribute="trailing" secondItem="6E2-zS-BDc" secondAttribute="trailing" constant="8" id="V81-Lr-JeA"/>
+                                            <constraint firstItem="5mW-Mb-gqH" firstAttribute="leading" secondItem="IMr-ta-V4S" secondAttribute="leadingMargin" id="h8L-lM-Ost"/>
+                                            <constraint firstItem="6E2-zS-BDc" firstAttribute="leading" secondItem="f9e-aa-UdI" secondAttribute="leading" id="wqs-c1-Qf5"/>
+                                            <constraint firstItem="6E2-zS-BDc" firstAttribute="top" secondItem="IMr-ta-V4S" secondAttribute="top" constant="3" id="wyb-gD-bWM"/>
                                         </constraints>
-                                        <attributedString key="attributedText">
-                                            <fragment>
-                                                <string key="content">NOTE, the calculation is based on full time. * In cases where holiday pay is paid out at each wage point, it must be at least as much as the stated sum.</string>
-                                                <attributes>
-                                                    <font key="NSFont" metaFont="system" size="14"/>
-                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                </attributes>
-                                            </fragment>
-                                        </attributedString>
+                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="727" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="mB0-ng-0fw">
+                                        <rect key="frame" x="12" y="472" width="331.66666666666669" height="90"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="90" id="Ecv-S1-hT9"/>
+                                        </constraints>
+                                        <string key="text">NOTE, the calculation is based if you are employed full time, provided you have not been absent for example; illness, care of children or leave of absence. * In cases where holiday pay is paid out at each wage point, it must be at least as much as the stated sum.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="leftTextInset">
-                                                <real key="value" value="5"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="rightTextInset">
-                                                <real key="value" value="5"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="topTextInset">
-                                                <real key="value" value="5"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="bottomTextInset">
-                                                <real key="value" value="5"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="string" keyPath="layer.borderWidth" value="1"/>
-                                        </userDefinedRuntimeAttributes>
                                     </label>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstItem="rEH-dc-xc6" firstAttribute="top" secondItem="fJF-6k-Kiu" secondAttribute="bottom" id="0nC-Xa-a7i"/>
-                                    <constraint firstItem="rEH-dc-xc6" firstAttribute="top" secondItem="fJF-6k-Kiu" secondAttribute="bottom" id="0zo-kd-FdQ"/>
-                                    <constraint firstItem="Vc8-vG-9hA" firstAttribute="centerX" secondItem="Tqe-Xd-LwU" secondAttribute="centerX" constant="-8" id="1YE-jO-Ukl"/>
-                                    <constraint firstItem="Tqe-Xd-LwU" firstAttribute="top" secondItem="MKp-VU-na7" secondAttribute="bottom" id="3Mq-RB-WrH"/>
-                                    <constraint firstItem="Tqe-Xd-LwU" firstAttribute="top" secondItem="MKp-VU-na7" secondAttribute="bottom" id="BEx-5y-Q7c"/>
-                                    <constraint firstItem="Vc8-vG-9hA" firstAttribute="leading" secondItem="GCF-gh-9wh" secondAttribute="leading" constant="16" id="D7I-lG-9kc"/>
-                                    <constraint firstAttribute="trailing" secondItem="MKp-VU-na7" secondAttribute="trailing" constant="16" id="EIY-er-RKB"/>
-                                    <constraint firstItem="oXp-kW-XkL" firstAttribute="top" secondItem="Tqe-Xd-LwU" secondAttribute="bottom" constant="2" id="HdI-No-Fkb"/>
-                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="W8h-jV-W2P" secondAttribute="trailing" constant="20" symbolic="YES" id="Jll-Ym-6hk"/>
-                                    <constraint firstItem="MKp-VU-na7" firstAttribute="top" secondItem="rEH-dc-xc6" secondAttribute="bottom" constant="6" id="S4m-Ka-ujX"/>
-                                    <constraint firstItem="fJF-6k-Kiu" firstAttribute="top" secondItem="GCF-gh-9wh" secondAttribute="top" constant="25" id="TDy-3u-t3O"/>
-                                    <constraint firstItem="W8h-jV-W2P" firstAttribute="top" secondItem="oXp-kW-XkL" secondAttribute="bottom" constant="8" id="TN2-SD-fyF"/>
-                                    <constraint firstAttribute="trailing" secondItem="ooo-mx-yBB" secondAttribute="trailing" constant="32" id="Umw-Ul-L65"/>
-                                    <constraint firstAttribute="width" secondItem="GCF-gh-9wh" secondAttribute="height" multiplier="308:373" id="Vkm-p5-wfZ"/>
-                                    <constraint firstAttribute="trailing" secondItem="Vc8-vG-9hA" secondAttribute="trailing" constant="16" id="ZJc-7g-oZ7"/>
-                                    <constraint firstAttribute="trailing" secondItem="fJF-6k-Kiu" secondAttribute="trailing" constant="16" id="Zhj-kR-fz7"/>
-                                    <constraint firstAttribute="trailing" secondItem="MdK-59-14Y" secondAttribute="trailing" constant="32" id="c0p-ea-xb9"/>
-                                    <constraint firstItem="ooo-mx-yBB" firstAttribute="top" secondItem="Tqe-Xd-LwU" secondAttribute="bottom" constant="29" id="f25-vI-aT3"/>
-                                    <constraint firstItem="MdK-59-14Y" firstAttribute="bottom" secondItem="oXp-kW-XkL" secondAttribute="bottom" id="fER-sh-Eli"/>
-                                    <constraint firstItem="MdK-59-14Y" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="ooo-mx-yBB" secondAttribute="leading" id="kh5-7D-a3i"/>
-                                    <constraint firstItem="rEH-dc-xc6" firstAttribute="leading" secondItem="GCF-gh-9wh" secondAttribute="leading" constant="16" id="kxl-yH-EXl"/>
-                                    <constraint firstItem="Tqe-Xd-LwU" firstAttribute="leading" secondItem="GCF-gh-9wh" secondAttribute="leading" constant="16" id="meE-8R-D3H"/>
-                                    <constraint firstAttribute="trailing" secondItem="rEH-dc-xc6" secondAttribute="trailing" constant="16" id="nE8-Ib-JDx"/>
-                                    <constraint firstItem="Vc8-vG-9hA" firstAttribute="leading" secondItem="GCF-gh-9wh" secondAttribute="leading" constant="16" id="tmR-YH-8vt"/>
-                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Tqe-Xd-LwU" secondAttribute="trailing" id="uRI-1w-Myc"/>
-                                    <constraint firstAttribute="bottom" secondItem="Vc8-vG-9hA" secondAttribute="bottom" constant="18.5" id="vQO-dp-6jK"/>
-                                    <constraint firstItem="MdK-59-14Y" firstAttribute="leading" secondItem="oXp-kW-XkL" secondAttribute="trailing" constant="60" id="wqh-mE-4eW"/>
-                                    <constraint firstItem="MKp-VU-na7" firstAttribute="top" secondItem="rEH-dc-xc6" secondAttribute="bottom" constant="6" id="xaQ-e2-zeZ"/>
-                                    <constraint firstItem="fJF-6k-Kiu" firstAttribute="leading" secondItem="GCF-gh-9wh" secondAttribute="leading" constant="16" id="yOa-KE-5II"/>
-                                    <constraint firstItem="MKp-VU-na7" firstAttribute="leading" secondItem="GCF-gh-9wh" secondAttribute="leading" constant="16" id="ysl-g9-OPO"/>
+                                    <constraint firstItem="rg9-J1-Vts" firstAttribute="centerX" secondItem="9cu-pS-Jkz" secondAttribute="centerX" id="3n9-LP-74e"/>
+                                    <constraint firstItem="3NR-do-U5Q" firstAttribute="trailing" secondItem="OXD-mf-Ykp" secondAttribute="trailing" id="6om-R8-tW9"/>
+                                    <constraint firstItem="3NR-do-U5Q" firstAttribute="leading" secondItem="OXD-mf-Ykp" secondAttribute="leading" id="D0c-bP-8Hh"/>
+                                    <constraint firstItem="3NR-do-U5Q" firstAttribute="top" secondItem="uJS-jN-DwT" secondAttribute="bottom" constant="8" symbolic="YES" id="Dg6-6g-GD6"/>
+                                    <constraint firstItem="rg9-J1-Vts" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="uJS-jN-DwT" secondAttribute="leading" id="EJV-Fc-1z4"/>
+                                    <constraint firstItem="uJS-jN-DwT" firstAttribute="trailing" secondItem="3NR-do-U5Q" secondAttribute="trailing" id="ST1-dl-2XX"/>
+                                    <constraint firstAttribute="bottom" secondItem="mB0-ng-0fw" secondAttribute="bottom" constant="8" id="SUJ-iV-KiR"/>
+                                    <constraint firstItem="uJS-jN-DwT" firstAttribute="leading" secondItem="3NR-do-U5Q" secondAttribute="leading" id="aPz-Ky-pqg"/>
+                                    <constraint firstItem="uJS-jN-DwT" firstAttribute="top" secondItem="rg9-J1-Vts" secondAttribute="bottom" id="ave-yH-tTB"/>
+                                    <constraint firstItem="OXD-mf-Ykp" firstAttribute="leading" secondItem="IMr-ta-V4S" secondAttribute="leading" id="cIA-Sf-hhZ"/>
+                                    <constraint firstItem="rg9-J1-Vts" firstAttribute="top" secondItem="9cu-pS-Jkz" secondAttribute="top" constant="16" id="cU4-E3-ZLg"/>
+                                    <constraint firstItem="mB0-ng-0fw" firstAttribute="leading" secondItem="9cu-pS-Jkz" secondAttribute="leading" constant="12" id="hKF-gY-WuT"/>
+                                    <constraint firstItem="rg9-J1-Vts" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="uJS-jN-DwT" secondAttribute="trailing" id="qZ8-lM-NZe"/>
+                                    <constraint firstItem="rg9-J1-Vts" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="9cu-pS-Jkz" secondAttribute="leading" id="t01-hx-yqT"/>
+                                    <constraint firstItem="OXD-mf-Ykp" firstAttribute="trailing" secondItem="IMr-ta-V4S" secondAttribute="trailing" id="w2n-99-eWj"/>
+                                    <constraint firstItem="IMr-ta-V4S" firstAttribute="top" secondItem="OXD-mf-Ykp" secondAttribute="bottom" constant="8" symbolic="YES" id="zUE-iQ-GUn"/>
+                                    <constraint firstItem="OXD-mf-Ykp" firstAttribute="top" secondItem="3NR-do-U5Q" secondAttribute="bottom" id="zgx-5A-OZt"/>
+                                    <constraint firstItem="IMr-ta-V4S" firstAttribute="centerX" secondItem="mB0-ng-0fw" secondAttribute="centerX" id="zvg-Y9-xT8"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10"/>
@@ -1417,28 +1401,27 @@ Enter your city and how many hours you worked the month you want to calculate yo
                         </subviews>
                         <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="TTm-8z-UZZ" firstAttribute="leading" secondItem="UwY-eh-CPu" secondAttribute="leading" constant="8" id="3P1-dH-l7y"/>
-                            <constraint firstItem="UwY-eh-CPu" firstAttribute="trailing" secondItem="TTm-8z-UZZ" secondAttribute="trailing" constant="8" id="JhC-wF-tBJ"/>
-                            <constraint firstItem="oXp-kW-XkL" firstAttribute="leading" secondItem="UwY-eh-CPu" secondAttribute="leading" constant="22" id="LLv-14-uUI"/>
-                            <constraint firstItem="GCF-gh-9wh" firstAttribute="top" secondItem="UwY-eh-CPu" secondAttribute="top" constant="88" id="RKa-Pc-ZJG"/>
-                            <constraint firstItem="W8h-jV-W2P" firstAttribute="leading" secondItem="UwY-eh-CPu" secondAttribute="leading" constant="26" id="Z4y-Nj-TLE"/>
-                            <constraint firstItem="UwY-eh-CPu" firstAttribute="trailing" secondItem="GCF-gh-9wh" secondAttribute="trailing" constant="6" id="ga2-AP-OuO"/>
-                            <constraint firstItem="GCF-gh-9wh" firstAttribute="leading" secondItem="UwY-eh-CPu" secondAttribute="leading" constant="6" id="gde-uP-yVk"/>
-                            <constraint firstItem="UwY-eh-CPu" firstAttribute="bottom" secondItem="TTm-8z-UZZ" secondAttribute="bottom" constant="20" id="ttj-Th-ocW"/>
+                            <constraint firstItem="H77-q0-Vyd" firstAttribute="leading" secondItem="PRO-Ji-OpF" secondAttribute="leading" constant="8" id="6nQ-27-4Sc"/>
+                            <constraint firstItem="9cu-pS-Jkz" firstAttribute="centerX" secondItem="D4T-To-j2m" secondAttribute="centerX" id="7Do-7g-O4F"/>
+                            <constraint firstItem="9cu-pS-Jkz" firstAttribute="top" secondItem="PRO-Ji-OpF" secondAttribute="top" constant="61" id="7Om-ZK-vIt"/>
+                            <constraint firstItem="9cu-pS-Jkz" firstAttribute="leading" secondItem="PRO-Ji-OpF" secondAttribute="leading" constant="6" id="AmI-9d-56d"/>
+                            <constraint firstItem="9cu-pS-Jkz" firstAttribute="centerX" secondItem="H77-q0-Vyd" secondAttribute="centerX" id="Bw9-HX-b74"/>
+                            <constraint firstItem="9cu-pS-Jkz" firstAttribute="centerY" secondItem="D4T-To-j2m" secondAttribute="centerY" constant="-16" id="qqe-h7-oV3"/>
+                            <constraint firstItem="H77-q0-Vyd" firstAttribute="top" secondItem="9cu-pS-Jkz" secondAttribute="bottom" constant="43" id="rx8-ia-ob5"/>
+                            <constraint firstAttribute="bottom" secondItem="H77-q0-Vyd" secondAttribute="bottom" constant="20" symbolic="YES" id="zGT-fz-3xf"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="UwY-eh-CPu"/>
+                        <viewLayoutGuide key="safeArea" id="PRO-Ji-OpF"/>
                     </view>
                     <connections>
-                        <outlet property="calculatedSalary" destination="rEH-dc-xc6" id="A2s-Ge-cke"/>
-                        <outlet property="calculatedSalaryWithVaccationPay" destination="Tqe-Xd-LwU" id="JUt-Ak-eZF"/>
-                        <outlet property="hourlyWageLabel" destination="ooo-mx-yBB" id="bqu-cE-WWs"/>
-                        <outlet property="vaccationPayLabel" destination="MdK-59-14Y" id="Xiw-Up-2r0"/>
-                        <outlet property="view" destination="GCF-gh-9wh" id="r0b-1p-IaP"/>
+                        <outlet property="calculatedSalary" destination="uJS-jN-DwT" id="ouU-79-Bhq"/>
+                        <outlet property="calculatedSalaryWithVaccationPay" destination="OXD-mf-Ykp" id="jcL-n9-MIo"/>
+                        <outlet property="hourlyWageLabel" destination="f9e-aa-UdI" id="cdz-d6-PAj"/>
+                        <outlet property="vaccationPayLabel" destination="6E2-zS-BDc" id="RZV-wt-WJk"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="mDI-SX-Qw7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JxP-4S-6mc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2139.375" y="-551.4084507042254"/>
+            <point key="canvasLocation" x="2135.1999999999998" y="-553.67316341829087"/>
         </scene>
     </scenes>
     <resources>
@@ -1446,7 +1429,7 @@ Enter your city and how many hours you worked the month you want to calculate yo
         <image name="calendar" width="200" height="200"/>
         <image name="coins" width="200" height="200"/>
         <image name="info" width="200" height="200"/>
-        <image name="logo" width="256" height="256"/>
+        <image name="logo" width="341" height="341"/>
         <image name="lowerBorder" width="1250" height="100"/>
     </resources>
 </document>

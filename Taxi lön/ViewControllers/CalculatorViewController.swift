@@ -13,7 +13,7 @@ class CalculatorViewController: UIViewController, UITextFieldDelegate {
     
     enum GuaranteeSalary: Double {
         case stockholmSalary = 19572.0
-        case restOfSwedenSalary = 19211.0
+        case restOfSwedenSalary = 18834.0
         case guaranteeHours = 166.4
     
     }
@@ -68,9 +68,9 @@ class CalculatorViewController: UIViewController, UITextFieldDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.locationTextField.delegate = self
-        self.workedHourTextField.delegate = self
-    
+     
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(CalculatorViewController.doneClicked))
+        view .addGestureRecognizer(tap)
         let keyboardToolbar = UIToolbar()
         keyboardToolbar.sizeToFit()
         
@@ -90,24 +90,7 @@ class CalculatorViewController: UIViewController, UITextFieldDelegate {
     }
     
     
-    // Hides keyboard when user touches outside of keyboard and when pressing return
-    
-    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        self.view.endEditing(true)
-    }
-    
-    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-        locationTextField.resignFirstResponder()
-        workedHourTextField.resignFirstResponder()
-        
-        return (true)
-    }
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
+
     
     
  
@@ -301,7 +284,7 @@ class CalculatorViewController: UIViewController, UITextFieldDelegate {
         
         var workedHours: Double
         
-        let hoursFrom = textField?.lowercased().trimmingCharacters(in: .whitespacesAndNewlines).trimmingCharacters(in: .punctuationCharacters)
+        let hoursFrom = textField?.replacingOccurrences(of: ",", with: ".")
         let convertToDouble = NSString(string : hoursFrom!).doubleValue
         workedHours = convertToDouble
         
@@ -311,12 +294,7 @@ class CalculatorViewController: UIViewController, UITextFieldDelegate {
     
     //MARK: - Inputfields
     
-    @IBOutlet weak var procentageOfFulltimeLabel: UILabel!
-    
-    @IBAction func procentageOfFulltimeSlider(_ sender: UISlider) {
-        let currentValue = Int(sender.value)
-        procentageOfFulltimeLabel.text = "\(currentValue)%"
-    }
+ 
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let showResult = segue.destination as! ShowCalculatedSalaryViewController
